@@ -1,0 +1,227 @@
+.buyBox {
+    padding-bottom: 196px !important;
+    /* put here in case this module gets adjusted */
+}
+
+.in-the-box {
+    position: relative;
+    overflow: visible;
+}
+
+.in-the-box__wrapper {
+    width: 100%;
+    max-width: 1600px;
+    background-color: #000;
+    position: relative;
+    margin-left: auto;
+    margin-right: auto;
+    top: -96px;
+    /*transform: translateY(-30%);*/
+    padding-top: 102px;
+    padding-bottom: 60px;
+    /* 156px - top offset (96px) */
+}
+
+@media screen and (max-width: 1083px) {
+    .in-the-box__wrapper {
+        width: 90%;
+    }
+}
+
+.in-the-box__wrapper::after {
+    content: "";
+    clear: both;
+    display: table;
+}
+
+.in-the-box {
+    text-align: center;
+}
+
+.in-the-box .m-content-placement {
+    width: 80%;
+    max-width: 932px;
+    float: none;
+    margin-left: auto;
+    margin-right: auto;
+    padding-top: 48px;
+}
+
+.in-the-box .m-content-placement-item>picture {
+    padding-bottom: 0;
+    overflow: visible;
+}
+
+.in-the-box .m-content-placement-item>picture img {
+    position: relative;
+    width: auto;
+    height: auto;
+}
+
+.in-the-box .m-content-placement-item p {
+    padding-left: 0;
+    padding-right: 0;
+    padding-top: 30px;
+}
+
+.accessories {
+    padding-bottom: 96px;
+}
+
+.accessories-grid {
+    display: flex;
+    width: 100%;
+    flex-direction: row;
+    min-height: 6px;
+    align-items: stretch;
+    justify-content: space-between;
+}
+
+.accessories-left__pane,
+.accessories-right__pane {
+    border: 1px solid #414141;
+    background-color: #151515;
+    width: 100%;
+}
+
+.accessories-left,
+.accessories-right {
+    flex-basis: calc(50% - 12px);
+}
+
+.accessories-left__pane {
+    height: 100%;
+    padding: 54px 68px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.accessories-left__pane img {
+    display: block;
+    margin: 50px auto 36px auto;
+}
+
+.accessories-right {
+    display: flex;
+    flex-direction: column;
+    align-items: stretch;
+    justify-content: space-between;
+}
+
+.accessories-right__pane {
+    height: calc(50% - 12px);
+    padding: 36px 64px;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.accessories-right__pane:first-of-type {
+    padding-right: 12px;
+}
+
+.accessories-right__pane:first-of-type picture {
+    order: 2;
+}
+
+.accessories-right__pane:last-of-type {
+    padding-left: 12px;
+}
+
+.accessories-grid img {
+    max-width: 100%;
+}
+
+.accessories-right__pane .copy {
+    width: 60%;
+}
+
+@media screen and (min-width: 768px) {
+    .accessories-right__pane picture {
+        width: 40%;
+    }
+}
+
+@media screen and (min-width: 1084px) {
+    .accessories-right__pane .copy,
+    .accessories-right__pane picture {
+        margin: 36px 0;
+    }
+}
+
+@media screen and (max-width: 1083px) {
+    .accessories [data-grid~="container"] {
+        padding-left: 5%;
+        padding-right: 5%;
+    }
+    .accessories-grid {
+        flex-direction: column;
+    }
+    .accessories-left,
+    .accessories-right {
+        width: 100%;
+    }
+    .accessories-left__pane,
+    .accessories-right__pane {
+        padding: 40px !important;
+        margin-bottom: 24px;
+    }
+    .accessories-left__pane {
+        flex-direction: row;
+        align-items: center;
+        justify-content: space-between;
+    }
+    .accessories-right__pane picture,
+    .accessories-left__pane picture {
+        margin: 0;
+        order: 2
+    }
+    .accessories-right__pane img,
+    .accessories-left__pane picture img {
+        margin: 0;
+    }
+    .accessories-left__pane .copy,
+    .accessories-right__pane .copy {
+        max-width: 55%;
+    }
+}
+
+@media screen and (max-width: 767px) {
+    .accessories-grid {
+        flex-direction: column;
+    }
+    .accessories-left__pane .copy,
+    .accessories-right__pane .copy {
+        max-width: 100%;
+        width: 100%;
+    }
+    .accessories-left__pane,
+    .accessories-right__pane {
+        padding: 40px !important;
+        margin-bottom: 24px;
+        flex-direction: column;
+        align-items: center;
+    }
+    .accessories-right__pane picture,
+    .accessories-left__pane picture {
+        order: 1 !important;
+    }
+    .accessories-right__pane .copy,
+    .accessories-left__pane .copy {
+        order: 2 !important;
+    }
+}
+
+
+/* custom padding tweaks */
+
+.accessories-right__pane:last-of-type picture {
+    padding-left: 24px;
+    padding-right: 16px;
+}
+
+.high-contrast-black-on-white .in-the-box .m-content-placement-item>picture img {
+    filter: grayscale(1) brightness(0);
+}

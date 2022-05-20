@@ -1,0 +1,2 @@
+(window.__LOADABLE_LOADED_CHUNKS__=window.__LOADABLE_LOADED_CHUNKS__||[]).push([[47],{"3dfu":function(_,A,D){_.exports=D.p+"static/media/Back.e6025c64.mp3"}}]);
+//# sourceMappingURL=sound-back.9d2d3829.chunk.js.map

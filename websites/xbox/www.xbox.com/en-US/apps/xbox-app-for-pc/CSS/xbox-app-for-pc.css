@@ -1,0 +1,60 @@
+
+.custContPlacement1 .x-type-center,
+.custContPlacement2 .x-type-center{
+ margin-top:-29%;
+}
+
+
+.custContPlacement3 .x-type-center {
+ margin-top:-20%;
+}
+
+
+.custContPlacement2 a {
+ color: #054b16 !Important;
+}
+
+a.c-hyperlink {
+    text-decoration: underline !important;
+    color: #054b16 !Important;
+}
+
+.m-banner .c-image {
+    max-height: 120px !important
+}
+
+
+.cust-two-up-img {
+   padding-bottom: 43% !important;
+}
+
+.custom-cp-icons>picture {
+   padding-bottom: 60% !important;
+}
+
+.spLogo {width:374px;}
+
+@media screen and (min-width:1084px) {
+.customHero .m-hero-item {
+  height: 43.7vw !important;
+ }
+}
+
+@media screen and (min-width: 1945px) {
+.customHero .m-hero-item {
+    height: 41.7vw !important;
+}
+}
+
+@media only screen and (min-width: 1779px) {
+ .customLeftFeature .m-feature.f-align-left.f-image-priority picture {
+    width: 55% !important;
+ }
+ .customFeatureRight .m-feature.f-align-right.f-image-priority>div {
+    left: 56%;
+ }
+ .customLeftFeature .m-feature.f-align-left>div {
+    left: 9%;
+}
+
+

@@ -1,0 +1,29 @@
+# HTTrack Website Copier Cookie File
+# This file format is compatible with Netscape cookies
+.bing.com	TRUE	/	FALSE	1999999999	MUID	1877D7F4DF5B63742F2AC65DDB5B62CA
+c.bing.com	TRUE	/	FALSE	1999999999	Priority	High
+c.bing.com	TRUE	/	FALSE	1999999999	MR	0
+c.bing.com	TRUE	/	FALSE	1999999999	SRM_B	1877D7F4DF5B63742F2AC65DDB5B62CA
+c.bing.com	TRUE	/	FALSE	1999999999	SameSite	None
+c.xbox.com	TRUE	/	FALSE	1999999999	SM	C
+.xbox.com	TRUE	/	FALSE	1999999999	MUID	1877D7F4DF5B63742F2AC65DDB5B62CA
+c.xbox.com	TRUE	/	FALSE	1999999999	Priority	High
+c.xbox.com	TRUE	/	FALSE	1999999999	MR	0
+c.xbox.com	TRUE	/	FALSE	1999999999	ANONCHK	0
+c.xbox.com	TRUE	/	FALSE	1999999999	SameSite	None
+.xbox.com	TRUE	/	FALSE	1999999999	geoCulture	en-US
+www.xbox.com:443	TRUE	/	FALSE	1999999999	mobileOverride	desktop
+www.microsoft.com	TRUE	/	FALSE	1999999999	akacd_OneRF	1660775646~rv=57~id=153d3745cfa7233a50cf120d383ea60f
+www.xbox.com	TRUE	/	FALSE	1999999999	akacd_OneRF	1660775720~rv=29~id=8c0c6104773a79a3cfbb6449d1d83bab
+www.xbox.com	TRUE	/	FALSE	1999999999	mobileOverride	desktop
+www.xbox.com	TRUE	/	FALSE	1999999999	x-theme	Dark
+www.xbox.com	TRUE	/	FALSE	1999999999	SameSite	Lax
+.www.xbox.com	TRUE	/	FALSE	1999999999	aka_locale	US
+www.microsoft.com	TRUE	/	FALSE	1999999999	isFirstSession	1
+.microsoft.com	TRUE	/	FALSE	1999999999	MUID	2A3705EE9C9F62422DE714479D626381
+.microsoft.com	TRUE	/	FALSE	1999999999	MS-CV	pORkmid/l0O6GWx3.50
+www.microsoft.com	TRUE	/	FALSE	1999999999	samesite	None
+www.microsoft.com	TRUE	/	FALSE	1999999999	X-FD-FEATURES	ids=atperf680t2%2c12672c%2c13304t1%2ctasmigration010%2ccartemberpl%2cdisablenorefunds%2cdaconvertenabled%2cenablescarlettmetadata%2credirecttogarrison%2csha-exp-inlyi9j7ql%2cenablesaturncf%2cdisableapprestore%2cusewsassdcheck%2cusewsasmodecheck&imp=c39e8ef3-6d3b-483c-81d8-f165c89c83f5
+www.microsoft.com	TRUE	/	FALSE	1999999999	X-FD-Time	1
+www.microsoft.com	TRUE	/	FALSE	1999999999	SameSite	None
+

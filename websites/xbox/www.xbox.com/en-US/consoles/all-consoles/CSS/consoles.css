@@ -1,0 +1,66 @@
+/* Cyberpunk */
+@media screen and (min-width: 768px) {
+.darkOnDark {
+   color: #000;}
+}
+
+/* Loading Content */
+body {
+    display: none;
+  }
+
+/* Heroes */
+.c-carousel li.f-animate-next .c-hero > div,
+.c-carousel li.f-animate-next .m-hero-item > div {
+    animation: none;
+}
+
+@media screen and (min-width: 1084px) and (max-width: 1400px) {
+.home-hero .c-hero > div> div, .home-hero .m-hero-item> div> div {
+        width: 440px !important;}
+}
+
+/* For Heroes Currently */
+@media screen and (max-width: 1083px) {
+.home-hero .c-hero > div> div, .home-hero .m-hero-item> div> div {
+    max-width: 320px !important;}
+}
+
+@media screen and (max-width: 765px) {
+ .m-hero-item > div {
+    height: 250px;
+    overflow: visible;}
+
+[class*=f-x][class*=f-y].m-hero-item > div > div {
+    top: calc(55%);}
+}
+
+.m-hero .c-sequence-indicator,  .m-hero .c-action-toggle {background-color: rgba(0, 0, 0, 0.1) !important;}
+
+.m-hero .c-sequence-indicator button, .m-hero .c-sequence-indicator a {
+    width: 22px;
+    height: 20px;
+}
+.m-hero .c-sequence-indicator button:focus {
+    outline: 2px dashed #fff !important;
+    border: 2px dashed #000 !important;
+}
+
+.m-hero-item h2.c-heading {
+    max-height: 275px !important;
+}
+
+/* XAA Equation */
+.buybox.three-up .buybox__main {
+    margin-top: 20px;
+}
+
+/* Accessibility */
+.c-sequence-indicator button:focus {
+  border: 3px dashed #000 !important; 
+}
+
+.m-hero button.c-action-toggle:focus  {
+    border: 3px dashed #000; 
+    outline: 2px dashed #fff;
+}

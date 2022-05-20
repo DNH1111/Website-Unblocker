@@ -1,0 +1,95 @@
+/**
+@media screen and (min-width: 1083px) and (max-width: 1135px) {
+#hero-2 .m-hero-item>div>div, .c-hero>div>div {
+    max-width: 396px !important;
+    top: 44%;}
+}
+**/
+
+@media screen and (max-width: 386px) {
+#hero-1 .c-heading-1 {
+    line-height: 30px !important;
+}
+}
+
+
+@media screen and (max-width: 1083px) {
+#hero-1 .c-heading-1 {
+   line-height: 50px;}
+
+
+@media (min-width: 768px) and (max-width: 1083px) {
+.home-hero .m-hero-item>div>div {
+    top: 126% !important;
+}
+}
+
+.fullTile .m-hero-item>div picture {
+   display: none !important;}
+
+.fullTile.fullLeftRightTwo section.m-hero-item>div, .fullTile section.m-hero-item>div {
+    height: 300px;}
+
+.bestRated, .mostPlayed {
+    padding-left: 15px;} 
+}
+
+.gamesSection {
+    background-color: #e6e6e6;
+}
+.mostPlayed .m-product-placement-item.f-size-large picture, .bestRated .m-product-placement-item.f-size-large picture {
+    height: 408px;
+    overflow: hidden;
+}
+@media screen and (max-width: 1084px) {
+.gamesSection .c-heading-3 {
+   padding-left: 15px;}
+}
+
+@media screen and (min-width: 767px) {
+.fullTile .m-hero-item.f-x-right.f-y-center .c-group > a.c-call-to-action ~ .f-lightweight {
+    padding-left: 20px !important;
+    padding-right: 0 !important;}
+}
+
+
+/* Badge alignment */
+@media (max-width: 539px) {
+li:nth-child(1) strong, li:nth-child(3) strong, li:nth-child(7) strong, li:nth-child(8) strong {
+    top: 0px !important;
+}
+}
+
+/* Truncated CTA */
+@media screen and (max-width: 350px) {
+.fullTile section.m-hero-item>div div {
+    width: 300px;}
+}
+
+/* VFI */
+.m-hero.sl-hero section:focus {
+    border: 3px dotted #9bf00b;
+}
+
+@media only screen and (max-width: 767px) {
+.home-hero .m-hero-item>div>div {
+    top: 30vw !important;
+}
+}
+
+@media screen and (min-width: 350px) and (max-width: 385px) {
+.home-hero .m-hero-item>div>div>div {
+    padding-top: 0px !important;
+}
+}
+
+.fullTile .m-hero-item .vidPlayPause {
+top: 16vw;
+right: 93vw;
+}
+
+@media screen and (max-width: 350px) {
+ul.heroList {
+    height: 153vw !important;
+}
+}

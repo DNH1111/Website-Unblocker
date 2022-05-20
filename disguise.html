@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Website Unblocker</title>
+    <script src="./src/script.js" defer></script>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Righteous&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="./src/styles.css">
+    <link rel="icon" href="./media/icon.png">
+</head>
+<body>
+    <nav>
+        <div class="title"><a href="/">Website Unblocker</a></div>
+        <ul>
+            <li><a href="./websites.html">All Websites</a></li>
+            <li><a href="./request.html">Reguest A Game</a></li>
+            <li><a href="./disguise.html">Disguise Settings</a></li>
+        </ul>
+    </nav>
+    <div class="disguise-main">
+        <h1>Tab Disguise Settings</h1>
+        <p class="disguiseDesc">This setting lets you change the tab's name and icon to make it look like it's another tab. This is useful if you're in school and a teacher sees your screen, they can't see anything suspicious</p>
+
+        <p confirm></p>
+
+        <div class="disguise-settings">
+            <div class="name">
+                <label for="name">Custom Name</label>
+                <input placeholder="E.g. New Tab" type="text" name="name" id="name">
+                <button nameDone>Done</button>
+                <button nameReset>Reset to Default</button>
+            </div>
+            <div class="icon">
+                <label for="icon">Custom Icon (URL)</label>
+                <input placeholder="Icon URL" type="text" name="icon" id="icon">
+                <button iconDone>Done</button>
+                <button iconReset>Reset to Default</button>
+                <button iconNone>No Icon</button>
+            </div>
+        </div>
+    </div>
+</body>
+</html>

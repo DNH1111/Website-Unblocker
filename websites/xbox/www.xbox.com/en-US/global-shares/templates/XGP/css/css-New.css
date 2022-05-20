@@ -1,0 +1,3265 @@
+/* PAGE BAR HACKS */
+.trans.m-in-page-navigation div[data-js-in-page-navigation-wrapper="true"] {
+    background-color: rgba(0, 0, 0, .7) !important;
+  }
+  
+  .theme-dark.js-global-head.global-head-cont {
+    background-color: rgba(0, 0, 0, .7) !important;
+  } 
+  
+  .second-cta {
+    display: none !important;
+  }
+  
+  #headerUniversalHeader header {
+    z-index: 700;
+  }
+  
+  .c-uhfh.context-uhf,
+  .c-uhfh,
+  .context-uhf {
+    margin-top: 0px;
+  }
+  
+  #BodyContent:focus {
+    outline: none;
+  }
+  
+  [class^="c-heading"] strong {
+    font-weight: 700 !important;
+  }
+  
+  /* end page par tweaks */
+  
+  
+  .xgp-hero .m-hero-item>div {
+    position: absolute;
+    height: 100%;
+  }
+  
+  .xgp-hero h1 strong {
+    font-weight: 700;
+  }
+  
+  .xgp-hero .m-hero-item.f-transparent:before {
+    padding-bottom: 177.3142% !important;
+    /* aspect ratio percentage adjusted for padding: mobile, no adjustment */
+  }
+  
+  .xgp-hero a.c-action-trigger {
+    margin-top: 0 !important;
+  }
+  
+  @media screen and (min-width: 768px) and (max-width: 920px) {
+    .xgp-hero h1 {
+        line-height: 1em;
+        font-size: 40px;
+    }
+  
+    .xgp-hero .adjust {
+        padding-top: 12px;
+        margin-top: 0 !important;
+    }
+  
+    .xgp-hero .c-paragraph-2 {
+        font-size: 16px;
+        line-height: 1.4em;
+    }
+  
+    .xgp-hero .c-paragraph-3 {
+        font-size: 13px;
+        line-height: 1.4em;
+    }
+  }
+  
+  .xgp-hero.garrison,
+  .made-for-pc {
+    margin-bottom: -1px;
+  }
+  
+  @media screen and (min-width: 1084px) and (max-width: 1199px) {
+    .xgp-hero h1 {
+        line-height: 1em;
+        font-size: 40px;
+    }
+  
+    .xgp-hero .adjust {
+        padding-top: 12px;
+        margin-top: 0 !important;
+    }
+  
+    .xgp-hero .c-group.adjust .c-call-to-action {
+        margin-right: 8px;
+        margin-top: 0 !important;
+    }
+  
+  
+    .xgp-hero .c-paragraph-2 {
+        font-size: 16px;
+        line-height: 1.4em;
+    }
+  
+    .xgp-hero.garrison .c-paragraph-2 {
+        font-size: 14px;
+        line-height: 1.4em;
+    }
+  
+    .xgp-hero .c-paragraph-3.hero-legal {
+        padding-top: 10px;
+    }
+  
+    .xgp-hero .c-paragraph-3 {
+        font-size: 13px;
+        line-height: 1.4em;
+        max-width: 82%;
+        padding-top: 10px;
+    }
+  
+    .xgp-hero.garrison .c-paragraph-3 {
+        width: 67%;
+    }
+  }
+  
+  .xgp-hero .c-paragraph-3.hero-legal {
+    max-width: 82% !important;
+  }
+  
+  @media screen and (min-width: 1200px) and (max-width: 1399px) {
+    .xgp-hero h1 {
+        line-height: 1em;
+        font-size: 46px;
+    }
+  
+    .xgp-hero .adjust {
+        padding-top: 14px;
+        margin-top: 0 !important;
+    }
+  
+  }
+  
+  @media screen and (max-width: 460px) {
+    .xgp-hero [class^="c-paragraph"] {
+        padding-top: 12px;
+    }
+  }
+  
+  @media screen and (max-width: 539px) {
+    .xgp-hero h1 {
+        font-size: 32px;
+        line-height: 1.2em;
+    }
+  
+  
+  
+    .xgp-hero .m-hero-item.f-transparent:before {
+        padding-bottom: 226.2% !important;
+        /* aspect ratio percentage adjusted for padding: height divided by 90% of width (5% padding) */
+    }
+  
+  }
+  
+  @media screen and (max-width: 768px) {
+  .join-now .banner-background .sku-chooser__panel .intro {
+    padding-top: 200px;}
+  
+  .join-now .banner-background section.m-hero-item {
+      padding-bottom: 27vw;}
+  }
+  
+  @media screen and (min-width: 768px) {
+    .xgp-hero .m-hero-item.f-transparent:before {
+        padding-bottom: 140.4535% !important;
+        /* aspect ratio percentage adjusted for padding: height divided by 90% of width (5% padding) */
+    }
+  
+  }
+  
+  @media screen and (min-width: 1084px) {
+    .xgp-hero .m-hero-item.f-transparent:before {
+        padding-bottom: 62.5% !important;
+        /* aspect ratio percentage adjusted for padding: height divided by 90% of width (5% padding) */
+    }
+  }
+  
+  @media only screen and (max-width: 1083px) {
+  
+    .xgp-hero .m-hero-item,
+    .c-hero {
+        text-align: center;
+    }
+  
+    .xgp-hero .m-hero-item>div>div,
+    .c-hero>div>div {
+        width: 100%;
+        max-width: 100%;
+    }
+  
+    .xgp-hero .m-hero-item>div>div>*,
+    .c-hero>div>div>* {
+        width: 100%;
+        max-width: 100%;
+        margin-left: auto;
+        margin-right: auto;
+    }
+  }
+  
+  @media only screen and (max-width: 767px) {
+  
+    .xgp-hero:not(.garrison) .m-hero-item.f-y-center.f-transparent>div>div,
+    .c-hero.f-y-center.f-transparent>div>div {
+        transform: none;
+        top: 17%;
+    }
+  }
+  
+  @media only screen and (max-width: 539px) {
+  
+    .xgp-hero:not(.garrison) .m-hero-item.f-y-center.f-transparent>div>div,
+    .c-hero.f-y-center.f-transparent>div>div {
+        transform: none;
+        top: 20.5%;
+    }
+  
+    .xgp-hero .c-paragraph-3.hero-legal {
+        max-width: 100% !important;
+        padding-top: 12px;
+    }
+  }
+  
+  @media only screen and (min-width: 440px) and (max-width: 539px) {
+    .xgp-hero .c-paragraph-3.hero-legal {
+        padding-top: 20px;
+    }
+  }
+  
+  
+  @media only screen and (max-width: 380px) {
+  
+    .xgp-hero .m-hero-item.f-y-center.f-transparent>div>div,
+    .c-hero.f-y-center.f-transparent>div>div {
+        transform: none;
+        top: 150px;
+    }
+  
+    .xgp-hero .c-paragraph-2.adjust {
+        width: 100%;
+        max-width: 100%;
+    }
+  
+    .xgp-hero .c-group.adjust {
+        padding-top: 8px;
+  
+    }
+  
+    .xgp-hero .m-hero-item>div {
+        padding-left: 4px;
+        padding-right: 4px;
+    }
+  }
+  
+  @media screen and (min-width: 768px) and (max-width: 1083px) {
+  
+    .xgp-hero .m-hero-item.f-y-center.f-transparent>div>div,
+    .c-hero.f-y-center.f-transparent>div>div {
+        transform: none;
+        top: 150px;
+    }
+  }
+  
+  @media screen and (min-width: 1084px) {
+  
+    .xgp-hero .m-hero-item.f-y-center.f-transparent>div>div,
+    .c-hero.f-y-center.f-transparent>div>div {
+        top: calc(46%);
+        max-width: 425px;
+    }
+  }
+  
+  @media screen and (min-width: 540px) and (max-width: 666px) {
+    .xgp-hero .c-paragraph-2.adjust {
+        padding-top: 12px;
+    }
+  }
+  
+  
+  @media only screen and (max-width: 380px) {
+  
+    .xgp-hero.garrison .m-hero-item.f-y-center.f-transparent>div>div,
+    .c-hero.f-y-center.f-transparent>div>div {
+        transform: none;
+        top: 150px;
+    }
+  
+    .xgp-hero .c-paragraph-2.adjust {
+        width: 100%;
+        max-width: 100%;
+    }
+  
+    .xgp-hero .c-group.adjust {
+        padding-top: 8px;
+  
+    }
+  
+    .xgp-hero .m-hero-item>div {
+        padding-left: 4px;
+        padding-right: 4px;
+    }
+  }
+  
+  @media screen and (min-width: 768px) and (max-width: 1083px) {
+  
+    .xgp-hero.garrison .m-hero-item.f-y-center.f-transparent>div>div,
+    .c-hero.f-y-center.f-transparent>div>div {
+        transform: none;
+        top: 168px;
+    }
+  }
+  
+  @media screen and (min-width: 1084px) {
+  
+    .xgp-hero.garrison .m-hero-item.f-y-center.f-transparent>div>div,
+    .c-hero.f-y-center.f-transparent>div>div {
+        top: calc(46%);
+        max-width: 550px;
+    }
+  }
+  @media screen and (min-width: 1084px) and (max-width: 1199px){
+    .xgp-hero.garrison .m-hero-item.f-y-center.f-transparent>div>div{max-width: 500px;}
+  }
+  
+  @media screen and (min-width: 1084px) and (max-width: 1550px) {
+  
+    .c-paragraph-3.adjust {
+        width: 75%;
+    }
+  }
+  
+  @media screen and (min-width: 1084px) and (max-width: 1260px) {
+    .c-paragraph-2.adjust {
+        width: 85%;
+    }
+  
+  }
+  
+  @media screen and (max-width: 1083px) {
+    .xgp-hero.garrison .m-hero-item.f-y-center.f-transparent>div>div {
+        transform: none;
+        top: 128px;
+    }
+  
+    .xgp-hero.garrison .c-heading-1 {
+        font-size: 48px;
+        line-height: 1.2em;
+    }
+  }
+  
+  @media screen and (max-width: 859px) {
+    .xgp-hero.garrison .m-hero-item.f-y-center.f-transparent>div>div {
+        transform: none;
+        top: 154px;
+    }
+  
+    .xgp-hero.garrison .c-heading-1 {
+        font-size: 36px;
+        line-height: 1.2em;
+    }
+  }
+  
+  @media screen and (max-width: 640px) {
+    .xgp-hero.garrison section {
+        margin-top: 88px
+    }
+  
+    .xgp-hero.garrison .m-hero-item.f-y-center.f-transparent>div>div {
+        transform: none;
+        top: 60px;
+    }
+  
+    .xgp-hero.garrison .c-heading-1 {
+        font-size: 36px;
+        line-height: 1.2em;
+    }
+  
+    .xgp-hero.garrison .c-paragraph-3.adjust {
+        padding-top: 8px;
+    }
+  }
+  
+  
+  @media screen and (max-width: 539px) {
+    .trouble-desktop{display: none;}
+    .xgp-hero.garrison section {
+        margin-top: 10%;
+    }
+  
+    .xgp-hero.garrison .m-hero-item.f-y-center.f-transparent>div>div {
+        transform: none;
+        top: 99px;
+    }
+  
+  }
+  
+  
+  @media screen and (max-width: 400px) {
+    .xgp-hero.garrison section {
+        margin-top: 146px
+    }
+  
+    .xgp-hero.garrison .m-hero-item.f-y-center.f-transparent>div>div {
+        top: 8px;
+    }
+  }
+  
+  @media screen and (max-width: 375px) {
+  
+    .xgp-hero.garrison .c-heading-1 {
+        font-size: 32px;
+        line-height: 1.2em;
+    }
+  
+  }
+  
+  
+  
+  
+  
+  
+  @media screen and (min-width: 1400px) {
+  
+    .xgp-hero .m-hero-item.f-y-center.f-transparent>div>div,
+    .c-hero.f-y-center.f-transparent>div>div {
+        top: calc(46%);
+        max-width: 614px;
+    }
+  
+    .xgp-hero .m-hero-item.f-y-center.f-transparent>div>div p {
+        max-width: 650px;
+    }
+  }
+  
+  
+  
+  /* ================================================ */
+  /* BOX SHOT PRODUCT PLACEMENT CUSTOM OVERRIDES */
+  /* ================================================ */
+  
+  .featured-games {
+    display: none;
+    position: absolute;
+    transform: translateY(-32%);
+    z-index: 100;
+    width: 100%;
+  }
+  
+  .featured-games .m-area-heading {
+    padding-top: 0 !important;
+    padding-bottom: 18px;
+  }
+  
+  @media screen and (max-width: 539px) {
+    .featured-games .m-area-heading {
+        padding-bottom: 9px;
+    }
+  }
+  
+  .featured-games a.skip-rotator {
+    background-color: #333;
+    color: #fff;
+    position: absolute;
+    top: 10%;
+    left: -500%;
+    transform: translateX(-50%);
+    padding: 5px 15px;
+    z-index: 400;
+  }
+  
+  .featured-games a.skip-rotator:focus {
+    left: 50%;
+  }
+  
+  #skipped {
+    width: .01px;
+    height: .01px;
+    opacity: 0;
+  }
+  
+  
+  .featured-games .m-product-placement {
+    max-width: calc(1350px);
+    margin: 0 auto;
+    float: none;
+  }
+  
+  .featured-games * {
+    border: 0;
+  }
+  
+  .featured-games .c-carousel::before {
+    content: "";
+    position: absolute;
+    bottom: -50px;
+    height: 100%;
+    width: 100%;
+    z-index: -1;
+    /*background-color: rgba(103, 114, 128, .5);*/
+    /* Done this way because of a small gap than can exist inside an element.*/
+    /*-webkit-filter: blur(50px);
+    filter: blur(50px);*/
+  }
+  
+  @media all and (-ms-high-contrast: none),
+  (-ms-high-contrast: active) {
+    .featured-games .m-product-placement-item::before {
+        /*box-shadow: 0px 50px 5px 0px rgba(103, 114, 128, .5); The above method doesn't work in IE */
+    }
+  
+    .featured-games .c-carousel::before {
+        background-color: rgba(103, 114, 128, .3);
+        /*box-shadow: 0px 0px 50px 0px rgba(103,114,128,0.5);*/
+        width: 100%;
+        height: 100%;
+        top: 50%;
+        left: 50%;
+        transform: translate(-50%, -50%);
+    }
+  }
+  
+  
+  
+  
+  /* These containers don't scale, so setting fixed width/height */
+  .m-product-placement-item>a,
+  .m-product-placement-item.f-size-large picture,
+  .c-product-placement.f-size-large picture,
+  .m-product-placement-item.f-size-large,
+  .c-product-placement.f-size-large {
+    box-sizing: content-box;
+    width: 263px !important;
+    height: 440px !important;
+    padding: 0 !important;
+  }
+  
+  @media screen and (min-width: 768px) and (max-width: 1083px) {
+  
+    .m-product-placement-item>a,
+    .m-product-placement-item.f-size-large picture,
+    .c-product-placement.f-size-large picture,
+    .m-product-placement-item.f-size-large,
+    .c-product-placement.f-size-large {
+        width: 295px !important;
+        height: 494px !important;
+    }
+  
+    .featured-games {
+        transform: translateY(-32%);
+    }
+  }
+  
+  @media screen and (max-width: 767px) {
+  
+    .m-product-placement-item>a,
+    .m-product-placement-item.f-size-large picture,
+    .c-product-placement.f-size-large picture,
+    .m-product-placement-item.f-size-large,
+    .c-product-placement.f-size-large {
+        width: 185px !important;
+        height: 310px !important;
+    }
+  
+    .featured-games {
+        transform: translateY(-39.5%);
+    }
+  
+  
+  }
+  
+  @media screen and (max-width: 539px) {
+    .xgp-hero h1 {
+        font-size: 32px;
+        line-height: 1.2em;
+    }
+  
+    .featured-games {
+        transform: translateY(-30%);
+    }
+  
+  }
+  
+  @media screen and (max-width: 359px) {
+    .xgp-hero h1 {
+        font-size: 24px;
+        line-height: 1.2em;
+    }
+  
+    .xgp-hero [class^="c-paragraph"] {
+        padding-top: 2px;
+        font-size: 15px;
+    }
+  
+    .featured-games {
+        transform: translateY(-30%);
+    }
+  
+  }
+  
+  
+  
+  .m-product-placement-item {
+    margin: 0 8px 0 0 !important;
+  }
+  
+  .m-product-placement-item>a::after {
+    content: "";
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    height: 68%;
+  
+    background: -moz-linear-gradient(top, rgba(0, 0, 0, 0) 0%, rgba(0, 0, 0, 1) 86%, rgba(0, 0, 0, 1) 100%);
+    background: -webkit-linear-gradient(top, rgba(0, 0, 0, 0) 0%, rgba(0, 0, 0, 1) 86%, rgba(0, 0, 0, 1) 100%);
+    background: linear-gradient(to bottom, rgba(0, 0, 0, 0) 0%, rgba(0, 0, 0, 1) 86%, rgba(0, 0, 0, 1) 100%);
+  
+    /*
+       background: -moz-linear-gradient(top, rgba(0,0,0,0) 0%, rgba(0,0,0,1) 100%); 
+       background: -webkit-linear-gradient(top, rgba(0,0,0,0) 0%, rgba(0,0,0,1) 100%); 
+       background: linear-gradient(to bottom, rgba(0,0,0,0) 0%,rgba(0,0,0,1) 100%); 
+     
+      
+       background: -moz-linear-gradient(top, rgba(0,0,0,0) 0%, rgba(0,0,0,1) 60%, rgba(0,0,0,1) 100%); 
+       background: -webkit-linear-gradient(top, rgba(0,0,0,0) 0%,rgba(0,0,0,1) 60%,rgba(0,0,0,1) 100%); 
+       background: linear-gradient(to bottom, rgba(0,0,0,0) 0%,rgba(0,0,0,1) 60%,rgba(0,0,0,1) 100%); 
+       */
+  }
+  
+  .m-product-placement-item>a:hover *,
+  .c-product-placement>a:hover * {
+    border: 0;
+    text-decoration: inherit;
+  }
+  
+  .m-product-placement-item>a:focus,
+  .c-product-placement>a:focus,
+  .SB-hero-banner.sb-pivot section .c-pivot li:focus,
+  .SB-hero-banner.sb-pivot section .c-pivot a:focus
+   {
+    border: 2px dashed #000;
+    outline: 2px dashed #fff;
+  }
+  
+  .featured-games .m-product-placement .c-carousel .c-group {
+    padding: 4px 4px 8px 4px;
+  }
+  
+  .m-product-placement-item>a:focus>picture,
+  .m-product-placement-item>a:focus>.f-default-image>picture,
+  .m-product-placement-item>a:hover>picture,
+  .m-product-placement-item>a:hover>.f-default-image>picture,
+  .c-product-placement>a:focus>picture,
+  .c-product-placement>a:focus>.f-default-image>picture,
+  .c-product-placement>a:hover>picture,
+  .c-product-placement>a:hover>.f-default-image>picture {
+    border: 0;
+  }
+  
+  .m-product-placement-item>a:hover .c-heading,
+  .m-product-placement-item>a:hover .c-subheading,
+  .c-product-placement>a:hover .c-heading,
+  .c-product-placement>a:hover .c-subheading,
+  .m-product-placement-item>a:hover .c-paragraph,
+  .m-product-placement-item>a:focus .c-heading,
+  .m-product-placement-item>a:focus .c-subheading,
+  .c-product-placement>a:focus .c-heading,
+  .c-product-placement>a:focus .c-subheading,
+  .m-product-placement-item>a:focus .c-paragraph {
+    text-decoration: none;
+  }
+  
+  .m-product-placement-item.f-size-large div.slide-content {
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    color: white;
+    z-index: 100;
+    padding: 0 27px 50px 30px;
+    white-space: normal;
+  }
+  
+  .m-product-placement-item.f-size-large div.slide-content .c-badge.f-small {
+    font-size: 11px;
+    height: 16px;
+    color: #fff;
+    background-color: #107c10;
+  }
+  
+  .m-product-placement-item .slide-content .availability {
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    right: 0;
+  }
+  
+  .xgp-pc.featured-games .availability {
+    display: none;
+  }
+  
+  .m-product-placement-item .slide-content .availability>div {
+    bottom: 0;
+    right: 0;
+    background-color: #fff;
+    display: inline-block;
+    transform: translateX(-15px) skewX(32deg);
+    /* counter this in child element */
+  }
+  
+  .m-product-placement-item .slide-content .availability p {
+    height: 32px;
+    line-height: 30px;
+    padding: 0 22px 0 47px;
+    /* padding compensated for skew and parent margin to maintain 32px */
+    color: #000;
+    display: inline-block;
+    text-align: top;
+    transform: skewX(-32deg);
+    /* counters parent element */
+  
+  }
+  
+  @media screen and (max-width: 767px) {
+    .m-product-placement-item .slide-content .availability p {
+        padding-left: 30px;
+        padding-right: 26px;
+    }
+  }
+  
+  .m-product-placement-item .slide-content .availability p span {
+    font-family: "MWF-MDL2";
+    display: inline-block;
+    font-weight: 400;
+    font-size: 1.2em;
+    vertical-align: middle;
+  }
+  
+  .m-product-placement-item .slide-content .availability p span.false {
+    display: none;
+  }
+  
+  .m-product-placement-item .slide-content .availability p span:first-of-type {
+    padding-left: 8px;
+  }
+  
+  .m-product-placement-item .slide-content .availability p span:nth-child(2) {
+    padding-left: 12px;
+  }
+  
+  @media screen and (max-width: 767px) {
+    .m-product-placement-item .slide-content .availability p span:nth-child(2) {
+        padding-left: 11px;
+    }
+  }
+  
+  .m-product-placement-item .c-paragraph,
+  .c-product-placement .c-paragraph {
+    color: #fff;
+  }
+  
+  
+  .m-product-placement-item .slide-content .availability .m-product-placement-item .c-paragraph,
+  .c-product-placement .c-paragraph {
+    color: #fff;
+  }
+  
+  .m-product-placement-item .f-default-image,
+  .c-product-placement .f-default-image {
+    padding-right: 0 !important;
+  
+  }
+  
+  .m-product-placement-item picture .c-image,
+  .c-product-placement picture .c-image {
+    top: 0 !important;
+    left: 0 !important;
+    transform: translate(0, 0) !important;
+  
+  }
+  
+  .m-product-placement-item>a>picture,
+  .m-product-placement-item>a>.f-default-image>picture,
+  .c-product-placement>a>picture,
+  .c-product-placement>a>.f-default-image>picture {
+    border: 0;
+  }
+  
+  /* ================================================ */
+  /* END box shot rotator */
+  /* ================================================ */
+  
+  
+  .xgp-lower-hero.possible .m-hero-item.f-transparent::before {
+    padding-bottom: 59.5% !important;
+  }
+  
+  .xgp-lower-hero.possible a.c-call-to-action.green-brdr {
+    border-color: #5cd21e;
+  }
+  
+  @media screen and (max-width: 1083px) {
+  
+    .xgp-lower-hero {
+        padding-top: 18px;
+    }
+  
+    .xgp-lower-hero.beta {
+        padding-top: 16px;
+    }
+  
+    .xgp-lower-hero.possible {
+        padding-top: 0px;
+        background-color: #141814;
+    }
+  
+  
+    .xgp-lower-hero.possible .theme-dark {
+        background-color: #141814;
+    }
+  
+  }
+  
+  @media screen and (max-width: 1399px) {
+  
+    .xgp-lower-hero .m-hero-item>div,
+    .c-hero>div {
+        width: 90%;
+    }
+  
+    .xgp-lower-hero .m-hero-item>div>div {
+        max-width: 355px;
+    }
+  }
+  
+  @media screen and (min-width: 1400px) and (max-width: 1599px) {
+    .xgp-lower-hero .m-hero-item.f-y-top.f-transparent>div>div {
+        top: 110px;
+    }
+  }
+  
+  .xgp-lower-hero .app-links a {
+    display: inline-block;
+  }
+  
+  .xgp-lower-hero .app-links a:focus {
+    outline: 2px dashed #000;
+    border: 2px dashed #fff;
+  }
+  
+  .xgp-lower-hero .app-links a.link-marg-left {
+    margin-left: 19px !important;
+  }
+  
+  .xgp-lower-hero.possible .m-hero-item>div>div {
+    top: calc(40%);
+  }
+  
+  .xgp-lower-hero.possible .m-hero-item>div>div {
+    max-width: 450px;
+  }
+  
+  @media screen and (min-width: 1084px) and (max-width: 1240px) {
+    .xgp-lower-hero.possible .m-hero-item>div>div {
+        max-width: 380px;
+    }
+  
+  }
+  
+  @media screen and (max-width: 1399px) {
+    .xgp-lower-hero.possible .m-hero-item>div>div {
+        top: calc(50%);
+    }
+  }
+  
+  @media screen and (max-width: 930px) {
+  .xgp-lower-hero .m-hero-item .c-group>.c-call-to-action+.c-call-to-action {
+   padding: 10px 0 7px 25px;}
+  }
+  
+  @media screen and (max-width: 767px) {
+    .xgp-lower-hero .app-links a.link-marg-left {
+        margin-left: 0px !important;
+    }
+  
+    .xgp-lower-hero .app-links a {
+        margin-bottom: 15px !important;
+    }
+  
+    .xb-app.xgp-lower-hero .high-contrast .app-links:nth-child(3) {
+        max-width: 200px;
+        margin-left: auto;
+        margin-right: auto;
+    }
+  }
+  
+  @media screen and (max-width: 374px) {
+    .xgp-lower-hero.xb-app .app-links>a>span {
+        font-size: 12px;
+    }
+  }
+  
+  /* =============================================*/
+  /* BEGIN increase hero breakpoint */
+  /* Preface these with your relevant class name instead of what's here */
+  /* Note that no set height is required on the >div>div content element. Any amount of content will flow. */
+  /* =============================================*/
+  @media screen and (max-width: 1083px) {
+  
+    .xgp-lower-hero .m-hero-item {
+        /* For full bleed */
+        padding-left: 0;
+        padding-right: 0;
+    }
+  
+    .xgp-lower-hero .m-hero-item:before {
+        /* This is what defines the aspect ratio of the hero */
+        display: none;
+    }
+  
+    .xgp-lower-hero .m-hero-item>div,
+    .xgp-lower-hero .m-hero-item.f-y-center>div>div,
+    .xgp-lower-hero .m-hero-item.f-y-top>div>div,
+    .xgp-lower-hero .m-hero-item>picture img,
+    .xgp-lower-hero .m-hero-item>img,
+    .xgp-lower-hero .m-hero-item>picture {
+        /* Some of these styles are redundant for some of these elements, but it doesn't hurt to pile them up in one place */
+        position: relative;
+        top: -10px;
+        transform: none;
+        overflow: visible;
+        height: auto;
+    }
+  
+    .xgp-lower-hero .m-hero-item.f-y-top>div>div,
+    .xgp-lower-hero .m-hero-item.f-y-center>div>div {
+        /* Making content narrower than full-width */
+        max-width: 75%;
+        text-align: center;
+        margin-left: auto;
+        margin-right: auto;
+    }
+  
+    .xgp-lower-hero .m-hero-item.f-y-top>div>div [class^="c-heading"],
+    .xgp-lower-hero .m-hero-item.f-y-center>div>div [class^="c-heading"] {
+        /* Header spacing. Might want to make the font smaller also. */
+        padding-top: 36px;
+    }
+  
+    .xgp-lower-hero.possible .m-hero-item.f-y-center>div>div [class^="c-heading"] {
+        /* Header spacing. Might want to make the font smaller also. */
+        padding-top: 0px;
+    }
+  
+    .xgp-lower-hero.possible .m-hero-item.f-y-center>div>div {
+        padding-bottom: 32px;
+    }
+  }
+  
+  @media screen and (max-width: 539px) {
+  
+    .xgp-lower-hero .m-hero-item.f-y-top>div>div,
+    .xgp-lower-hero .m-hero-item.f-y-center>div>div {
+        max-width: 100%;
+    }
+  }
+  
+  /* =============================================*/
+  /* END increase hero breakpoint */
+  /* =============================================*/
+  
+  .legalSub {
+    margin-bottom: 35px;
+  }
+  
+  
+  @media screen and (max-width: 1500px) {
+  .legalSub {
+    margin-bottom: 15px;}
+  }
+  
+  .sku-chooser {
+    width: 100%;
+    min-height: 67.708vw;
+  }
+  
+  @media screen and (min-width: 768px) and (max-width: 1083px) {
+    .sku-chooser {
+        padding-top: 48px;
+    }
+  }
+  
+  .sku-chooser .m-banner [class^="c-subheading"] {
+    font-weight: 400 !important;
+    /*max-width: 520px;*/
+    margin-left: auto;
+    margin-right: auto;
+  }
+  
+  .sku-chooser [data-grid^="col-"] {
+    /*background-color: #ccc;*/
+  }
+  
+  .sku-chooser__grid {
+    float: none;
+    padding-top: 40px;
+  }
+  
+  .sku-chooser__grid .featured {
+    /*width: 369px;*/
+    width: 34.8771266%
+  }
+  
+  .sku-chooser__grid .other {
+    /*width: 689px;*/
+    width: 65.12287%;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    height: 100%;
+  }
+  
+  .sku-chooser__grid .other .sku-chooser__panel {
+    /*flex-basis: 46.44412%;*/
+  }
+  
+  .sku-chooser__panel {
+    /*width: 320px;*/
+    background-color: #eee;
+    box-sizing: border-box;
+    padding: 33px 12% 70px 12%;
+    text-align: center;
+    /*display: flex;
+       flex-direction: column;
+       justify-content: space-between;*/
+    color: #fff;
+    position: relative;
+  
+  }
+  
+  .sku-chooser__panel .intro {
+    padding-bottom: 0px;
+  }
+  
+  .sku-chooser__panel .intro a.c-call-to-action {
+    margin-bottom: 30px;
+  }
+  
+  .sku-chooser__panel sup {
+    font-size: .58em;
+  }
+  
+  .sku-chooser__panel .icon {
+    max-width: 100%;
+    margin: 13px 0 10px 0;
+  
+  }
+  
+  .sku-chooser__panel .price {
+    padding-top: 16px;
+    min-height: 110px;
+  
+  }
+  
+  .sku-chooser__panel .price .introductory {
+    /* in case there's an introductory price */
+    font-size: 13px;
+    padding-top: 0;
+  }
+  
+  .sku-chooser__panel .price .final,
+  .sku-chooser__panel .price .temp {
+    /* in case there's an introductory price */
+    display: inline-block;
+    display: inline-block;
+  }
+  
+  .sku-chooser__panel .price .final {
+    /* in case there's an introductory price */
+    padding-top: 0px;
+    position: relative;
+    /*margin-top: 16px;*/
+    margin-right: 8px;
+  }
+  
+  .sku-chooser__panel .price .final::after {
+    /* bigger, fatter strikethrough*/
+    border-bottom: 3px solid rgba(255, 255, 255, 1);
+    content: "";
+    position: absolute;
+    left: -.15em;
+    right: -.15em;
+    top: .54em;
+    line-height: 1em;
+  }
+  
+  .join-now .sku-chooser__panel .price .final::after {
+    /* bigger, fatter strikethrough*/
+    border-bottom: 3px solid rgba(0, 0, 0, 1);
+  }
+  
+  .sku-chooser__panel .price .c-caption-1 {
+    /* if there's only one, this will apply */
+    padding-top: 11px;
+  }
+  
+  .sku-chooser__panel .c-badge.f-small.f-highlight {
+    display: block;
+    font-weight: 700;
+    position: absolute;
+    top: -9px;
+    left: 50%;
+    color: white;
+    transform: translateX(-50%);
+    background-color: #107c10;
+    letter-spacing: .2em;
+  
+  }
+  
+  .sku-chooser__panel a.c-call-to-action.green-brdr {
+    border-color: #5cd21e;
+  }
+  
+  .sku-chooser__panel a.c-call-to-action {
+    margin-bottom: 34px;
+  }
+  
+  .sku-chooser__panel .details>h4 {
+    text-align: center;
+    font-weight: 700 !important;
+    padding-bottom: 20px;
+  }
+  
+  .sku-chooser__panel .details li.c-paragraph-1 {
+    width: 100%;
+    text-align: left;
+    padding-left: 60px;
+    /*background-image: url("https://compass-ssl.xbox.com/assets/b6/4e/b64ea1ad-b085-4a87-85db-204cc67d7e80.svg?n=043952945_Checkmark-0_24x20.svg");
+    background-position: 12px 0px;
+    background-repeat: no-repeat;
+    background-size: 24px;*/
+    padding-bottom: 16px;
+  }
+  
+  .SB-hero-banner .sku-chooser__panel .details li {
+    width: 100%;
+    text-align: left;
+    padding-left: 60px;
+    background-image: url("https://compass-ssl.xbox.com/assets/b6/4e/b64ea1ad-b085-4a87-85db-204cc67d7e80.svg?n=043952945_Checkmark-0_24x20.svg");
+    background-position: 12px 0px;
+    background-repeat: no-repeat;
+    background-size: 24px;
+    padding-bottom: 16px;
+  }
+  
+  .sku-chooser__panel.left .details li.c-paragraph-1 {
+    /*background-image: url("https://compass-ssl.xbox.com/assets/14/c4/14c41f40-f555-4595-a628-b00dcca1a6c0.svg?n=043952945_Checkmark-0_Dark-Grey-BG_24x20.svg");*/
+  }
+  
+  .sku-chooser__panel.middle .details li,
+  .sku-chooser__panel.right .details li {
+    /*background-image: url("https://compass-ssl.xbox.com/assets/1c/5e/1c5e363a-0d17-4a51-ae53-6521d12e66ca.svg?n=043952945_Checkmark-0_Green-BG_24x20.svg");*/
+  }
+  
+  .sku-chooser__panel .details li.no-bullet {
+    background-image: none;
+    padding-top: 2px;
+    padding-bottom: 7px;
+    font-size: .9333333em;
+  }
+  
+  .sku-chooser__panel .details li img {
+    display: block;
+  }
+  
+  .sku-chooser__panel .details a.f-lightweight {
+    margin-bottom: 5px;
+  }
+  
+  
+  .sku-chooser__panel.left {
+    width: 100%;
+    background-color: #505050;
+  }
+  
+  .sku-chooser__panel.middle,
+  .sku-chooser__panel.right {
+    width: 49.5%;
+    padding-left: 8%;
+    padding-right: 8%;
+    background-color: #107c10;
+  }
+  
+  @media screen and (max-width: 1083px) {
+    .sku-chooser__grid {
+        padding-left: 5%;
+        padding-right: 5%;
+    }
+  
+    .sku-chooser__grid .other,
+    .sku-chooser__grid .featured {
+        display: block;
+        width: 100%;
+        max-width: 700px;
+        margin-left: auto;
+        margin-right: auto;
+    }
+  
+    .sku-chooser__panel,
+    .sku-chooser__panel.left,
+    .sku-chooser__panel.middle,
+    .sku-chooser__panel.right {
+        display: block;
+        width: 100%;
+        padding-left: 7%;
+        padding-right: 7%;
+        margin-bottom: 34px;
+    }
+  
+    .sku-chooser__panel .intro {
+        min-height: 1px;
+    }
+  }
+  
+  @media screen and (max-width: 767px) {
+  
+    .sku-chooser__grid .other,
+    .sku-chooser__grid .featured {
+        max-width: 515px;
+    }
+  
+    .sku-chooser__panel,
+    .sku-chooser__panel.left,
+    .sku-chooser__panel.middle,
+    .sku-chooser__panel.right {
+        padding-left: 9%;
+        padding-right: 9%;
+    }
+  }
+  
+  @media screen and (max-width: 460px) {
+  
+    .sku-chooser__panel,
+    .sku-chooser__panel.left,
+    .sku-chooser__panel.middle,
+    .sku-chooser__panel.right {
+        padding-left: 10%;
+        padding-right: 10%;
+    }
+  }
+  
+  .sku-chooser__panel .details li.c-paragraph-1 {
+    position: relative;
+  }
+  .sku-chooser__panel .details li.c-paragraph-1:before{
+    content: "";
+    position: absolute;
+    left: 9px;
+    top: 3px;
+    font-family: "MWFMDL2-Xbox";
+    font-size: 28px;
+    color: #9bf00b;
+  }
+  
+  
+  /* for direct linking, to make it appear below the page bar.*/
+  #faq {
+    padding-top: 48px;
+    padding-bottom: 48px;
+  
+  }
+  
+  .xgp-faq {
+    /*padding-top: 50px;*/
+    margin-top: -1px;
+    /* glitch hack, xgppc */
+  }
+  
+  .xgp-faq [class^="c-heading"] {
+    padding-bottom: 16px;
+  }
+  
+  
+  @media screen and (max-width: 1083px) {
+    [data-grid~='container'].faq-mwf {
+        padding-left: 5%;
+        padding-right: 5%;
+    }
+  }
+  
+  .faq-mwf .c-drawer,
+  .faq-mwf .c-drawer button {
+    background-color: transparent;
+  }
+  
+  .faq-mwf .c-drawer>div {
+    background-color: #dedede;
+  }
+  
+  .faq-mwf .c-drawer.f-divider>button {
+    border: 0;
+  }
+  
+  .faq-mwf .c-drawer.f-divider {
+    border-top: 1px solid rgba(0, 0, 0, .2);
+  }
+  
+  .faq-mwf .c-drawer.f-divider:last-of-type {
+    border-bottom: 1px solid rgba(0, 0, 0, .2);
+  }
+  
+  @media screen and (max-width: 414px) {
+    .faq-mwf .c-paragraph-2 {
+        padding: 5px;
+    }
+  
+    .faq-mwf .c-table td:first-child,
+    .c-table th:first-child {
+        padding-left: 0px;
+    }
+  }
+  
+  
+  .socialBanner {
+    padding-top: 48px;
+    padding-bottom: 96px;
+  
+  }
+  
+  @media screen and (min-width: 1084px) {
+    .socialBanner {
+        /*padding-top: 96px;*/
+    }
+  }
+  
+  
+  .socialBanner .m-banner .c-logo {
+    padding: 10px;
+  }
+  
+  
+  .xgp-upgrade-hero {
+    padding-top: 100px;
+  }
+  
+  @media screen and (min-width: 1084px) {
+    .xgp-upgrade-hero {
+        padding-top: 120px;
+    }
+  }
+  
+  .xgp-faq.theme-dark .white-c,
+  .xgp-faq.theme-dark .white-c button,
+  .xgp-faq.theme-dark .white-c button p {
+    color: #fff;
+  }
+  
+  .xgp-faq .c-drawer>button:hover,
+  .xgp-faq .c-drawer>button:focus {
+    box-shadow: none;
+  }
+  
+  .xgp-faq .c-drawer>button:focus {
+    outline: 2px dashed #000;
+    border: 2px dashed #fff;
+  }
+  
+  .xgp-faq.theme-dark .c-drawer>div {
+    background-color: #333;
+  }
+  
+  .theme-dark .c-drawer.f-divider {
+    border-top: 1px solid rgba(255, 255, 255, .4);
+  }
+  
+  .theme-dark .c-drawer.f-divider:last-of-type {
+    border-bottom: 1px solid rgba(255, 255, 255, .4);
+  }
+  
+  .xgp-sysreq #requirements {
+    padding-top: 96px;
+    /* for better in-page linking with page bar in place */
+  }
+  
+  .xgp-sysreq .faq-mwf button p {
+    color: #000;
+  }
+  
+  .m-system-requirements {
+    padding-top: 0;
+    padding-bottom: 48px;
+    /*background-color: #f1f1f1;*/
+  }
+  
+  .m-system-requirements>p {
+    clear: both;
+  }
+  
+  .xgp-custom-2up {
+    padding-bottom: 0px;
+  }
+  @media screen and (max-width: 370px) {
+  .xgp-custom-2up {
+    margin-top: 60px;
+  }
+  }
+  
+  .xgp-custom-2up .m-content-placement-item {
+    max-width: 532px;
+    margin-left: auto;
+    margin-right: auto;
+  }
+  
+  @media screen and (max-width: 767px) {
+    .xgp-lower-hero.beta {
+        /*margin-top: 92px;*/
+        padding-top: 0;
+    }
+  }
+  
+  @media screen and (min-width: 768px) {
+    .xgp-theme-light-gray {
+        background-color: #f1f1f1;
+    }
+  }
+  
+  .xgp-how-it-works.xgp-theme-light-gray .m-content-placement-item .c-heading-5 {
+    padding-top: 18px;
+  }
+  
+  @media screen and (max-width: 767px) {
+  
+    .xgp-upgrade-hero .m-hero-item:before {
+        /* This is what defines the aspect ratio of the hero */
+        display: none;
+    }
+  
+    .xgp-upgrade-hero .m-hero-item>div,
+    .xgp-upgrade-hero .m-hero-item.f-y-center>div>div,
+    .xgp-upgrade-hero .m-hero-item>picture img,
+    .xgp-upgrade-hero .m-hero-item>img,
+    .xgp-upgrade-hero .m-hero-item>picture {
+        /* Some of these styles are redundant for some of these elements, but it doesn't hurt to pile them up in one place */
+        left: 0;
+        position: relative;
+        top: 0;
+        transform: none;
+        overflow: visible;
+        height: auto;
+    }
+  
+    .xgp-upgrade-hero .m-hero-item.f-y-center>div>div {
+        /* Making content narrower than full-width */
+        max-width: 75%;
+        text-align: center;
+        margin-left: auto;
+        margin-right: auto;
+    }
+  
+    .xgp-upgrade-hero .m-hero-item.f-y-center>div>div [class^="c-heading"] {
+        /* Header spacing. Might want to make the font smaller also. */
+        padding-top: 36px;
+    }
+  
+    .xgp-upgrade-hero {
+        color: #fff;
+    }
+  
+    .xgp-upgrade-hero .c-call-to-action.f-lightweight {
+        color: #5cd21e;
+    }
+  
+  }
+  
+  .xgp-hero a:not(.x-hidden-focus).c-action-trigger.OttoGallery {
+    padding-right: 15px;
+  }
+  
+  .xgp-hero a:not(.x-hidden-focus).c-action-trigger.OttoGallery:focus {
+    background: rgba(0, 0, 0, 0) !important;
+  }
+  
+  
+  .premiering .c-pivot>section[aria-hidden="false"] {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    min-height: 385px;
+    max-width: 100%;
+  }
+  
+  .premiering-aspect {
+    /*padding-bottom: 34%;*/
+  }
+  
+  @media screen and (min-width: 640px) {
+    .premiering .c-pivot>section[aria-hidden="false"] {
+        min-height: 250px;
+    }
+  
+    .premiering-aspect {
+        /*padding-bottom: 65%;*/
+    }
+  }
+  
+  @media screen and (min-width: 768px) {
+    .premiering-aspect {
+        /*padding-bottom: 55%;*/
+    }
+  
+    .premiering .c-pivot>section[aria-hidden="false"] {
+        min-height: 270px;
+        max-width: 72%;
+    }
+  }
+  
+  @media screen and (min-width: 1084px) {
+  
+    .premiering .c-pivot>section[aria-hidden="false"] {
+        min-height: 250px;
+        max-width: 60%;
+    }
+  
+    .premiering-aspect {
+        /*padding-bottom: 44%;*/
+    }
+  }
+  
+  .extra-benefits {
+    padding-bottom: 150px;
+  }
+  
+  .extra-benefits .m-banner {
+    padding-bottom: 32px;
+  }
+  
+  .pseudo-background {
+    position: relative;
+    z-index: 200;
+  }
+  
+  .pseudo-background .m-feature {
+    margin-top: 0;
+  }
+  
+  .pseudo-background .m-feature [class^=c-heading] {
+    margin-top: 0;
+    font-size: 32px;
+    line-height: 1.17em;
+  }
+  
+  @media screen and (min-width: 768px) {
+    .pseudo-background::before {
+        content: "";
+        position: absolute;
+        background-color: #ebebeb;
+        width: 50%;
+        height: 80%;
+        top: 50%;
+        left: 50%;
+        transform: translateY(-50%);
+        z-index: -1;
+    }
+  
+    .pseudo-background .m-feature [class^=c-heading] {
+        font-size: 28px;
+    }
+  }
+  
+  @media screen and (min-width: 1084px) {
+    .pseudo-background::before {
+        height: 70%;
+    }
+  }
+  
+  @media screen and (min-width: 1200px) {
+    .pseudo-background .m-feature [class^=c-heading] {
+        font-size: 32px;
+    }
+  }
+  
+  @media screen and (min-width: 1400px) {
+    .pseudo-background::before {
+        height: 60%;
+    }
+  
+    .pseudo-background .m-feature [class^=c-heading] {
+        font-size: 36px;
+    }
+  
+  }
+  
+  /**************************** NEW CSS************/
+  
+  .premiering {
+    background-image:
+        url("../../../../../../compass-ssl.xbox.com/assets/c4/cf/c4cf6ca3-5c31-4a89-878b-24f1445fea5c267d.jpg?n=XGP_Background-0_540x3172.jpg");
+    background-position: top;
+    background-repeat: no-repeat;
+    background-size: contain;
+    background-color: #FFF;
+  }
+  
+  @media screen and (min-width: 400px) {
+    .premiering {
+        background-image:
+            url("../../../../../../compass-ssl.xbox.com/assets/24/d4/24d40f0f-a413-4824-a3eb-24c30169ea982797.jpg?n=04395294_Background-0_540x3071_02.jpg")
+    }
+  }
+  
+  @media screen and (min-width: 540px) {
+    .premiering {
+        background-image:
+            url("../../../../../../compass-ssl.xbox.com/assets/8c/96/8c9655ee-d300-429e-b948-70c6cd1a3eacb041.jpg?n=04395294_Background-540_767x2305_02.jpg")
+    }
+  }
+  
+  @media screen and (min-width: 768px) {
+    .premiering {
+        background-image:
+            url("../../../../../../compass-ssl.xbox.com/assets/18/ae/18ae99b5-ad07-4dec-a568-38009fa362dba646.jpg?n=XGP_Background-768_1083x2010.jpg")
+    }
+  }
+  
+  @media screen and (min-width: 1084px) {
+    .premiering {
+        background-image:
+            url("../../../../../../compass-ssl.xbox.com/assets/51/77/517721d3-aaa4-4d0c-914d-d742ae6c5b8e09f9.jpg?n=XGP_Background-1084_1399x2132.jpg")
+    }
+  }
+  
+  @media screen and (min-width: 1400px) {
+    .premiering {
+        background-image:
+            url("../../../../../../compass-ssl.xbox.com/assets/7c/c6/7cc62d15-d4d3-4274-b293-88e4c9571c183725.jpg?n=04395294_Background-1400_1920x2438_02.jpg")
+    }
+  }
+  
+  .premier-mcp-container {
+    max-width: 1350px;
+    padding: 0 0 6vw 0;
+  }
+  
+  @media screen and (max-width: 1500px) {
+  .premier-mcp-container {
+    padding: 0 0 4vw 0;}
+  }
+  
+  @media screen and (max-width: 1200px) {
+  .premier-mcp-container {
+    padding: 0 0 1vw 0;}
+  }
+  
+  @media screen and (min-width: 1400px) and (max-width: 1460px) {
+    .premier-mcp-container {
+        padding-bottom: 2vw;
+    }
+  }
+  
+  .premier-mcp-container .m-content-placement img {
+    max-width: calc(40px + 2.2vw);
+  }
+  
+  .premier-mcp-container .m-content-placement .xl-gold img {
+    max-width: calc(120px + 3.9vw);
+    margin-top: calc(10px + 1.1vw);
+  }
+  
+  .premier-mcp-container .m-content-placement picture {
+    padding-bottom: 26%;
+    max-width: calc(40px + 2.2vw);
+    margin: auto;
+  }
+  
+  .premier-mcp-container .m-content-placement .xl-gold picture {
+    padding-bottom: 26%;
+    max-width: 150px;
+  }
+  
+  @media screen and (min-width: 1400px) {
+    .premiering {
+        height: 127vw;
+    }
+  }
+  
+  @media screen and (min-width: 1084px) and (max-width: 1399px) {
+    .premiering {
+        height: 153vw;
+    }
+  
+    .premier-mcp-container .m-content-placement .xl-gold img {
+        max-width: calc(75px + 3.9vw);
+        margin-top: calc(10px + 1.1vw);
+    }
+  }
+  
+  @media screen and (min-width: 768px) and (max-width: 1083px) {
+    .premiering {
+        height: 200vw;
+    }
+  
+    .premier-mcp-container .m-content-placement picture,
+    .premier-mcp-container .m-content-placement .xl-gold picture {
+        padding-bottom: 23%;
+    }
+  }
+  
+  @media screen and (min-width: 540px) and (max-width: 767px) {
+    .premiering {
+        height: 302vw;
+    }
+  
+    .premier-mcp-container .m-content-placement .xl-gold img {
+        max-width: calc(120px + 3.9vw);
+    }
+  
+    .premier-mcp-container .m-content-placement img {
+        max-width: calc(40px + 5.2vw);
+    }
+  
+    .premiering .premiering-aspect .m-banner.jumpgcontainer {
+        padding-top: 80vw !important;
+    }
+  
+    .premier-mcp-container .m-content-placement picture,
+    .premier-mcp-container .m-content-placement .xl-gold picture {
+        padding-bottom: 30%;
+    }
+  }
+  
+  @media screen and (max-width: 539px) {
+    .premiering {
+        height: 570vw;
+    }
+  
+    .premiering .premiering-aspect .m-banner.jumpgcontainer {
+        padding-top: 142vw !important;
+    }
+  
+    .premier-mcp-container .m-content-placement .xl-gold img {
+        max-width: calc(130px + 3.9vw);
+    }
+  
+    .premier-mcp-container .m-content-placement img {
+        max-width: calc(60px + 5.2vw);
+    }
+    .premier-mcp-container .m-content-placement picture {
+        padding-bottom: 13%;
+    }
+    .premier-mcp-container .m-content-placement .xl-gold picture {
+        padding-bottom: 17%;
+    }
+  }
+  
+  @media screen and (max-width: 400px) {
+    .premiering {
+        height: 600vw;
+    }
+    .premier-mcp-container .m-content-placement picture {
+        padding-bottom: 16%;
+    }
+    .premier-mcp-container .m-content-placement .xl-gold picture {
+        padding-bottom: 19%;
+    }
+  }
+  
+  @media screen and (min-width: 1084px) {
+    .premier-mcp-container {
+        margin-left: 96px;
+    }
+  }
+  
+  @media screen and (min-width: 1084px) and (max-width: 1200px) {
+    .premiering .m-content-placement-item {
+        max-width: 75%;
+    }
+  
+    .premier-mcp-container .m-content-placement picture,
+    .premier-mcp-container .m-content-placement .xl-gold picture {
+        padding-bottom: 39%;
+    }
+  
+    .premier-mcp-container .m-content-placement .xl-gold img {
+        max-width: calc(100px + 3.9vw);
+    }
+  }
+  
+  @media screen and (min-width: 1000px) and (max-width: 1083px) {
+    .premier-mcp-container:nth-child(2) {
+        padding-top: 16vw;
+    }
+  }
+  
+  @media screen and (min-width: 900px) and (max-width: 999px) {
+    .premier-mcp-container:nth-child(2) {
+        padding-top: 11vw;
+    }
+  }
+  
+  @media screen and (min-width: 768px) and (max-width: 849px) {
+    .premier-mcp-container:nth-child(2) {
+        padding-top: 0vw;
+    }
+  }
+  
+  @media screen and (min-width: 1400px) and (max-width: 1920px) {
+    .premier-mcp-container {
+        margin-left: 12vw;
+    }
+  }
+  
+  
+  @media screen and (min-width: 1921px) {
+    .xgp-hero.main {
+        background-color: #171717 !important;
+    }
+  
+    .premiering {
+        max-height: 2438px;
+    }
+  
+    .premier-mcp-container {
+        margin-left: calc(250px + 7vw);
+    }
+  
+    .premier-mcp-container .m-content-placement .xl-gold img {
+        margin-top: 30px;
+    }
+  }
+  
+  .pd-one .c-badge.f-small {
+    background-color: rgb(16, 124, 16);
+  }
+  
+  .SB-hero-banner .availIcons {
+     margin-top: 10px;
+  }
+  
+  .SB-hero-banner .availIcons img {
+      width: 40px;
+      height: 40px;
+  }
+  
+  .SB-hero-banner .availIcons img {
+     margin: 0 5px;
+  }
+  
+  .SB-hero-banner.head1a.sb-pivot.pd-one .banner-background a, .SB-hero-banner.head1a.sb-pivot.pd-one .c-pivot section a{
+    color: #054b16;
+  }
+  
+  .SB-hero-banner.head1a.sb-pivot.pd-one {
+    padding-top: 0px !important;
+  }
+  
+  /* PDO */
+
+  @media screen and (max-width: 767px) {
+    .pd-one .m-multi-feature .c-pivot ul {
+        max-width: calc(100% - 36px);
+        margin-left: auto;
+        margin-right: auto;}
+    }
+
+    .pd-one .m-multi-feature ul[role="tablist"] li {
+        border: 0px solid transparent;
+    }
+
+    @media only screen and (min-width: 1084px) and (max-width: 1920px) {
+    .pd-one .m-multi-feature>section>div {
+        width: 42%;}
+    }
+        
+    @media screen and (max-width: 1084px) and (min-width: 768px) {
+    .pd-one .c-heading-3 {
+        font-size: 24px;
+        line-height: 28px;}
+    }
+
+    .pd-one .c-pivot>.c-flipper {
+        top: 30px;
+    }
+    .pd-one .c-flipper.f-previous {
+       left: 0px;
+    }
+    
+    .pd-one .c-heading-3 {
+       padding-top: 24px;
+    }
+    
+    .pd-one .c-flipper:before {
+        top: 1px;
+    }
+    
+    @media screen and (min-width: 768px) {
+    .sb-pivot .m-multi-feature section section {
+        width: 80%;}
+    }
+
+  @media screen and (min-width: 1850px) and (max-width: 1920px) {
+    .SB-hero-banner.head1a.sb-pivot.pd-one {
+        padding-bottom: 30px !important;
+    }
+  }
+  
+  @media screen and (min-width: 1650px) and (max-width: 1699px) {
+    .SB-hero-banner.head1a.sb-pivot.pd-one {
+        padding-bottom: 30px !important;
+    }
+  }
+  
+  @media screen and (min-width: 1450px) and (max-width: 1499px) {
+    .SB-hero-banner.head1a.sb-pivot.pd-one {
+        padding-bottom: 30px !important;
+    }
+  }
+  
+  @media screen and (min-width: 1330px) and (max-width: 1399px) {
+    .SB-hero-banner.head1a.sb-pivot.pd-one {
+        padding-bottom: 30px !important;
+    }
+  }
+  
+  @media screen and (min-width: 1130px) and (max-width: 1199px) {
+    .SB-hero-banner.head1a.sb-pivot.pd-one {
+        padding-bottom: 30px !important;
+    }
+  }
+  
+  @media screen and (min-width: 768px) and (max-width: 930px) {
+    .SB-hero-banner.head1a.sb-pivot.pd-one #newRTBItemContent1 .c-heading-3 {
+    padding-top: 12px;}
+  }
+  
+  .sb-pivot.SB-hero-banner.head1a.pd-one .banner-background {
+    z-index: 0;
+  }
+  
+  
+  .sb-pivot.SB-hero-banner.head1a .banner-background {
+    height: 44.3vw;
+    margin-bottom: -3vw;
+  }
+  
+  .sb-pivot.SB-hero-banner.head1a .m-multi-feature {
+    transform: translateY(-36vw);
+    position: absolute;
+  }
+  
+  
+  @media screen and (min-width: 768px) and (max-width: 799px) {
+    .sb-pivot.SB-hero-banner.head1a .banner-background {
+        height: 110.3vw;
+    }
+  
+    .sb-pivot.SB-hero-banner.head1a .m-multi-feature {
+        transform: translateY(-95vw);
+    }
+  
+    .sb-pivot.SB-hero-banner.head1a .c-pivot ul {
+        width: 105%;
+    }
+  }
+  
+  @media screen and (min-width: 0px) and (max-width: 374px) {
+    .sb-pivot.SB-hero-banner.head1a .banner-background {
+        height: 312.3vw;
+    }
+  
+    .sb-pivot.SB-hero-banner.head1a .m-multi-feature {
+        transform: translateY(-266vw);
+    }
+  }
+  
+  @media screen and (min-width: 375px) and (max-width: 413px) {
+    .sb-pivot.SB-hero-banner.head1a .banner-background {
+        height: 266.3vw;
+    }
+  
+    .sb-pivot.SB-hero-banner.head1a .m-multi-feature {
+        transform: translateY(-226vw);
+    }
+  }
+  
+  @media screen and (min-width: 414px) and (max-width: 499px) {
+    .sb-pivot.SB-hero-banner.head1a .banner-background {
+        height: 238.3vw;
+    }
+  
+    .sb-pivot.SB-hero-banner.head1a .m-multi-feature {
+        transform: translateY(-203vw);
+    }
+  }
+  
+  @media screen and (min-width: 500px) and (max-width: 574px) {
+    .sb-pivot.SB-hero-banner.head1a .banner-background {
+        height: 187.3vw;
+    }
+  
+    .sb-pivot.SB-hero-banner.head1a .m-multi-feature {
+        transform: translateY(-163vw);
+    }
+  }
+  
+  @media screen and (min-width: 575px) and (max-width: 649px) {
+    .sb-pivot.SB-hero-banner.head1a .banner-background {
+        height: 167.3vw;
+    }
+  
+    .sb-pivot.SB-hero-banner.head1a .m-multi-feature {
+        transform: translateY(-144vw);
+    }
+  }
+  
+  @media screen and (min-width: 650px) and (max-width: 699px) {
+    .sb-pivot.SB-hero-banner.head1a .banner-background {
+        height: 152.3vw;
+    }
+  
+    .sb-pivot.SB-hero-banner.head1a .m-multi-feature {
+        transform: translateY(-131vw);
+    }
+  }
+  
+  @media screen and (min-width: 700px) and (max-width: 767px) {
+    .sb-pivot.SB-hero-banner.head1a .banner-background {
+        height: 142.3vw;
+    }
+  
+    .sb-pivot.SB-hero-banner.head1a .m-multi-feature {
+        transform: translateY(-124vw);
+    }
+  }
+  
+  @media screen and (min-width: 768px) and (max-width: 799px) {
+    .sb-pivot.SB-hero-banner.head1a .m-multi-feature {
+        transform: translateY(-92vw);}
+    
+    .pd-one .c-flipper.f-next {
+        right: -10px;}
+    }
+
+  @media screen and (min-width: 800px) and (max-width: 849px) {
+    .sb-pivot.SB-hero-banner.head1a .banner-background {
+        height: 105.3vw;
+    }
+  
+    .sb-pivot.SB-hero-banner.head1a .m-multi-feature {
+        transform: translateY(-88vw);
+    }
+  }
+  
+  @media screen and (min-width: 850px) and (max-width: 899px) {
+    .sb-pivot.SB-hero-banner.head1a .banner-background {
+        height: 103.3vw;
+        padding-top: 60px;
+    }
+  
+    .sb-pivot.SB-hero-banner.head1a .m-multi-feature {
+        transform: translateY(-87vw);
+    }
+  }
+  
+  @media screen and (min-width: 900px) and (max-width: 949px) {
+    .sb-pivot.SB-hero-banner.head1a .banner-background {
+        height: 99.3vw;
+    }
+  
+    .sb-pivot.SB-hero-banner.head1a .m-multi-feature {
+        transform: translateY(-86vw);
+    }
+  }
+  
+  @media screen and (min-width: 950px) and (max-width: 999px) {
+    .sb-pivot.SB-hero-banner.head1a .banner-background {
+        height: 99.5vw;
+    }
+  
+    .sb-pivot.SB-hero-banner.head1a .m-multi-feature {
+        transform: translateY(-85vw);
+    }
+  }
+  
+  @media screen and (min-width: 1000px) and (max-width: 1083px) {
+    .sb-pivot.SB-hero-banner.head1a .banner-background {
+        height: 99.3vw;
+    }
+  
+    .sb-pivot.SB-hero-banner.head1a .m-multi-feature {
+        transform: translateY(-85vw);
+    }
+  }
+  
+  @media screen and (min-width: 1084px) and (max-width: 1099px) {
+    .sb-pivot.SB-hero-banner.head1a .banner-background {
+        height: 73.3vw;
+    }
+  
+    .sb-pivot.SB-hero-banner.head1a .m-multi-feature {
+        transform: translateY(-63vw);
+    }
+  }
+  
+  @media screen and (min-width: 1100px) and (max-width: 1199px) {
+    .sb-pivot.SB-hero-banner.head1a .banner-background {
+        height: 74.3vw;
+    }
+  
+    .sb-pivot.SB-hero-banner.head1a .m-multi-feature {
+        transform: translateY(-62vw);
+    }
+  }
+  
+  @media screen and (min-width: 1200px) and (max-width: 1299px) {
+    .sb-pivot.SB-hero-banner.head1a .banner-background {
+        height: 71.3vw;
+    }
+  
+    .sb-pivot.SB-hero-banner.head1a .m-multi-feature {
+        transform: translateY(-61vw);
+    }
+  }
+  
+  @media screen and (min-width: 1300px) and (max-width: 1399px) {
+    .sb-pivot.SB-hero-banner.head1a .banner-background {
+        height: 71.8vw;
+    }
+  
+    .sb-pivot.SB-hero-banner.head1a .m-multi-feature {
+        transform: translateY(-60vw);
+    }
+  }
+  
+  @media screen and (min-width: 1400px) and (max-width: 1549px) {
+    .sb-pivot.SB-hero-banner.head1a .banner-background {
+        height: 72vw;
+    }
+  
+    .sb-pivot.SB-hero-banner.head1a .m-multi-feature {
+        transform: translateY(-61vw);
+    }
+  }
+  
+  @media screen and (min-width: 1550px) and (max-width: 1799px) {
+    .sb-pivot.SB-hero-banner.head1a .banner-background {
+        height: 70.5vw;
+    }
+  
+    .sb-pivot.SB-hero-banner.head1a .m-multi-feature {
+        transform: translateY(-60vw);
+    }
+  }
+  
+  @media screen and (min-width: 1800px) {
+    .sb-pivot.SB-hero-banner.head1a .banner-background {
+        height: 67.2vw;
+    }
+  
+    .sb-pivot.SB-hero-banner.head1a .m-multi-feature {
+        transform: translateY(-58vw);
+    }
+  }
+  
+  .sb-pivot.SB-hero-banner.head1a .banner-background div.m-banner {
+    max-width: 650px !important;
+  }
+  
+  .sb-pivot .m-multi-feature section h4.c-subheading-3 {
+    font-weight: 700;
+  }
+  
+  @media screen and (min-width: 768px) {
+    .sb-pivot .m-multi-feature section section {
+        width: 87%;
+    }
+  }
+  
+  @media screen and (min-width: 1921px) {
+    .sb-pivot.SB-hero-banner.head1a .m-multi-feature {
+        transform: translateY(-998px);
+    }
+  
+    .sb-pivot.SB-hero-banner.head1a .banner-background {
+        max-height: 1176px;
+    }
+  
+    .sb-pivot.SB-hero-banner.head1a .banner-background {
+        margin-bottom: -58px;
+    }
+  
+    .sb-pivot.SB-hero-banner.head1a.pd-one .m-multi-feature>section {
+        width: 1920px;
+        margin-left: auto;
+        margin-right: auto;
+    }
+  
+  }
+  
+  
+  
+  .tall5up .m-content-placement div div {
+    padding-left: 0px;
+    padding-right: 0px;
+  }
+  
+  .tall5up .m-content-placement div div picture {
+    height: 55.7291vw;
+  }
+  
+  .tall5up .m-content-placement div div div.x-type-center {
+    transform: translateY(-125%)
+  }
+  
+  .tall5up .m-content-placement div div div.x-type-center img {
+    height: 50px;
+  }
+  
+  .tall5up .m-content-placement div div div section.m-content-placement-item {
+    margin-top: 0px;
+  }
+  
+  .tall5up-container .c-call-to-action:focus {
+      outline: 2px dashed #FFF !important;
+  }
+  
+  .tall5up-container .banner-background {
+    padding-top: 0px !important;
+    z-index: 1;
+  }
+  
+  .tall5up-container .m-banner {
+    max-width: 550px !important;
+  }
+  
+  .tall5up-background {
+    height: 81vw;
+    background-color: #333;
+    transform: translateY(-87vw);
+    z-index: -1;
+    position: absolute;
+    left: 4.9vw;
+    width: 89vw;
+  }
+  
+  .join-now .banner-background {
+    left: 4.9vw;
+    width: 89vw;
+    margin: 0;
+  }
+  
+  @media screen and (min-width: 1795px) {
+    .join-now .banner-background {
+        padding: 83px 0 0 0;
+        margin: 0;
+    }
+  
+    .tall5up-background,
+    .join-now .banner-background {
+        --widthA: 1795px;
+        --widthB: calc(100vw - var(--widthA));
+        --widthC: calc(var(--widthB)/2.2);
+        --widthD: calc(var(--widthC) + 4.9vw);
+        left: var(--widthD);
+        width: 1600px;
+    }
+  }
+  
+  @media screen and (max-width: 1083px) {
+    .tall5up-container .banner-background .tall5up .m-content-placement {
+        padding: 0 0 0 0;
+    }
+  
+    .tall5up-background {
+        width: 100%;
+        left: 0;
+    }
+  }
+  
+  .tall5up-container .m-content-placement-item:hover picture img,
+  .hqpc-Games .m-content-placement-item:hover picture img {
+    opacity: 1 !important;
+  }
+  
+  @media screen and (min-width: 1700px) {
+    .tall5up-background {
+        height: 82vw;
+        transform: translateY(-87.5vw);
+    }
+  }
+  
+  @media screen and (min-width: 1600px) and (max-width: 1699px) {
+    .tall5up-background {
+        height: 84vw;
+        transform: translateY(-91.5vw);
+    }
+  }
+  
+  @media screen and (min-width: 1500px) and (max-width: 1599px) {
+    .tall5up-background {
+        height: 86vw;
+        transform: translateY(-93.5vw);
+    }
+  }
+  
+  @media screen and (min-width: 1400px) and (max-width: 1499px) {
+    .tall5up-background {
+        height: 88vw;
+        transform: translateY(-96vw);
+    }
+  }
+  
+  @media screen and (min-width: 1300px) and (max-width: 1399px) {
+    .tall5up-background {
+        height: 77vw;
+        transform: translateY(-85vw);
+    }
+  }
+  
+  @media screen and (min-width: 1200px) and (max-width: 1299px) {
+    .tall5up-background {
+        height: 78vw;
+        transform: translateY(-88vw);
+    }
+  }
+  
+  @media screen and (min-width: 1084px) and (max-width: 1199px) {
+    .tall5up-background {
+        height: 80vw;
+        transform: translateY(-91vw);
+    }
+  }
+  
+  @media screen and (min-width: 1000px) and (max-width: 1083px) {
+    .tall5up-background {
+        height: 152vw;
+        transform: translateY(-157vw);
+    }
+  }
+  
+  @media screen and (min-width: 950px) and (max-width: 999px) {
+    .tall5up-background {
+        height: 155vw;
+        transform: translateY(-160vw);
+    }
+  }
+  
+  @media screen and (min-width: 900px) and (max-width: 949px) {
+    .tall5up-background {
+        height: 152vw;
+        transform: translateY(-154vw);
+    }
+  }
+  
+  @media screen and (min-width: 850px) and (max-width: 899px) {
+    .tall5up-background {
+        height: 155vw;
+        transform: translateY(-157vw);
+    }
+  }
+  
+  @media screen and (min-width: 800px) and (max-width: 849px) {
+    .tall5up-background {
+        height: 158vw;
+        transform: translateY(-160vw);
+    }
+  }
+  
+  @media screen and (min-width: 768px) and (max-width: 799px) {
+    .tall5up-background {
+        height: 160vw;
+        transform: translateY(-162vw);
+    }
+  }
+  
+  @media screen and (min-width: 735px) and (max-width: 767px) {
+    .tall5up-background {
+        height: 314vw;
+        transform: translateY(-319vw);
+    }
+  }
+  
+  @media screen and (min-width: 680px) and (max-width: 734px) {
+    .tall5up-background {
+        height: 318vw;
+        transform: translateY(-324vw);
+    }
+  }
+  
+  @media screen and (min-width: 630px) and (max-width: 679px) {
+    .tall5up-background {
+        height: 322vw;
+        transform: translateY(-328vw);
+    }
+  }
+  
+  @media screen and (min-width: 580px) and (max-width: 629px) {
+    .tall5up-background {
+        height: 327vw;
+        transform: translateY(-333vw);
+    }
+  }
+  
+  @media screen and (min-width: 520px) and (max-width: 579px) {
+    .tall5up-background {
+        height: 326vw;
+        transform: translateY(-334vw);
+    }
+  }
+  
+  @media screen and (min-width: 415px) and (max-width: 519px) {
+    .tall5up-background {
+        height: 329vw;
+        transform: translateY(-337vw);
+    }
+  }
+  
+  @media screen and (min-width: 376px) and (max-width: 414px) {
+    .tall5up-background {
+        height: 339vw;
+        transform: translateY(-349vw);
+    }
+  
+    .SB-hero-banner.head1a.tall5up-container {
+        padding-top: 30px !important
+    }
+  }
+  
+  @media screen and (min-width: 321px) and (max-width: 375px) {
+    .tall5up-background {
+        height: 367vw;
+        transform: translateY(-377vw);
+    }
+  
+    .SB-hero-banner.head1a.tall5up-container {
+        padding-top: 48px !important
+    }
+  }
+  
+  @media screen and (min-width: 0px) and (max-width: 320px) {
+    .tall5up-background {
+        height: 384vw;
+        transform: translateY(-396vw);
+    }
+  
+    .SB-hero-banner.head1a.tall5up-container {
+        padding-top: 48px !important
+    }
+  }
+  
+  @media screen and (min-width: 415px) and (max-width: 539px) {
+    .SB-hero-banner.head1a.tall5up-container {
+        padding-top: 48px !important
+    }
+  }
+  
+  @media screen and (min-width: 0px) and (max-width: 1083px) {
+  
+    /* was 768 min width*/
+    .tall5up .m-content-placement div div picture {
+        height: 100%;
+        padding-bottom: 0;
+    }
+  
+    .tall5up .m-content-placement div div div section.m-content-placement-item {
+        height: 22.6vw;
+    }
+  
+    .tall5up .m-content-placement .tall5up-item {
+        width: 100%
+    }
+  
+    .tall5up-container {
+        padding-bottom: 70px;
+    }
+  
+    .SFE-copy.x-type-center {
+        bottom: 0px;
+    }
+  }
+  
+  @media screen and (min-width: 768px) and (max-width: 1083px) {
+    .tall5up .m-content-placement div div div.x-type-center {
+        transform: translateY(-15.5vw)
+    }
+  }
+  
+  @media screen and (max-width: 767px) {
+    .tall5up .m-content-placement div div div section.m-content-placement-item {
+        height: 54vw;
+    }
+  
+    .tall5up-container .SB-hero-banner .banner-background {
+        padding-bottom: 0px !important;
+    }
+  
+    .tall5up .m-content-placement div div div.x-type-center {
+        transform: translateY(-32.8vw)
+    }
+  
+  }
+  
+  @media screen and (min-width: 415px) and (max-width: 499px) {
+    .tall5up .m-content-placement div div div.x-type-center {
+        transform: translateY(-35.8vw)
+    }
+  }
+  
+  @media screen and (max-width: 414px) {
+    .tall5up .m-content-placement div div div.x-type-center {
+        transform: translateY(-37.5vw)
+    }
+  }
+  
+  @media screen and (max-width: 320px) {
+    .tall5up .m-content-placement div div div.x-type-center {
+        transform: translateY(-39.5vw)
+    }
+  }
+  
+  @media screen and (max-width: 499px) {
+    .hqpc-Games .tall5up .m-content-placement div div div.x-type-center {
+        transform: translateY(-32.5vw)
+    }
+  }
+  
+  .SFE-copy {
+    max-width: 800px;
+    margin: 0px auto 0px auto;
+    position: relative;
+    bottom: 160px;
+  }
+  
+  .SFE-copy p {
+    max-width: 800px;
+    margin: 0px auto 0px auto;
+  }
+  
+  @media screen and (max-width: 539px) {
+    .tall5up-container.SB-hero-banner .banner-background {
+        padding-bottom: 0px !important;
+    }
+  }
+  
+  @media screen and (min-width: 1921px) {
+    .tall5up-container.SB-hero-banner .banner-background {
+        width: 1920px;
+        margin-left: auto;
+        margin-right: auto;
+    }
+  
+    .tall5up-background {
+        height: 1574px;
+        transform: translateY(-1680px);
+    }
+  
+    .sku-chooser {
+        min-height: 1300px !important;
+    }
+  }
+  
+  .videoHero .m-ambient-video {
+    display: none;
+  }
+  
+  .videoHero .m-ambient-video video {
+    width: inherit !important;
+  }
+  
+  .videoHero .m-hero-item:before {
+    padding-bottom: 53.6vw !important;
+  }
+  
+  @media screen and (min-width: 1400px) {
+    .videoHero .m-hero-item:before {
+        padding-bottom: 55.6vw !important;
+    }
+  
+    .videoHero .m-ambient-video {
+        display: block;
+    }
+  
+    .videoHero picture {
+        display: none;
+    }
+  
+    .videoHero .m-hero-item.f-y-center>div>div:not(.high-contrast) {
+        position: static;
+    }
+  
+    .videoHero .m-hero-item.f-y-center>div>div button {
+        bottom: -17.3vw
+    }
+  }
+  
+  .superhero-1 .m-hero-item {
+    transform: translateY(-4.71vw);
+  }
+  
+  .sneaky-heading {
+    max-width: 840px;
+  }
+  
+  .stealth-sub-carousel-panel .panel-content {
+    background: #e6e6e6 !important;
+  }
+  
+  .stealth-sub-carousel-panel .panel-content a.c-call-to-action {
+    color: #054b16;
+  }
+  
+  .stealth-carousel .stealth-sub-carousel .stealth-sub-carousel-panel {
+    box-shadow: none !important;
+  }
+  
+  .stealth-carousel .stealth-sub-carousel.left-carousel .stealth-sub-carousel-panel .panel-content h3,
+  .stealth-carousel .stealth-sub-carousel.left-carousel .stealth-sub-carousel-panel .panel-content p,
+  .stealth-carousel .stealth-sub-carousel.left-carousel .stealth-sub-carousel-panel .panel-content a,
+  .stealth-carousel .stealth-sub-carousel.right-carousel .stealth-sub-carousel-panel .panel-content h3,
+  .stealth-carousel .stealth-sub-carousel.right-carousel .stealth-sub-carousel-panel .panel-content p,
+  .stealth-carousel .stealth-sub-carousel.right-carousel .stealth-sub-carousel-panel .panel-content a {
+    visibility: hidden !important;
+  }
+  .sku-chooser .no-check{
+    background-image: none!important;
+    padding-left: 0px!important;
+    padding-bottom: 0px!important;
+  }
+  
+  .sku-chooser ul {
+    text-align: left;
+  }
+  
+  .sku-chooser .m-banner img {
+    max-height: 48px;
+  }
+  
+  .sku-chooser .price .price-number {
+    font-size: 24px;
+    line-height: 28px;
+    font-weight: 700;
+  }
+  
+  .sku-chooser h3 {
+    font-weight: 700 !important;
+  }
+  
+  .sku-chooser li.c-paragraph-1 {
+    padding-top: 0px !important;
+  }
+  
+  .sku-chooser ul .c-badge {
+    padding: 0 6px;
+    font-weight: 500;
+    margin-left: 60px;
+  }
+  
+  .sku-chooser .details img {
+    max-height: 20px;
+  }
+  
+  
+  /******New PC Games CSS*************/
+  @media screen and (max-width: 539px) {
+  
+    .xgp-pc .m-in-page-navigation.trans,
+    .download-the-app {
+        display: none !important;
+    }
+  
+    /* No downloads at mobile*/
+  }
+  
+  .hqpc-Games {
+    height: 90.63vw;
+    background-image:
+        url("../../../../../../compass-ssl.xbox.com/assets/11/3f/113f6c88-d60a-4450-b90d-063a9b83e7e80d9a.jpg?n=043952945_Background-1084_1920x1740_02.jpg");
+    background-position: top;
+    background-repeat: no-repeat;
+    background-size: contain;
+    background-color: #FFF;
+  }
+  
+  .hqpc-Games:not(.SB-hero-banner) .m-banner {
+    padding-top: 52vw !important;
+    z-index: 2;
+    position: relative;
+  }
+  .hqpc-Games.SB-hero-banner .m-banner {
+    padding-top: 46vw !important;
+    z-index: 2;
+    position: relative;
+  }
+  
+  @media screen and (min-width: 475px) and (max-width: 539px) {
+    .hqpc-Games .m-banner {
+        padding-top: 63vw !important;
+    }
+  
+    .mfpc-banner {
+        padding-top: 15vw;
+    }
+  }
+  
+  @media screen and (max-width: 414px) {
+    .hqpc-Games .m-banner {
+        padding-top: 102vw !important;
+    }
+  }
+  
+  @media screen and (min-width: 1084px) {
+    .hqpc-Games .m-banner {
+        max-width: 1000px !important;
+    }
+  
+    .hqpc-Games .tall5up .m-content-placement {
+        margin-bottom: -12vw
+    }
+  }
+  
+  @media screen and (max-width: 1083px) {
+    .hqpc-Games .tall5up .m-content-placement {
+        margin-bottom: -6vw
+    }
+  }
+    .hqpc-Games.SB-hero-banner .banner-background {
+      padding-top: 0px;
+      background-color: transparent;
+    }
+  
+   /* Bundaberg Fixes  */ /* :not(.SB-hero-banner) lines left in so ROW doesnt completely break until fixed for all markets */
+  @media screen and (min-width: 1400px) {
+    .hqpc-Games:not(.SB-hero-banner) .banner-background {
+        transform: translateY(-210px);
+    }
+    .hqpc-Games.SB-hero-banner .banner-background {
+          top: -167px;
+    }
+  
+  
+  }
+  
+  .hqpc-Games.SB-hero-banner::after{
+      margin-bottom: 50px;
+  }
+  
+  .hqpc-Games .banner-background .tall5up .m-content-placement-item picture img {
+    z-index: 0;
+  }
+  
+  @media screen and (min-width: 768px) {
+    .hqpc-Games .tall5up .m-content-placement>div>div {
+        width: 25% !important;
+        float: left;
+    }
+  }
+  
+  @media screen and (min-width: 0px) and (max-width: 767px) {
+    .hqpc-Games:not(.SB-hero-banner) .banner-background {
+        transform: translateY(-96px);
+    }
+  
+  }
+  
+  @media screen and (min-width: 768px) and (max-width: 1399px) {
+    .hqpc-Games:not(.SB-hero-banner) .banner-background {
+        transform: translateY(-150px);
+    }
+  }
+  @media screen and (min-width: 1084px) and (max-width: 1399px) {
+        .hqpc-Games.SB-hero-banner .banner-background {
+          top: -100px;
+    }
+  }
+  
+  @media screen and (min-width: 0px) and (max-width: 1083px) {
+      .hqpc-Games.SB-hero-banner .banner-background {
+          top: -86px;
+    }
+  }
+  
+  @media screen and (min-width: 0px) and (max-width: 1083px) {
+  
+    /* was 768 min width*/
+    .hqpc-Games .tall5up .m-content-placement div div div section.m-content-placement-item {
+        height: 68.6vw;
+    }
+  }
+  
+  @media screen and (min-width: 0px) and (max-width: 414px) {
+  
+    /* was 768 min width*/
+    .hqpc-Games .tall5up .m-content-placement div div div section.m-content-placement-item {
+        height: 50vw;
+    }
+  }
+  
+  @media screen and (min-width: 415px) and (max-width: 767px) {
+  
+    /* was 768 min width*/
+    .hqpc-Games .tall5up .m-content-placement div div div section.m-content-placement-item {
+        height: 47vw;
+    }
+  }
+  
+  @media screen and (min-width: 768px) and (max-width: 1083px) {
+    .hqpc-Games {
+        height: 112.46vw;
+        background-image:
+            url("../../../../../../compass-ssl.xbox.com/assets/c2/cd/c2cded42-34ab-4a04-bf9a-d044d3c4283d543c.jpg?n=043952945_Background-768_1083x1218_02.jpg")
+    }
+  
+    .hqpc-Games .m-banner {
+        max-width: 600px !important;
+    }
+  
+    .hqpc-Games:not(.SB-hero-banner) .banner-background {
+        transform: translateY(-120px);
+    }
+  }
+  
+  @media screen and (min-width: 0px) and (max-width: 767px) {
+    .hqpc-Games {
+        height: 269vw;
+        background-image:
+            url("../../../../../../compass-ssl.xbox.com/assets/8d/49/8d49f481-4ec9-40fa-84f3-23fe73af9d2f93d0.jpg?n=043952945_Background-0_767x1660.jpg")
+    }
+  
+    .xgp-upgrade-hero .m-hero-item .high-contrast h2,
+    .xgp-upgrade-hero .m-hero-item .high-contrast p {
+        color: #000 !important;
+    }
+  
+    .xgp-upgrade-hero .m-hero-item .high-contrast a {
+        color: #107c10 !important;
+    }
+  }
+  
+  @media screen and (max-width: 540px) {
+    .hqpc-Games {
+        height: 286vw;
+    }
+  
+  }
+  @media screen and (max-width: 415px) {
+      .hqpc-Games.SB-hero-banner {
+          padding-top: 80vw ;
+      }
+  }
+  
+  .made-for-pc .m-hero-item {
+    height: 48vw;
+  }
+  
+  /********* System Requirements*********/
+  @media screen and (max-width: 767px) {
+  
+    .xgp-sysreq .m-system-requirements .c-table th,
+    .xgp-sysreq .m-system-requirements .c-table td {
+        max-width: 150px;
+    }
+  }
+  
+  /***** Join Now ******/
+  .classEA {
+      max-height: 29px !important;
+  }
+  
+  @media screen and (max-width: 767px) {
+    .join-now .banner-background section div div.high-contrast {
+        top: calc(44%);
+    }
+  }
+  
+  @media screen and (min-width: 768px) and (max-width: 880px) {
+    .join-now .banner-background section {
+        height: 75vw;
+    }
+  
+    .join-now .banner-background section div div.high-contrast {
+        max-width: 260px;
+    }
+  }
+  
+  @media screen and (min-width: 881px) and (max-width: 985px) {
+    .join-now .banner-background section {
+        height: 63vw;
+    }
+  }
+  
+  .mfpc-banner .m-banner.jumpgcontainer p {
+    margin-top: -4vw;
+  }
+  
+  @media screen and (max-width: 1920px) {
+    div.built-for-pc.xgp-lower-hero {
+        background-color: #171717 !important;
+        padding-top: 48px;
+    }
+  }
+  
+  @media screen and (min-width: 1084px) {
+    .built-for-pc .m-hero-item {
+        height: 36.5vw;
+        background-color: #171717 !important;
+    }
+  
+    .built-for-pc .m-hero-item .high-contrast h2,
+    .built-for-pc .m-hero-item .high-contrast p {
+        color: #FFF !important;
+    }
+    .built-for-pc .m-hero-item .high-contrast{
+        top: calc(45%) !important;
+    }
+    .lime-green-c-desktop{
+        color: #9bf00b !important;
+        background: none !important;
+    }
+  }
+  
+  @media screen and (min-width: 1084px) and (max-width: 1400px) {
+    .built-for-pc .m-hero-item .high-contrast {
+        top: calc(50%);
+        max-width: 425px !important;
+    }
+  }
+  
+  @media screen and (min-width: 1920px) {
+    .built-for-pc .m-hero-item .high-contrast {
+        left: 170px;
+    }
+  }
+  
+  @media screen and (min-width: 1680px) and (max-width: 1919px) {
+    .built-for-pc .m-hero-item .high-contrast {
+        left: 5.5vw;
+    }
+  }
+  
+  @media screen and (min-width: 1400px) and (max-width: 1679px) {
+    .built-for-pc .m-hero-item .high-contrast {
+        left: 2vw;
+    }
+  }
+  
+  @media screen and (min-width: 1400px) and (max-width: 1510px) {
+  .join-now .banner-background .m-hero-item:before {
+     padding-bottom: 44.55%;
+    }
+  }
+  
+  @media screen and (min-width: 768px) and (max-width: 1084px) {
+  .join-now .banner-background .m-hero-item:before {
+     padding-bottom: 70.875%;
+    }
+  }
+  
+  @media screen and (min-width: 1084px) and (max-width: 1399px) {
+    .built-for-pc .m-hero-item .high-contrast {
+        left: 1.7vw;
+    }
+  }
+  
+  .join-now .banner-background {
+    padding-bottom: 104px;
+    z-index: 0;
+  }
+  
+  .join-now.SB-hero-banner .m-banner .c-image {
+    max-height: 40px;
+  }
+  
+  @media screen and (min-width: 1400px) {
+    .join-now.SB-hero-banner .m-banner .c-image {
+        max-height: 48px;
+    }
+  }
+  
+  .join-now .banner-background .sku-chooser__panel {
+    color: black;
+    text-align: left;
+    background-color: inherit;
+  }
+  
+  .join-now .banner-background .sku-chooser__panel .intro .price {
+    max-width: 250px;
+    padding-bottom: 20px;
+  }
+  
+  @media screen and (max-width: 767px) {
+    .join-now .banner-background .sku-chooser__panel .intro .price {
+        margin-left: auto;
+        margin-right: auto;
+    }
+  
+    .join-now .banner-background .sku-chooser__panel {
+        text-align: center;
+    }
+  
+    .join-now .banner-background .sku-chooser__panel .details {
+        margin-left: auto;
+        margin-right: auto;
+        width: 60vw;
+    }
+  
+    /* */
+  }
+  
+  @media screen and (max-width: 600px) {
+    .join-now .banner-background section div div.high-contrast {
+        padding-top: 60px;
+    }
+  }
+  
+  @media screen and (max-width: 374px) {
+    .join-now .banner-background section div div.high-contrast {
+        padding-top: 170px;
+    }
+  
+    .join-now .banner-background section.m-hero-item {
+        padding-bottom: 46vw;
+    }
+  
+    .mfpc-banner {
+        /*padding-top: 110vw;*/
+    }
+  
+  }
+  
+  @media screen and (min-width: 375px) and (max-width: 413px) {
+    .mfpc-banner {
+        padding-top: 80vw;
+    }
+  }
+  
+  @media screen and (min-width: 414px) and (max-width: 499px) {
+    .mfpc-banner {
+        padding-top: 76vw;
+    }
+  }
+  
+  
+  @media screen and (min-width: 375px) and (max-width: 499px) {
+    .join-now .banner-background section div div.high-contrast {
+        padding-top: 150px;
+    }
+  
+    .join-now .banner-background section.m-hero-item {
+        padding-bottom: 66vw;
+    }
+  }
+  
+  
+  
+  @media screen and (max-width: 370px) {
+  .join-now .banner-background section.m-hero-item {
+    padding-bottom: 72vw;}
+  }
+  
+  @media screen and (min-width: 1084px) and (max-width: 1399px) {
+    .join-now .banner-background {
+        height: 56vw;
+    }
+  
+    .join-now .banner-background section {
+        height: 45vw;
+    }
+  
+    .join-now .banner-background section div {
+        margin-right: 0vw;
+    }
+  
+    .join-now .banner-background section div div.high-contrast {
+        padding-left: 5vw;
+    }
+  }
+  
+  @media screen and (min-width: 1250px) and (max-width: 1399px) {
+    .join-now .banner-background {
+        height: 51vw;
+    }
+  
+    .join-now .banner-background section {
+        height: 45vw;
+    }
+  }
+  
+  @media screen and (min-width: 1400px) and (max-width: 1600px) {
+    .join-now .banner-background section div {
+        margin-right: 0vw;
+    }
+  }
+  
+  @media screen and (min-width: 1150px) and (max-width: 1794px) {
+    .join-now .banner-background .m-hero-item>picture img {
+        left: -4vw;
+        width: 115%;
+    }
+  }
+  
+  @media screen and (min-width: 1084px) and (max-width: 1149px) {
+    .join-now .banner-background .m-hero-item>picture img {
+        left: -4.5vw;
+        width: 110%;
+    }
+  }
+  
+  @media screen and (min-width: 768px) and (max-width: 880px) {
+    .join-now .banner-background .m-hero-item>picture img {
+        width: 112%;
+    }
+  }
+  
+  @media screen and (max-width: 320px) {
+  .join-now .banner-background .sku-chooser__panel .intro {
+    padding-top: 220px;}
+  
+  .sku-chooser__panel .price {
+    min-height: 0;}
+  
+  .join-now .banner-background section.m-hero-item {
+      padding-bottom: 88vw;}
+  }
+  
+  
+  
+  @media screen and (min-width: 1921px) {
+    .xgp-hero.garrison {
+        background-color: #171717;
+    }
+  
+    .tall5up .m-content-placement div div picture {
+        max-height: 1070px;
+    }
+  
+    .made-for-pc .m-hero-item {
+        max-height: 921px;
+    }
+  
+    .hqpc-Games {
+        max-height: 1740px;
+        background-color: #171717;
+    }
+  
+    .hqpc-Games .tall5up .m-content-placement {
+        margin-bottom: -230px;
+    }
+  
+    .hqpc-Games .m-banner {
+        padding-top: 998px !important;
+    }
+  
+    .mfpc-banner .m-banner.jumpgcontainer p {
+        margin-top: -77px;
+    }
+  
+    .built-for-pc.xgp-lower-hero.static48 {
+        padding-top: 0px !important;
+    }
+  }
+  
+  /* PC Games */
+  .eaPlay .logoImage{max-width:270px !important;}
+  
+  /* XAA Blade */
+  .xaaIcons {
+    width: 64px !important;
+  }
+  
+  .three-up-xaa picture {
+    padding-bottom: 0px !important;
+    height: 63px;
+    margin-left: auto;
+    margin-right: auto;
+    overflow: initial;
+  }
+  
+  @media only screen and (min-width: 1921px) {
+  .xaaImage .c-image {
+      max-width: 1920px;
+      margin: 0 auto;}
+  }
+  
+  /* FAQ CTA's */
+  .xgp-faq .c-group {
+    display: block !important;
+  }
+  
+  .xgp-faq .c-group a.c-call-to-action {
+    display: table !important;
+  }
+  
+  .eaplaygame {
+      bottom: 0;
+      position: absolute;
+      z-index: 5;
+      width: 100%;
+      text-align: center;
+      background: rgba(255,255,255,.2) !important;
+      padding: 2px 0 5px;
+  }
+  
+  .pd-one .c-badge.f-small {
+      background-color: rgb(16, 124, 16) !Important;
+  }
+
+
+
+
+
+
+@media screen and (min-width: 375px) and (max-width: 450px) {
+.tall5up-container {
+    padding-bottom: 23px !important;
+ }
+}
+
+/* SKU image contrast fix */
+.high-contrast-mode.black-on-white .sku-chooser__panel img {
+ filter: grayscale(1) brightness(0);
+}
+
+
+
+/* Day One Carousel */
+@media screen and (min-width:716px) and (max-width: 767px) {
+.pd-one:not(.pcGame) .m-multi-feature .c-pivot ul {
+  margin-left:15vw !important;
+ }
+}
+
+@media screen and (min-width:700px) and (max-width: 715px) {
+.pd-one:not(.pcGame) .m-multi-feature .c-pivot ul {
+  margin-left:12vw !important;
+ }
+}
+
+@media screen and (min-width:650px) and (max-width: 699px) {
+.pd-one:not(.pcGame) .m-multi-feature .c-pivot ul {
+  margin-left:10vw !important;
+ }
+}
+@media screen and (min-width:630px) and (max-width: 649px) {
+.pd-one:not(.pcGame) .m-multi-feature .c-pivot ul {
+  margin-left:9vw !important;
+ }
+}
+@media screen and (min-width:600px) and (max-width: 629px) {
+.pd-one:not(.pcGame) .m-multi-feature .c-pivot ul {
+  margin-left:7.5vw !important;
+ }
+}
+@media screen and (min-width:560px) and (max-width: 599px) {
+.pd-one:not(.pcGame) .m-multi-feature .c-pivot ul {
+  margin-left:5vw !important;
+ }
+@media screen and (min-width:520px) and (max-width: 559px) {
+.pd-one:not(.pcGame) .m-multi-feature .c-pivot ul {
+  margin-left:3vw !important;
+ }
+}

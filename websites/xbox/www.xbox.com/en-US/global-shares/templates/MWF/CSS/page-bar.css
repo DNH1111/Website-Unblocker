@@ -1,0 +1,432 @@
+.m-in-page-navigation {
+    position: relative;
+    height: 0px;
+    width: 100%;
+    z-index: 500;
+}
+
+.m-in-page-navigation div[data-js-in-page-navigation-wrapper="true"] {
+    background: #fff;
+}
+
+.trans.m-in-page-navigation div[data-js-in-page-navigation-wrapper="true"] {
+    background-color: none;
+    background: none;
+}
+
+.trans.start-dark.m-in-page-navigation div[data-js-in-page-navigation-wrapper="true"] {
+    background-color: rgba(0, 0, 0, 0.7);
+}
+
+@media screen and (max-width: 1083px) {
+    div.m-in-page-navigation {
+        padding-left: 0;
+        padding-right: 0;
+    }
+}
+
+@media screen and (min-width: 860px) and (max-width: 1083px) {
+    .m-in-page-navigation div[data-js-in-page-navigation-wrapper="true"] {
+        padding-left: 27px;
+        padding-right: 32px;
+    }
+}
+
+@media screen and (max-width: 859px) {
+    .m-in-page-navigation div[data-js-in-page-navigation-wrapper="true"] {
+        padding-left: 10px;
+        padding-right: 16px;
+    }
+}
+
+
+/*.trans.m-in-page-navigation {position: absolute; width: 100%; top: 60px; z-index: 500;}*/
+
+.m-in-page-navigation,
+nav.c-in-page-navigation.f-sticky {
+    border-bottom: 1px solid rgba(0, 0, 0, .2) !important;
+}
+
+.m-in-page-navigation,
+nav.c-in-page-navigation.f-sticky {
+    background: #fff;
+}
+
+.m-in-page-navigation nav.c-in-page-navigation .CTAdiv a.c-call-to-action.legacy:focus,
+.m-in-page-navigation nav.c-in-page-navigation .CTAdiv a.c-call-to-action.legacy:hover {
+    color: #000 !important;
+    border-color: #107c10;
+}
+
+.m-in-page-navigation.trans nav.c-in-page-navigation .CTAdiv a.c-call-to-action.legacy:focus,
+.m-in-page-navigation.trans nav.c-in-page-navigation .CTAdiv a.c-call-to-action.legacy:hover {
+    color: #fff !important;
+    border-color: #9bf00b;
+}
+
+nav.c-in-page-navigation {
+    padding: 10px 8.6% 6px;
+}
+
+nav.c-in-page-navigation {
+    /*padding: 10px 8.6% 6px;*/
+    padding-top: 10px;
+    padding-bottom: 6px;
+    padding-left: 5%;
+    padding-right: 5%;
+}
+
+@media screen and (min-width: 1084px) {
+    nav.c-in-page-navigation {
+        padding-left: calc(5% + 13px);
+        padding-right: calc(5% + 8px);
+    }
+}
+
+nav.c-in-page-navigation ul {
+    width: auto !important;
+}
+
+nav.c-in-page-navigation h3 {
+    float: left;
+    padding-top: 9px;
+    padding-right: 25px;
+}
+
+nav.c-in-page-navigation .CTAdiv {
+    margin-left: auto;
+}
+
+.m-in-page-navigation nav.c-in-page-navigation>ul li>a {
+    padding-top: 9px;
+}
+
+.m-in-page-navigation nav.c-in-page-navigation>ul li>a:focus {
+    border-style: dashed;
+}
+
+.high-contrast-mode nav.c-in-page-navigation .CTAdiv a.c-call-to-action:focus {
+    border-style: dashed;
+    background-color: #fff !important;
+}
+
+.m-in-page-navigation ul li a.c-hyperlink:hover {
+    color: inherit;
+}
+
+
+/* =========================================== */
+
+
+/* Transparent page bar style overrides */
+
+
+/* Add .trans to .m-in-page-navigation */
+
+.m-in-page-navigation,
+nav.c-in-page-navigation.f-sticky {
+    border-bottom: none;
+}
+
+.trans.m-in-page-navigation {
+    border-bottom: none !important;
+    background: none;
+}
+
+.trans.m-in-page-navigation.light {
+    background: rgba(0, 0, 0, .7);
+}
+
+.trans nav.c-in-page-navigation.f-sticky {
+    background: rgba(0, 0, 0, .7);
+}
+
+.trans nav.c-in-page-navigation p {
+    color: #fff !important;
+}
+
+.trans nav.c-in-page-navigation .c-hyperlink,
+.trans nav.c-link-navigation a.c-call-to-action.green-brdr {
+    color: #fff !important;
+}
+
+.trans nav.c-in-page-navigation h3 {
+    color: #fff !important;
+}
+
+.trans nav.c-in-page-navigation .CTAdiv a.c-call-to-action,
+.trans nav.c-in-page-navigation .CTAdiv a.c-call-to-action,
+.trans nav.c-in-page-navigation .CTAdiv a:not(.x-hidden-focus).c-call-to-action:focus,
+.trans nav.c-in-page-navigation .CTAdiv a.c-call-to-action:hover {
+    background: none;
+    color: #9bf00b;
+    border-color: #9bf00b;
+}
+
+nav.c-in-page-navigation>ul li>a.c-hyperlink {
+    color: #000;
+}
+
+nav.c-in-page-navigation>ul li>a.c-hyperlink.f-active {
+    color: #107c10;
+}
+
+nav.c-in-page-navigation a.c-hyperlink {
+    text-decoration: none;
+}
+
+.trans nav.c-in-page-navigation>ul li>a.c-hyperlink.f-active {
+    color: #9bf00b !important;
+}
+
+
+/* END Transparent style overrides */
+
+
+/* =========================================== */
+
+@media screen and (max-width: 1400px) {
+    /*nav.c-in-page-navigation {
+  padding: 10px 5.4% 6px;
+  }*/
+}
+
+@media screen and (max-width: 859px) {
+    nav.c-in-page-navigation {
+        padding-top: 24px;
+    }
+    nav.c-in-page-navigation ul {
+        display: none;
+    }
+    nav.c-in-page-navigation h3 {
+        padding-bottom: 20px;
+    }
+    .m-in-page-navigation {
+        z-index: 500;
+    }
+}
+
+
+/*
+.m-in-page-navigation .CTAdiv a.c-call-to-action {
+  padding-left: 15px;
+  padding-right: 15px;
+}
+*/
+
+
+/* tweaks learned from XGP */
+
+nav.c-in-page-navigation {
+    align-items: center;
+    /* flex vertical centering */
+}
+
+nav.c-in-page-navigation p[class^="c-heading"] {
+    padding: 0 24px 5px 0;
+    /* bottom padding can be set with flex align items center */
+}
+
+nav.c-in-page-navigation {
+    border-bottom: none !important;
+}
+
+.CTAdiv>a:not(:last-child) {
+    margin-right: 32px;
+}
+
+
+/* page bar tweaks learned from XGP */
+
+nav.c-in-page-navigation ul {
+    width: auto !important;
+    margin-left: 0 !important;
+}
+
+@media screen and (max-width: 1083px) {
+    nav.c-in-page-navigation {
+        padding-left: 9px;
+        padding-right: 0px;
+    }
+    nav.c-in-page-navigation ul {
+        display: none;
+    }
+}
+
+@media screen and (max-width: 859px) {
+    div.trans.m-in-page-navigation:not(.standard-header) {
+        top: 87px;
+    }
+}
+
+@media screen and (min-width: 860px) {
+    div.trans.m-in-page-navigation:not(.standard-header) {
+        top: 53px;
+    }
+}
+
+
+/*
+@media screen and (min-width: 1084px){
+ div.m-in-page-navigation nav.c-in-page-navigation {
+  padding-right: 5%;
+  padding-left: 5%;
+ }
+}
+  */
+
+div.m-in-page-navigation nav.c-in-page-navigation {
+    padding-top: 10px;
+    padding-bottom: 6px;
+    min-height: 60px;
+}
+
+nav.c-in-page-navigation.f-sticky {
+    padding-left: 5%;
+    padding-right: 5%;
+}
+
+.CTAdiv>.second-cta {
+    display: inline-block;
+    vertical-align: top;
+    margin-top: 12px;
+}
+
+@media screen and (max-width: 1083px) {
+    .CTAdiv>.second-cta {
+        display: none;
+    }
+}
+
+.CTAdiv>.second-cta a {
+    display: inline;
+}
+
+
+/* end page par tweaks */
+
+@media screen and (min-width: 1805px) {
+    div.m-in-page-navigation nav.c-in-page-navigation.f-sticky,
+    div.m-in-page-navigation nav.c-in-page-navigation {
+        padding-left: calc(((100% - 1600px) / 2) + 13px);
+        padding-right: calc(((100% - 1600px) / 2) + 8px);
+    }
+}
+
+
+/* new dropdown subnav styles */
+
+nav.c-in-page-navigation .c-navigation-menu button[class^="c-heading-"] {
+    padding: 0px 10px 0px 5px;
+    margin-bottom: 6px;
+}
+
+.m-in-page-navigation .c-navigation-menu {
+    display: inline-block;
+}
+
+.m-in-page-navigation.trans {}
+
+.m-in-page-navigation .c-navigation-menu ul {
+    background: #f2f2f2;
+    min-width: 200px;
+    max-width: 280px;
+}
+
+.m-in-page-navigation.trans .c-navigation-menu ul {
+    background: rgba(0, 0, 0, 1);
+}
+
+.m-in-page-navigation .c-navigation-menu a,
+.m-in-page-navigation .c-navigation-menu button {
+    background: none;
+}
+
+.m-in-page-navigation .c-navigation-menu a,
+.m-in-page-navigation .c-navigation-menu a:hover,
+.m-in-page-navigation .c-navigation-menu a:focus {
+    color: #000 !important;
+}
+
+.m-in-page-navigation.trans .c-navigation-menu a,
+.m-in-page-navigation.trans .c-navigation-menu a:hover,
+.m-in-page-navigation.trans .c-navigation-menu a:focus {
+    color: #fff !important;
+}
+
+.m-in-page-navigation .c-navigation-menu a.c-hyperlink:not(.f-image):focus:not(.x-hidden-focus) {
+    background: none;
+}
+
+
+/* retrofitting page-bar-dropdown.css styles to page-bar.css -- removing this feature
+nav.c-in-page-navigation>p {
+  display: none;
+}
+*/
+
+.m-in-page-navigation .c-navigation-menu>button:hover:not(.x-hidden-focus),
+.m-in-page-navigation .c-navigation-menu>button:focus:not(.x-hidden-focus),
+.m-in-page-navigation .c-navigation-menu button:hover,
+.m-in-page-navigation .c-navigation-menu button[aria-expanded="true"] {
+    background: none;
+}
+
+.m-in-page-navigation.trans .c-navigation-menu button:hover {
+    color: #fff;
+}
+
+.m-in-page-navigation .c-navigation-menu>button[aria-expanded="true"] {
+    border: 2px solid transparent;
+}
+
+.m-in-page-navigation .c-navigation-menu button:focus,
+.m-in-page-navigation .c-navigation-menu button:active {
+    outline: 2px dashed #000 !important;
+    border: 2px dashed #fff !important;
+}
+
+@media screen and (min-width: 1084px) {
+    .m-in-page-navigation .c-navigation-menu {
+        display: none;
+    }
+    nav.c-in-page-navigation>p {
+        display: block;
+    }
+}
+
+.m-in-page-navigation .c-navigation-menu [class^="c-heading-"]:after {
+    display: inline-block;
+}
+
+.m-in-page-navigation.trans .c-navigation-menu button,
+.m-in-page-navigation.trans .c-navigation-menu>button:after {
+    color: #fff;
+}
+
+.m-in-page-navigation .c-navigation-menu button,
+.m-in-page-navigation .c-navigation-menu>button:after {
+    color: #000;
+}
+
+
+/* ====== */
+/* link highlighting is unreliable when there are external links in the page bar alongside in-page links */
+/* or the links -- including the green CTA -- are not in the same order as modules on the page */
+/* .highlight-disabled overrides that highlighting when conditions aren't perfect */
+/* ====== */
+
+.highlight-disabled nav.c-in-page-navigation>ul li>a.c-hyperlink.f-active {
+    color: #000;
+}
+.highlight-disabled.trans nav.c-in-page-navigation>ul li>a.c-hyperlink.f-active {
+    color: #fff !important;
+}
+
+.m-in-page-navigation a.c-hyperlink:hover, 
+.m-in-page-navigation a:not(.f-image):not(.x-hidden-focus).c-hyperlink:focus,
+.m-in-page-navigation a:not(.f-image).c-hyperlink:hover {
+  text-decoration: underline;
+  color: inherit;
+  font-weight: 600; 
+}

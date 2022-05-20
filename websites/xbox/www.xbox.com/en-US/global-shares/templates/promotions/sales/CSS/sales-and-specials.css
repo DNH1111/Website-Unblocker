@@ -1,0 +1,261 @@
+/* Heroes */
+@media screen and (max-width: 800px) and (min-width: 768px) {
+.mogaHero .m-hero-item.f-x-right>div>div {
+    right: -20px;}
+}
+
+@media screen and (max-width: 1200px) and (min-width: 1084px) {
+.mogaHero .m-hero-item.f-x-right>div>div {
+    max-width: 340px;}
+}
+
+.spXgpHero .m-hero-item .spLogo {
+    width: 12vw;
+}
+
+@media only screen and (min-width: 1400px) {
+.dealsHero .m-hero-item > div > div  {
+    max-width: 600px !important;}
+}
+
+/* Promotional Heroes */
+.cstmHeroTwo .m-hero-item>div>div {
+    max-width: 460px;
+}
+
+@media only screen and (max-width: 1399px) {
+.cstmHeroTwo .m-hero-item > div > div {
+    max-width: 350px;}
+
+.spXgpHero .m-hero-item > div > div, .cstmHeroDU .m-hero-item > div > div {
+    max-width: 420px;}
+}
+
+@media only screen and (max-width: 1084px) {
+.cstmHeroTwo .m-hero-item > div > div {
+    max-width: 300px;}
+
+.spXgpHero .m-hero-item > div > div, .cstmHeroDU .m-hero-item > div > div {
+    max-width: 250px;}
+}
+
+@media only screen and (max-width: 768px) {
+.cstmHero .m-hero-item > div, .cstmHeroDU .m-hero-item > div {
+    height: 200px !important;}
+}
+
+@media screen and (min-width: 768px) {
+.specAlign {
+    text-align: right !important;}
+}
+
+.cstmHero .m-hero-item>div>div>div {
+    margin-top: 12px !important;
+}
+
+.spBanner .m-banner {
+   max-width: 850px !important;
+}
+
+/* Truncated CTAS */
+@media only screen and (max-width: 1480px) {
+a.ctaWrap {
+white-space: normal !important;
+text-align: left !important;}
+}
+
+
+/* BG Colors */
+.specialColor .m-feature.f-align-left.f-image-priority {
+    background-color: #e3e3e3 !important;
+}
+
+/* Boxshot Content */
+.gameDiv a img.c-image.xpa {
+    margin-top: 4px;
+    outline: none;
+}
+.itemHide {
+  display: none !important;
+}
+.gameDivCTA {
+    text-align: center;
+    margin-bottom: 4vw;
+}
+
+.gameDivsWrapper {
+    text-align: center;
+    width: 100%;
+}
+.gameDivsWrapper .gameDiv {
+    text-align: left;
+    display: inline-block;
+    margin: 24px 10px 16px;
+    vertical-align: top;
+    min-width: 124px;
+    max-width: 219px;
+    width: 18% !important;
+}
+.m-heading-4+[class*=m-] {
+    padding-top: 0;
+}
+.containerIMG {
+  position: relative;
+}
+.containerIMG .c-image {
+  width: 100%;
+  max-width: 219px;
+}
+.overlay360 {
+    position: absolute;
+    width: 100%;
+}
+.overlay360 img {
+    width: 100%;
+}
+.playsOn, .xpaGame {
+    position: absolute !important;
+    width: 100% !important;
+    bottom: 0;
+    left: 0;
+}
+.gameDivsWrapper {
+    padding-top: 22px;
+}
+.fivegames .gameDivsWrapper {
+    padding-left: 5%;
+    padding-right: 5%;
+}
+/* .badge-silver {
+    font-weight: 400 !important;
+    padding: 0 6px !important;} */
+
+/* Navigation */
+.c-in-page-navigation ul {
+     width: 100%;
+     text-align: center;
+}
+
+/* Rich Heading's */
+.greenHeading .m-rich-heading.f-image {
+background: #044a16 !important;
+}
+
+.greyHeader .m-rich-heading.f-image {
+     background: #4e4e4e;
+}
+
+.lightGrey .m-rich-heading.f-image {
+    background: #e6e6e6 !important;
+}
+
+@media screen and (max-width: 768px) {
+.greyHeader .m-rich-heading>picture.c-image:before , .lightGrey .m-rich-heading>picture.c-image:before  {
+background: none !important;}
+
+.digitalGamesBlade .m-rich-heading .c-paragraph-3 {
+    display: block !important;}
+}
+
+@media only screen and (min-width: 540px) {
+.greyHeader .m-rich-heading>picture.c-image:after, .lightGrey .m-rich-heading>picture.c-image:after {
+     background: none !important;}
+}
+
+/* Banner */
+.microBanner .c-group {
+   margin-top: 24px;
+}
+
+/* Badge */
+.backCompat .m-content-placement-item .c-badge.f-lowlight {
+   margin: 0 0 4px;
+}
+
+.m-global-promotion img {
+width: 300px !important;
+padding: 5px !important;
+}
+
+@media screen and (max-width: 900px) and (min-width: 768px) {
+.m-global-promotion img {
+    width: 175px !important;}
+}
+
+.m-global-promotion a.c-call-to-action:focus {
+   border: 2px dashed #000 !important;
+}
+
+.m-rich-heading a.c-call-to-action:focus {
+    border: 2px dotted #FFF !important;
+}
+
+/* Spotlight */
+.spotlightFeature .m-feature.f-align-right.f-image-priority {
+    background-color: #d7d7d7 !important;
+}
+
+.strikethrough {
+    text-decoration: line-through;
+}
+
+@media screen only and (max-width: 767px) {
+.blackFridayBanner .m-rich-heading > picture.c-image + div .c-heading {
+   width: 50% !Important; 
+   font-size:20px !Important;} 
+
+.fourUpMosaic .c-mosaic-placement .minecraftHeading {
+   margin:-3% !Important;}
+}
+
+@media screen only and (max-width: 650px) {
+.fourUpMosaic .c-mosaic-placement  .minecraftHeading{
+   margin: 0 !Important; 
+   padding: 0 !Important;}
+}
+
+@media screen only and (max-width: 540px) {
+.blackFridayBanner .m-rich-heading > picture.c-image + div .c-heading{
+     color: white !Important;  
+     width: 80% !important;}
+
+.blackFridayBanner div a {
+     color: #5dc21e !important;}
+
+.twoUp .c-mosaic-placement.f-height-large.f-width-large .c-heading {
+    padding: 0 12.5% 0 !important;}
+}
+
+/* Mosaic 
+@media only screen and (max-width: 630px) {
+.c-mosaic-placement > div {
+padding-bottom: 40px !important;}
+}
+
+@media only screen and (min-width: 1084px) {
+.twoUp .c-mosaic-placement .c-heading {
+    font-size: 34px;
+    line-height: 40px;}
+
+.twoUp .c-mosaic-placement .c-heading {
+    padding: 0 12% !important;}
+}
+
+@media only screen and (max-width: 1084px) {
+.twoUp .c-mosaic-placement.f-height-large.f-width-large .c-heading {
+    padding: 0 12.5% 19px !important;}
+}
+*/
+
+
+@media only screen and (max-width: 1084px) and (min-width:768px){
+.RedeemBanner .m-global-promotion.f-image > div > div .c-heading {
+    padding-right: 50px;
+  }
+}
+
+@media screen and (max-width:1200px) and (min-width:1084px){
+.digitalGamesBlade .custRichHeading {
+  font-size:30px !important;
+ }
+}

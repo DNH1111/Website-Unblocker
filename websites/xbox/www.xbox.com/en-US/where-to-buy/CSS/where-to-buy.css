@@ -1,0 +1,93 @@
+/* Pivot */
+@media screen and (min-width: 1921px) {
+.SB-hero-banner {
+    max-width: 1920px;
+    margin: 0 auto;}
+}
+
+.shortHero.retailerLogos .c-pivot li {
+   font-size: 24px;
+}
+
+@media screen and (max-width: 768px) {
+.shortHero.retailerLogos .c-pivot li {
+   font-size: 18px;}
+}
+
+.shortHero.retailerLogos .c-pivot>[role="tablist"] {
+    margin-bottom: 48px;
+    display: block !important;
+    text-align: center;
+}
+
+.retailerLogos .gameDivsWrapper img {
+   border: 2px solid #ccc;
+}
+
+.retailerLogos .gameDivsWrapper .gameDivCTA {
+      text-align: center;
+}
+
+.retailerLogos .gameDivsWrapper {
+    text-align: center;
+    width: 100%;
+}
+.retailerLogos .gameDivsWrapper .gameDiv {
+    text-align: left;
+    display: inline-block;
+    margin: 24px 10px 16px;
+    vertical-align: top;
+    min-width: 124px;
+    max-width: 215px;
+    width: 250px !important;
+}
+
+@media screen and (max-width: 750px) {
+.retailerLogos .gameDivsWrapper .gameDiv {
+    width: 150px !important;}
+}
+
+@media screen and (max-width: 900px) {
+.cstmWidth.retailerLogos .gameDivsWrapper .gameDiv {
+    width: 47% !important;}
+}
+
+.retailerLogos .m-heading-4+[class*=m-] {
+    padding-top: 0;
+}
+.retailerLogos .containerIMG {
+  position: relative;
+}
+.retailerLogos .containerIMG .c-image {
+  width: 100%;
+  max-width: 219px;
+}
+.retailerLogos img.c-image, picture.c-image img {
+   width: 100%;
+}
+.retailerLogos .svg-logos img {
+   height:117px;
+}
+
+@media screen and (max-width: 748px) {
+.retailerLogos .svg-logos img {
+   height: 69px !important;}
+}
+ 
+.retailerLogos.logoCustom img {width: 215px!important;}
+
+.noCTA .m-product-placement-item.f-size-medium picture {
+   width: 100% !important;
+}
+
+/* Heroes */
+@media only screen and (max-width: 767px) {
+.shortHero .c-hero > div, .m-hero-item > div { 
+    height: 120px !important;}
+}
+
+/* VFI */
+.c-pivot>[role="tablist"]>[role="tab"]:focus {
+border: 2px dotted #FFF !important;
+outline: 2px dotted #000 !important;
+}

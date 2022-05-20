@@ -1,0 +1,315 @@
+.topimage img {
+    max-width: 152px !important;
+    margin: 0 auto !important;
+}
+.topbanner .m-banner {
+  padding-top : 0;
+}
+@media (max-width: 349px) {
+  h1.c-heading-1 {
+    font-size: 40px;
+    line-height: 46px;
+  }
+}
+
+@media (min-width: 768px){
+  .darkgreyback span {
+      position: absolute;
+      top: 0;
+      bottom: 0;
+      margin: auto;
+      display: block;
+      height: 50%;
+      height: fit-content;
+      padding-right: 16px;
+  }
+  .featuretalltexty .darkgreyback span {
+      height: 98%;
+      height: fit-content;
+      padding-right: 8px;
+  }
+  .featuretalltexty .darkgreyback span img {
+      margin-bottom: 6px;
+  }
+}
+
+@media screen and (max-width: 1250px) and (min-width: 1200px) {
+.smartdel.featuretall .darkgreyback {
+    height: 73.6% !important;}
+}
+
+@media (min-width: 1084px){
+  .featuretall {
+      max-width: 100%;
+      overflow: hidden;
+  }
+  .featuretall .darkgreyback {
+    background: #232323;
+    width: 45% !important;
+    height: 66.6%;
+  }
+  .featuretall .f-align-left .darkgreyback {
+      left: -9.94%;
+  }
+  .darkgreyback span {
+      position: absolute;
+      top: 0;
+      bottom: 0;
+      margin: auto;
+      display: block;
+      width: 66.7%;
+      height: 35%;
+      height: fit-content;
+  }
+  .featuretalltexty .darkgreyback span {
+      height: 76%;
+      height: fit-content;
+  }
+  .featuretalltexty .darkgreyback span img {
+      margin-bottom: 18px;
+  }
+  .f-align-left .darkgreyback span {
+      right: 2vw;
+  }
+  .featuretall .darkgreyback h2.c-heading {
+    margin-top: 0;
+  }
+}
+@media (max-width: 1200px) and (min-width: 1084px) {
+  .featuretall .darkgreyback {
+      height: 100%;
+  }
+}
+
+@media (max-width: 1600px) and (min-width: 1201px) {
+  .featuretalltexty .darkgreyback span {
+      height: 94%;
+      height: fit-content;
+  }
+}
+img.featlogo {
+    width: 52px;
+    margin-bottom: 16px;
+}
+@media (max-width: 767px) {
+  img.featlogo {
+    margin: 40px auto -12px;
+  }
+}
+
+@media screen and (max-width: 1350px) {
+#smartdelivery .featlogo {
+   display: none;}
+}
+
+@media (min-width: 768px) and (max-width: 1083px) {
+  .featuretall .darkgreyback {
+    background: #232323;
+    width: 50% !important;
+    height: 100%;
+  }
+  .featuretall .f-align-left .darkgreyback {
+    left: 0;
+  }
+  .featuretall .darkgreyback h2.c-heading {
+    margin-top: 0;
+  }
+  .featuretall .f-align-left .darkgreyback span {
+    padding-right: 8px;
+  }
+  .featuretalltexty .darkgreyback span p {
+      padding-top: 0;
+  }
+}
+.badgeheading .m-banner .c-image {
+  display: inline-block;
+    max-width: 238px;
+    max-height: 105px;
+    margin: 32px 24px 10px;
+}
+.badgeheading .m-banner .c-image.smartIcon { 
+    max-width: 114px;
+}
+
+.featuredbold {
+    font-weight: 700 !important;
+}
+.mod-feature .m-multi-feature section [role='tablist'] li>a.f-active {
+    outline: 2px solid #9bf00b !important;
+    /*border: 1px solid transparent!important;*/
+    border: none !important;
+    opacity: 1;
+}
+
+/* table style */
+.c-table a.lime-green-c:focus {
+    border: 2px dotted #9bf00b;
+    outline: 2px dotted #FFF;
+}
+
+#thetable {
+  max-width: 1600px;
+  top: -72px;
+  position: relative;
+}
+.c-table thead {
+    border-bottom: 2px solid rgba(250,250,250,.55) !important;
+}
+.c-table.f-divided tbody tr {
+    border-bottom: 1px solid lightgrey !important;
+}
+.c-table thead th, .c-table thead th button {
+    color: rgba(250,250,250,.9) !important;
+}
+
+@media screen and (max-width: 450px) {
+.c-table th .c-subheading-2 {
+   padding: 0 10px;}
+}
+
+/* September changes done */
+@media (max-width: 768px) {
+  td, th {
+    border-left: 1px solid lightgrey;
+    border-right: 1px solid lightgrey;
+    border-top: 1px solid lightgrey;
+  }
+  .m-banner.pad96 {
+    padding-top: 48px !important;
+  }
+}
+@media (max-width: 480px) {
+  .c-table th, td {
+    padding: 8px 1px !important;
+  }
+  td {
+    font-size:12px;
+  }  
+  td img {
+    width: 20px;
+  }
+}
+@media (min-width: 601px) {
+  th button {
+    font-size: 18px !important;
+  }
+}
+.tableheader {
+  text-align: center;
+}
+@media (min-width: 769px) {
+  tr td:nth-child(1), tr td:nth-child(2) {
+    width: 24%;
+  }
+  td {
+    width: 13%;
+  }
+}
+td a:hover {
+    text-decoration: underline;
+}
+table img {
+    max-height: 58px;
+}
+table img[src*="svg"] {
+    max-height: 42px;
+}
+table tr td a {
+  color: #5dc21e !important;
+}
+#tabletitle {
+    margin-top: 6vw;
+}
+table a:focus {
+    text-decoration: underline !important;
+}
+.c-glyph.onlyglyph {
+    font-size: 38px;
+    font-family: "MWF-MDL2";
+}
+@media (max-width: 960px) {
+  #thetable .c-table {
+      margin-top: 8px;
+      max-width: 96vw !important;
+      overflow-x: scroll;
+  }
+}
+@media (min-width: 1231px) {
+  .c-table td {
+    min-width: 128px;
+  }
+}
+/* end table style */
+.faqsection .c-drawer.f-divider button {
+    background: #333;
+    color: white;
+}
+.faqsection p.c-paragraph-3 {
+    color: white;
+}
+.faqsection hr.c-divider {
+    border-top: 1px solid rgba(255,255,255,.6);
+}
+.faqsection .f-divider {
+    border-bottom: 1px solid rgba(255,255,255,.6);
+}
+.faqsection .c-drawer {
+    background: transparent;
+}
+@media only screen and (min-width: 1921px) {
+  .legal {
+      max-width: none !important;
+  }
+  .legal div {
+      max-width: 1920px;
+      margin: 0 auto;
+  }
+}
+/* qa */
+@media (max-width: 1084px) {
+  .mod-feature .c-paragraph.fontsize15 {
+    padding-left: 16px !important;
+    padding-right: 16px !important;
+  }
+}
+@media (min-width: 1921px) {
+  .mod-feature .m-multi-feature section {
+      max-width: 1920px;
+      margin: 0 auto;
+  }
+}
+#watchvideocta span {
+    width: auto;
+}
+@media (min-width:1201px) and (max-width:1280px) {
+  .smartdel img.featlogo {
+    display: none;
+  }
+}
+@media (min-width:769px) and (max-width:840px) {
+  .smartdel img.featlogo {
+    display: none;
+  }
+}
+
+
+@media screen and (max-width:375px){
+.m-banner .c-group a{font-size:12px !important;}
+.m-banner .c-group button{font-size:12px !important;}
+}
+@media screen and (min-width: 768px) and (max-width:840px){
+  .smartdel p.c-paragraph {
+    font-size: 13px !important;
+    line-height: 18px !important;
+  }
+}
+
+/** High Contrast VFI **/
+
+.theme-black .m-multi-feature:not(.f-console) [role="tabpanel"] .c-call-to-action:focus, .theme-dark .m-multi-feature:not(.f-console) [role="tabpanel"] .c-call-to-action:focus {
+    outline: 4px dashed !important;
+}
+
+.mod-feature .c-pivot:not(.f-disabled)>ul>li.f-active:focus {
+    border: 2px dashed #000 !important;
+}

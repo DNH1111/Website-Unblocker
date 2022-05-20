@@ -1,0 +1,44 @@
+@media only screen and (min-width:769px) {
+.gfe-svg-mobile {
+width: 35% !important;
+}
+}
+
+
+@media only screen and (max-width:768px) {
+.gfe-svg-desktop {
+width: 45% !important;
+}
+}
+
+
+
+
+
+.m-content-placement-item, .c-content-placement{margin-top:0 !Important;}
+
+
+@media only screen and (max-width:1399px and min-width:768px){
+.gameStackBlade .m-hero-item > div > div{max-width:340px !important;}
+}
+
+@media screen and (min-width:768px) and (max-width:1083px){
+.gameStackBlade .c-paragraph{max-height:100px !important;}
+}
+
+
+
+@media screen and (min-width:1084px){
+.customBanner {
+ max-width: calc(1600px + 10% !important;
+ margin: 0 auto !important;
+ padding-left:5% !important;
+ padding-right:5% !important;
+}
+
+}
+
+
+
+
+

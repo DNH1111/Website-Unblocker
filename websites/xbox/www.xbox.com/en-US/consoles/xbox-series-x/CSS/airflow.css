@@ -1,0 +1,160 @@
+.airflow-tech,
+.specs,
+.all-inclusive {
+    background-color: #fff;
+}
+
+.airflow {
+    position: relative;
+}
+
+.airflow-background {
+    position: absolute;
+    top: 0;
+    left: 0;
+    height: 0;
+    width: 100%;
+    /*padding-bottom: 69.427%;*/
+}
+
+.airflow-background .m-ambient-video {
+    padding-top: 0;
+}
+
+.airflow-background .m-ambient-video div {
+    position: absolute;
+    top: 0;
+}
+
+.airflow-background .m-ambient-video div button {
+    top: 72px;
+    z-index: 10;
+}
+
+.airflow-background .m-ambient-video::before {
+    content: '';
+    position: absolute;
+    top: 0;
+    left: 0;
+    height: 0;
+    width: 100%;
+    padding-bottom: 26.82%;
+    background: linear-gradient(180deg, rgba(0, 0, 0, 1) 0%, rgba(0, 0, 0, 0) 100%);
+}
+
+.airflow-content {
+    position: relative;
+    height: 0;
+    top: 130px; /* move down to expose play/pause button */
+    padding-bottom: 76%;
+z-index: 5;
+}
+
+.airflow-content div[data-grid~="container"] {
+    position: absolute;
+    left: auto;
+    right: auto;
+    top: 0;
+    width: 100%;
+    height: 100%;
+    right: 50%;
+    transform: translateX(50%);
+}
+
+.airflow-copy {
+    position: absolute;
+    top: calc(25% - 130px);/* to account for exposing the play/pause button */
+    right: 7%;
+    max-width: 420px;
+    width: 25%;
+}
+
+.airflow-copy {
+    color: #fff;
+}
+
+.airflow-copy [class^="c-heading-"] span {
+    color: #9bf00b;
+}
+
+.airflow-copy p {
+    width: 100%;
+    max-width: 260px;
+}
+
+@media screen and (max-width: 1083px) {
+    .airflow-background::after {
+        padding-bottom: 40%;
+    }
+    .airflow-content {
+        padding-bottom: 120%;
+    }
+    .airflow-copy {
+        position: absolute;
+        top: 18%;
+        right: 10%;
+        max-width: 320px;
+        width: 36%;
+    }
+}
+
+@media screen and (max-width: 767px) {
+    .airflow-background,
+    .airflow-content,
+    .airflow-content div[data-grid~="container"],
+    .airflow-copy {
+        position: relative;
+        height: auto;
+        top: auto;
+        left: auto;
+        right: auto;
+        bottom: auto;
+        padding-bottom: 0;
+    }
+    .airflow-background::after {
+        padding-bottom: 62.63%;
+    }
+    .airflow-content div[data-grid~="container"] {
+        transform: none;
+        padding-left: 5%;
+        padding-right: 5%;
+    }
+    .airflow-copy {
+        color: #000;
+    }
+    .airflow-copy [class^="c-heading-"] span {
+        color: #107c10;
+    }
+
+    .airflow-copy {
+        width: 65%;
+        position: relative;
+        display: block;
+        min-width: 310px;
+    }
+    .airflow-copy p {
+        width: 100%;
+        max-width: 100%;
+    }
+
+    .slide-mosaic.tech {
+        padding-top: 96px;
+    }
+
+    .airflow-tech .c-heading-1a {
+        font-size: 52px !important;
+        line-height: 1em !important;
+    }
+}
+@media screen and (max-width: 539px) {
+    .airflow-copy {
+        width: 100%;
+        min-width: 0;
+    }
+}
+@media screen and (min-width: 768px) and (max-width: 1600px) {
+.airflow-tech .c-heading-1a {
+    font-size: 62px !important;
+    line-height: 1em !important;
+}
+}

@@ -1,0 +1,114 @@
+.apps-hero .m-hero-item.f-y-top>div>div {
+  top: 0px !important;
+  overflow:visible !important;
+}
+
+.apps-hero .m-hero-item > div{overflow:visible !important;}
+
+.apps-hero .customStyle .m-hero-item.f-y-top>div>div {
+  top: 10px !important;
+}
+
+@media screen and (max-width:375px){
+.apps-hero .m-hero-item{padding-top:75px !important;}
+}
+
+@media screen and (max-width:320px){
+.apps-hero .m-hero-item{padding-top:150px !important;}
+}
+
+
+
+
+.customLogoSize{min-height:40px !important;}
+.containerLogoHeight{height:60px !Important;}
+.customPadTop{padding-top:43px !important;}
+
+.customMultiFeature .c-flipper.f-next {
+ margin-right: 20px;
+}
+
+@media screen and (max-width: 1400px) and (min-width: 768px) {
+.apps-hero .m-hero-item .c-subheading-1 {
+  font-size: 24px;
+  line-height: 28px;}
+}
+
+@media screen and (max-width: 767px) {
+.apps-template .m-multi-feature .c-pivot>.c-flipper {
+  display:none !Important;}
+
+.c-carousel.f-multi-slide .c-flipper {
+  opacity:1 !important;}
+}
+
+.apps-hero .c-group {
+ margin-top: 0 !important;
+ padding-top: 0;
+}
+
+.light-gray .c-call-to-action {
+  color: #054b16 !important;
+}
+
+.SB-hero-banner .m-banner .c-image {
+  margin: 0 auto 0 !Important;
+}
+
+.SB-hero-banner {
+ padding-top: 0 !important;
+}
+
+.m-content-placement .c-paragraph {
+  line-height: 1.35;
+}
+
+.googleIcon, .appleIcon {
+  height: 40px !important;
+}
+
+
+.apps-hero .appleSection:focus { background-color:transparent !important; }
+.devices .logoPlacement a{padding-top:0 !Important; }
+.devices .m-content-placement-item>picture {
+  padding-bottom: 35%;
+}
+
+
+.devices {
+  text-align: center;
+}
+
+@media only screen and (min-width: 1084px) {
+.m-multi-feature .c-pivot #newRTBItemContent4{
+  top: -200px !important;
+}
+}
+
+@media only screen and (max-width:1083px) and (min-width: 768px) {
+.m-multi-feature .c-pivot #newRTBItemContent4{
+  top: -260px !important;
+}
+}
+
+@media screen and (max-width:660px) {
+.apps-template .m-multi-feature .c-pivot li { font-size:15px !important;}
+.m-multi-feature.f-align-right>section>div [role="tablist"] { margin-left:5% !important;}
+}
+
+
+@media screen and (max-width:550px) {
+.apps-template .m-multi-feature .c-pivot li { font-size:20px !important;}
+.m-multi-feature.f-align-right>section>div [role="tablist"] { display:block !important; width:50% !important; margin-left:30% !important;}
+.customSlide1{margin-left:6% !important;}
+}
+
+@media screen and (max-width:415px) {
+.m-multi-feature.f-align-right>section>div [role="tablist"] { margin-left:22% !important; width:70% !important;}
+}
+
+
+.googleSvg{width:150px !important;}
+.padAlignTop{padding-top:26px !important;}
+
+

@@ -1,0 +1,276 @@
+.xgp {
+    position: relative;
+    overflow: hidden;
+    padding: 128px 0;
+}
+
+.xgp.theme-dark {
+    background-color: #000;
+}
+
+.xgp-background-1,
+.xgp-background-2 {
+    position: absolute;
+    bottom: 0;
+    height: 100%;
+    width: 100%;
+    overflow: hidden;
+}
+
+.xgp-background-3 {
+    position: absolute;
+    top: 0;
+    height: 200px;
+    width: 100%;
+    background: linear-gradient(180deg, rgba(0, 0, 0, 1) 0%, rgba(0, 0, 0, 0) 100%);
+}
+
+@media screen and (min-width: 1084px) {
+    .xgp-background-1 {
+        bottom: -150px;
+        /* xlax adjust */
+        transition: transform 50ms ease;
+    }
+}
+
+.xgp-background-1 img,
+.xgp-background-2 img {
+    position: absolute;
+    max-width: none;
+    /*height: 100%;*/
+    bottom: 0;
+    left: 50%;
+    transform: translateX(-50%);
+}
+
+@media screen and (max-width: 767px) {
+    .xgp-background-1 {
+        display: none;
+    }
+}
+
+@media screen and (max-width: 1083px) {
+    .xgp {
+        padding-bottom: 62%;
+    }
+    .xgp-background-1 img,
+    .xgp-background-2 img {
+        max-width: 100%;
+        left: 0;
+        transform: none;
+    }
+}
+
+@media screen and (max-width: 767px) {
+    .xgp {
+        padding-bottom: 135%;
+    }
+}
+
+.game-pass::after {
+    content: "";
+    clear: both;
+    display: table;
+}
+
+.game-pass>.left {
+    position: relative;
+    float: left;
+    clear: left;
+    width: 30.351%;
+}
+
+@media screen and (min-width: 1084px) {
+    .game-pass>.left {
+        padding-right: 5%;
+        top: 200px;
+        /* xlax */
+    }
+}
+
+.game-pass .mosaic {
+    position: relative;
+    box-sizing: border-box;
+    float: right;
+    width: 69.649%;
+}
+
+.game-pass .mosaic .left::after {
+    content: "";
+    clear: both;
+    display: table;
+}
+
+.game-pass .mosaic>.right picture:nth-child(even) {
+    margin-right: 2.4%
+}
+
+.game-pass .mosaic picture {
+    outline-offset: -2px;
+}
+
+.game-pass .mosaic img {
+    max-width: 100%;
+}
+
+.game-pass .mosaic>.left {
+    width: 41.895%;
+    float: left;
+    margin-right: 1.68%;
+}
+
+.game-pass .mosaic>.right {
+    outline-offset: -2px;
+    float: left;
+    width: 56.422%;
+    position: relative;
+    top: 188px;
+    /*transform: translateY(29.33%)*/
+}
+
+.game-pass .mosaic {
+    margin-bottom: 29.33%;
+}
+
+.game-pass .mosaic>.right picture {
+    float: left;
+}
+
+.game-pass .mosaic>.right picture:first-child {
+    width: 100%;
+}
+
+.game-pass .mosaic>.right picture:not(:first-child) {
+    width: 48.5%;
+}
+
+.game-pass .mosaic>.right picture:nth-child(even) {
+    margin-right: 2.986%;
+}
+
+.game-pass .mosaic>.right picture:first-child {
+    margin-bottom: 2.986%;
+}
+
+@media screen and (max-width: 1083px) {
+    .game-pass>.left,
+    .game-pass>.mosaic {
+        float: none;
+        width: 40%;
+    }
+    .game-pass>.mosaic {
+        max-width: 950px;
+        margin-bottom: 0;
+        float: none;
+        width: 100%;
+    }
+    .game-pass .mosaic>.left {
+        padding-top: 12px;
+        padding-bottom: 12px;
+    }
+}
+
+@media screen and (max-width: 767px) {
+    .game-pass {
+        /*max-width: 398px;*/
+        margin-left: auto;
+        margin-right: auto;
+    }
+    .game-pass>.mosaic>.left,
+    .game-pass>.mosaic>.right {
+        width: 100%;
+        float: none;
+        transform: none;
+        top: 0;
+    }
+    .game-pass>.left {
+        width: 95%;
+    }
+    .game-pass .mosaic>.left img {
+        margin-bottom: 2.986%;
+    }
+}
+
+.c-heading-1.SegoeProBlack,
+.c-heading-2.SegoeProBlack,
+.c-heading-3.SegoeProBlack {
+    line-height: 1em;
+}
+
+
+.back-compat .m-hero-item::before {
+    padding-bottom: 212.37% !important;
+
+}
+
+.back-compat .m-hero-item::after {
+    position: absolute;
+    content: '';
+    display: block;
+    height: 100%;
+    top: 0;
+    left: 0;
+    right: 0;
+    background: linear-gradient(180deg, rgba(0,0,0,.8) 0%, rgba(0,0,0,.7) 50%, rgba(0,0,0,.8) 85%,  rgba(0,0,0,1) 100%);
+}
+
+
+
+@media screen and (min-width: 768px) {
+    .back-compat .m-hero-item::before {
+        padding-bottom: 160% !important
+    }
+    .back-compat .m-hero-item>div>div {
+        top: calc(60%) !important;
+        max-width: 1600px;
+        width: 100%;
+    }
+}
+
+@media screen and (min-width: 1084px) {
+    .back-compat .m-hero-item::before {
+        padding-bottom: 72.34% !important
+    }
+}
+@media screen and (max-width: 767px) {
+    .back-compat .m-hero-item>div {
+        position: absolute;
+        height: auto;
+        width: 95%;
+    }
+
+    .back-compat .m-hero-item>div>div {
+        top: calc(50%) !important;
+    }
+}
+
+.back-compat .m-hero-item p {
+    max-width: 1088px;
+    width: 90%;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+
+@media screen and (max-width: 767px) {
+    .videoBgShort .m-hero-item.f-transparent:before {
+        padding-bottom: 152vw !important;
+    }
+
+    .videoBgShort .m-hero-item>div:first-of-type>div {
+        position: absolute;
+        bottom: 0;
+        top: auto;
+        transform: none;
+        max-width: 100%;
+    }
+
+    .videoBgShort button.vidPlayPause {
+        bottom: 30px;
+    }
+
+}
+.xgp .game-pass .left h2 {
+    padding-top: 20px;
+}
+

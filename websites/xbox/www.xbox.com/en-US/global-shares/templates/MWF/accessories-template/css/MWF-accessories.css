@@ -1,0 +1,275 @@
+@media screen and (max-width: 540px) {
+.retailerBlade .pipe { display: none !important;}
+}
+@media screen and (min-width: 768px) {
+.priceCTA h3, .priceCTA p, .priceCTA a:not(.hiddenImp, .c-hyperlink) {display: inline-table !important; margin: 0 20px;}
+}
+.retailerBlade .f-heavyweight {margin-top: 12px;}
+.retailerBlade .m-banner {padding-top: 24px !important;}
+.m-banner.purchRow2 {padding-top: 0px !important;}
+.m-banner.priceCTA {padding-top: 0px;}
+.retailerLB {cursor: pointer;}
+.LogoContainer {text-align: center; padding-top: 20px 0 24px;}
+.LogoContainer div {display: inline-block;}
+.LogoContainer div img {margin: 0 10px;}
+.priceCTA {text-align: center;}
+.priceCTA hr {margin: 24px 0 !important;}
+.priceCTA h3, .priceCTA p {padding-top: 24px;}
+.strikethrough{text-decoration:line-through;}
+.accInfo .buyText.elite-purchase{color: white;}
+.accInfo .c-subheading-3 {font-weight: 400 !important;}
+.cloudLogo {width: 250px; height: 45px;}
+
+.theme-green a.c-call-to-action, .theme-green .theme-green a.c-call-to-action, a:not(.x-hidden-focus).c-call-to-action:focus, a.c-call-to-action:hover {background: #fff; color: #107c10;}
+
+.price-msrp a.c-hyperlink, .featuresBlade a.c-hyperlink, .special3UP a.c-hyperlink , .switchHero a.c-hyperlink {
+   font-weight: 700;
+}
+
+.duplicateBuy .price-msrp a.c-hyperlink {
+   color: #000;
+}
+
+.addToCartBtn:hover {
+    text-decoration: underline;
+}
+
+.m-banner .c-caption-1 {
+   font-size: 21px !important;
+}
+
+.greenBar p {padding-bottom: 0 !important;}
+
+.featuresBlade caption {display: none;}
+
+/* Hero cta hiding */
+.m-banner .hiddenImp {
+    display: none !important;
+}
+
+/* dialogue lightbox */
+.c-dialog [role=dialog] h2 {
+padding: 24px 0 !important;
+}
+.c-dialog [role=dialog] .c-group .c-button {
+width: auto !important;
+}
+
+
+/* Media Gallery -old- */
+.m-media-gallery .c-carousel picture:after {
+    background: rgba(0,0,0,0) !important;
+}
+
+/* Media Gallery -new- */
+.m-product-placement-item>a .c-image, .m-product-placement-item>a>picture img {
+    outline: none !important;
+}
+
+.m-product-placement-item.f-size-large.context-video a img:hover {
+    opacity: .7 !important;
+}
+
+.m-product-placement-item a:focus {
+    outline: #0F760F dashed 2px !important;
+}
+
+.accessoriesMedia .c-flipper, .accessoriesMedia .c-flipper:focus {
+   color: #FFF !important;
+   background-color: #000 !important;
+}
+
+/* Page Bar Tweaks */
+.m-in-page-navigation .CTAdiv .hiddenImp {
+   display: none;
+}
+
+.m-in-page-navigation:not(.trans) {
+    margin-bottom: 60px;
+}
+
+/* 3P accessories Template */
+.featuresBlade.thirdP .m-system-requirements .c-table th {
+    width: 150px;
+}
+
+.accessoriesMedia section.m-hero-item .theme-dark {
+    background-color: #FFF;
+}
+
+.accessoriesMedia .ottoinlinemedia .m-hero-item {
+    background-color: #FFF;
+}
+
+.accessoriesMedia .m-product-placement-item > a.inlinefsActive:focus, .m-product-placement-item > a.inlinefsActive {
+    outline: 1px solid #107c10 !important;
+}
+
+.gotoRetailer:focus {
+    outline: 2px dotted #000 !important;
+}
+
+.addToCartBtn:focus {
+    outline: 2px dotted #000 !important;
+    border: 2px dotted #FFF !important;
+}
+
+/* Custom Design Hero */
+@media screen and (min-width: 768px) {
+.designHero section {
+   height: 58vw;}
+}
+
+@media screen and (min-width: 1084px) {
+.designHero section {
+   height: 66vw;}
+}
+
+@media screen and (min-width: 1921px) {
+img.c-image, picture.c-image img {
+    margin: 0 auto;
+    max-width: 1920px;}
+
+.designHero section {
+    height: 1304px;}
+
+.special3UP .m-banner {
+    margin-top: 150px !important;}
+}
+
+/* Custom 3 Up */
+.special3UP p .c-hyperlink {
+   padding-top: 0;
+}
+
+.special3UP.m-content-placement-item .c-heading {
+   font-weight: 700;
+}
+
+.special3UP .m-content-placement-item>picture {
+    padding-bottom: 115%;
+}
+
+.special3UP .m-content-placement-item > div {
+    text-align: center;
+}
+
+.special3UP .greyDiv {
+    padding-bottom: 130px;
+    height: 28vw;
+    background-color: #e6e6e6;
+    position: relative;
+    z-index: 2;
+}
+
+@media screen and (min-width: 768px) {
+.special3UP .m-content-placement {
+    transform: translateY(-26.6vw);
+    -ms-transform: translateY(-26.6vw);
+    width: 100%;
+    z-index: 2;
+    position: relative;
+    margin-bottom: -23vw;}
+
+.special3UP .m-banner {
+    padding-bottom: 48px;}
+
+.special3UP [data-grid~="pad-6x"]>[data-grid] {
+    padding-left: 6px;
+    padding-right: 6px;}
+}
+
+
+@media screen and (min-width: 1921px) {
+.special3UP .m-content-placement {
+  transform: translateY(-18.6vw);
+  -ms-transform: translateY(-18.6vw);}
+
+.special3UP {
+   margin-bottom: 100px;}
+
+.special3UP .greyDiv {
+  height: 20vw;}
+}
+
+
+
+@media screen and (max-width: 767px) {
+.special3UP .m-content-placement {
+padding-bottom: 48px;}
+
+.special3UP .greyDiv {
+    display: none;}
+}
+
+/* XGP Hero 3P */
+.xgpHero .spLogo {
+    width: 250px;
+    height: 45px;
+}
+
+/* Custom Tall Feature */
+@media screen and (min-width: 768px) {
+.darkgreyback span:not(.videoText) {
+  position: absolute;
+  top: 50%;
+  -ms-transform: translateY(-50%);
+  transform: translateY(-50%);
+  margin: auto;
+  display: block;
+  padding-right: 16px;
+}
+}
+
+@media screen and (min-width: 1084px) {
+.featuretall {
+  max-width: 100%;
+  overflow: hidden;}
+
+.featuretall .darkgreyback {
+  background: #2f2f2f;
+  color: #FFF;
+  width: 35% !important;
+  height: 66.6%;}
+
+.featuretall .f-align-left .darkgreyback {
+  left: -9.94%;}
+
+.darkgreyback span:not(.videoText) {
+  width: 85%;
+}
+
+.f-align-left .darkgreyback span:not(.videoText) {
+  right: 2vw;}
+
+.featuretall .darkgreyback h2.c-heading {
+  margin-top: 0;}
+}
+
+@media (max-width: 1200px) and (min-width: 1084px) {
+.featuretall .darkgreyback {
+      height: 100%;}
+}
+
+@media (min-width: 768px) and (max-width: 1083px) {
+.featuretall .darkgreyback {
+  background: #2f2f2f;
+  color: #FFF;
+  width: 50% !important;
+  height: 100%;}
+
+.featuretall .f-align-left .darkgreyback {
+  left: 0;}
+
+.featuretall .darkgreyback h2.c-heading {
+  margin-top: 0;}
+
+.featuretall .f-align-left .darkgreyback span:not(.videoText) {
+  padding-right: 8px;}
+}
+
+@media screen and (max-width: 767px) {
+.featuretall .m-feature {
+  background: #2f2f2f;
+  color: #FFF;}
+}

@@ -1,0 +1,41 @@
+/* Hero */
+@media only screen and (max-width: 767px) {
+.bcHero .c-hero > div {
+height: 0 !important;
+padding: 0 !important;}
+}
+
+@media only screen and (max-width: 767px) {
+.x1e .m-hero-item > div {
+    height: 250px !important;}
+} 
+
+.x1e .m-hero-item .c-heading {
+ max-height: 160px !important;
+}
+
+#slide-2 .c-call-to-action {
+  margin-top: 10px;
+}
+
+.x1eLogo img {
+    height: 58px !important;
+} 
+
+/* End of Hero */
+
+.pregameright .dropdownItems button{margin-left: 5px;}
+
+@media only screen and (max-width: 767px){
+.XGP-hero .m-hero-item>div picture { display: block; }
+}
+
+
+/* VFI */
+.m-product-placement-item a:focus {
+   outline: 2px dashed #000 !important;
+}
+.pregameright .dropdownItems button:focus {
+    border: 2px dashed #000;
+    outline: 2px dashed #fff;
+}

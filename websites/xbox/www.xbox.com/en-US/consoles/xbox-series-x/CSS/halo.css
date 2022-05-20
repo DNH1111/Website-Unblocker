@@ -1,0 +1,316 @@
+.halo {
+    position: relative;
+}
+
+.halo-backgrounds {
+    position: relative;
+}
+
+@media screen and (min-width: 768px) {
+    .halo-backgrounds {
+        position: relative;
+        position: sticky;
+        top: -20%;
+        transform: scale(.5);
+        transform-origin: center 25%;
+        height: 0;
+        transition: all 1800ms ease;
+        padding-bottom: 80%;
+    }
+}
+
+@media screen and (min-width: 1084px) {
+    .halo-backgrounds {
+        top: -20%;
+        transform: scale(.5);
+        transform-origin: center 25%;
+        height: 0;
+        /*padding-bottom: 65.1%; normal aspect ratio, adjusted for layout here: */
+        padding-bottom: calc(40% + 156px);
+        transition: all 1800ms ease;
+    }
+}
+
+
+/*
+.halo-backgrounds.fade {
+    opacity: 0;
+}
+*/
+
+.halo-backgrounds .intobsMarker {
+    transform: translateX(50%);
+}
+
+.halo-background-1,
+.halo-background-2 {
+    position: relative;
+    width: 100%;
+}
+
+@media screen and (min-width: 768px) {
+    .halo-background-1,
+    .halo-background-2 {
+        position: absolute;
+        width: 100%;
+        top: 0;
+        left: 0;
+    }
+}
+
+.halo-background-1::after {
+    content: '';
+    position: absolute;
+    top: 0;
+    left: 0;
+    height: 100%;
+    width: 100%;
+    background: linear-gradient(180deg, rgba(0, 0, 0, 1) 0%, rgba(0, 0, 0, .6) 15%, rgba(0, 0, 0, 0) 50%, rgba(0, 0, 0, .6) 85%, rgba(0, 0, 0, 1) 100%);
+}
+
+@media screen and (min-width: 768px) {
+    .halo-background-1::after {
+        opacity: 0;
+    }
+}
+
+
+/*
+.halo-background-1::before {
+    top: 0;
+}
+.halo-background-1::after {
+    bottom: 0;
+}*/
+
+.halo-background-1 img,
+.halo-background-2 img {
+    max-width: 100%;
+}
+
+
+/*
+.halo-background-1 {
+    opacity: 0;
+}*/
+
+.halo-container {
+    width: 100%;
+    height: 100%;
+    position: absolute;
+    top: 0;
+    right: 50%;
+    transform: translateX(50%);
+}
+
+.halo-three-panel {
+    position: relative;
+    background: linear-gradient(180deg, rgba(0, 0, 0, 0) 0%, rgba(0, 0, 0, 0) 25%, /*rgba(0,0,0,1) 40%,*/
+    rgba(0, 0, 0, 1) 100%);
+    width: 100%;
+    padding-bottom: 0%;
+}
+
+.halo-three-panel .three-panel .right {
+    width: 29.22%;
+    top: 50%;
+}
+
+.halo-three-panel .three-panel .right img {
+    max-width: 100%;
+}
+
+.halo-three-panel .narrow {
+    position: relative;
+    top: -50%;
+}
+
+.halo-copy {
+    position: absolute;
+    right: 0;
+    width: 390px;
+    padding-top: 16.88%;
+}
+
+.halo-copy p {
+    max-width: 235px;
+}
+.halo-copy img {
+    max-width: 166px;
+    margin-bottom: 18px;
+}
+@media screen and (max-width: 767px) {
+    .halo-copy {
+        position: relative;
+        padding-top: calc(155% - 486px);
+        padding-left: 5px;
+        max-width: 80%;
+        /*bottom: calc(-50% + 445px);*/
+    }
+    .halo-copy p {
+        max-width: 300px;
+    }
+}
+
+@media screen and (min-width: 768px) {
+    .halo-copy {
+        opacity: 0;
+    }
+}
+
+
+
+@media screen and (max-width: 1083px) {
+    .halo-three-panel .three-panel .left,
+    .halo-three-panel .three-panel .right {
+        position: relative;
+    }
+    .halo-three-panel .three-panel {
+        flex-wrap: wrap;
+        padding-left: 0;
+        padding-right: 0;
+    }
+    .halo-three-panel .three-panel .middle {
+        order: 1;
+        width: 100%;
+        flex-grow: 1;
+        flex-shrink: 0;
+        padding-right: 5%;
+    }
+    .halo-three-panel .three-panel .left {
+        order: 2;
+        max-width: none;
+        flex-grow: 1;
+    }
+    .halo-three-panel .three-panel .left p {
+        /*max-width: 320px;*/
+        padding-right: 3%;
+    }
+    .halo-three-panel .three-panel .right {
+        width: 100%;
+        max-width: 55%;
+        top: -45px;
+    }
+}
+
+@media screen and (max-width: 767px) {
+    .halo-three-panel .three-panel .middle {
+        padding-right: 0;
+    }
+    .halo-three-panel .three-panel .right {
+        order: 2;
+        margin: -20px auto 0 auto;
+        max-width: 90%;
+        top: 0;
+    }
+    .halo-three-panel .three-panel .left {
+        order: 3;
+        margin: 0 auto 0 auto;
+        width: 100%;
+        max-width: 90%;
+    }
+    .halo-three-panel .three-panel .left p {
+        max-width: none;
+    }
+}
+
+@media screen and (min-width: 768px) {
+    .halo-copy {
+        padding-top: calc(24% - 143px);
+        right: 5%;
+        width: 35.15%;
+        min-width: 320px;
+    }
+    .halo-copy img {
+        max-width: 180px;
+        margin-bottom: 24px;
+    }
+    .halo-copy p {
+        max-width: 100%;
+    }
+}
+
+@media screen and (min-width: 1084px) {
+    .halo-copy {
+        padding-top: 6%;
+        right: 5%;
+        width: 470px;
+    }
+    .halo-copy p {
+        max-width: 285px;
+    }
+}
+
+@media screen and (min-width: 1400px) {
+    .halo-copy {
+        padding-top: 7.5%;
+        right: 0;
+        width: 620px;
+    }
+    .halo-copy p {
+        max-width: 285px;
+    }
+    .halo-copy img {
+        max-width: 189px;
+        margin-bottom: 42px;
+    }
+}
+
+@media screen and (min-width: 1600px) {
+    .halo-copy {
+        padding-top: 12%;
+    }
+}
+
+.halo.detected .halo-backgrounds {
+    transform: scale(1);
+}
+
+.halo.detected .halo-background-1::after {
+    opacity: 1;
+    transition: opacity 800ms ease;
+}
+
+.halo.detected .halo-background-2 {
+    opacity: 0;
+    transition: opacity 1200ms ease;
+}
+
+.halo.detected .halo-copy {
+    opacity: 1;
+    transition: opacity 1200ms ease;
+    transition-delay: 600ms;
+}
+
+.halo img.svPlayButton {
+    position: absolute;
+    left: 0;
+    right: 0;
+    top: 0;
+    bottom: 0;
+    margin: auto;
+    width: 46px;
+    height: 46px;
+}
+
+.halo .lightboxplaybutton {
+    position: relative;
+}
+
+.otto-panel .m-product-placement {
+    padding-top: 0;
+}
+
+.otto-panel .m-product-placement li section {
+    margin: 0;
+}
+@media screen and (max-width: 374px) {
+  .halo-three-panel {
+    margin-top: 21px;
+  }
+}
+@media screen and (min-width: 1400px) {
+    .halo-three-panel {
+      padding-top: calc(220px - 10%);
+    }
+  }

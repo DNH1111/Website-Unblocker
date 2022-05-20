@@ -1,0 +1,278 @@
+.specs {
+    padding: 0 0 120px 0;
+}
+
+@media screen and (max-width: 1083px) {
+    .specs [data-grid="container"] {
+        padding-left: 5%;
+        padding-right: 5%;
+    }
+}
+
+.specs section>[class^=c-heading],
+.specs .specs-drawer .drawer-toggle {
+    max-width: 1362px;
+    margin: 0 auto;
+}
+
+.specs .specs-drawer,
+.specs .specs-drawer .drawer-toggle {
+    background: transparent;
+}
+
+.specs .specs-drawer .drawer-toggle {
+    cursor: pointer;
+    display:block;
+    box-sizing: border-box;
+    /*height: 144px;
+        line-height: 142px;*/
+    padding: 48px 32px 54px 32px;
+    border-top: 1px solid #737373;
+    border-bottom: 1px solid #737373;
+    border-left: none;
+    border-right: none;
+}
+
+
+/*
+.specs .specs-drawer .drawer-toggle:hover,
+.specs .specs-drawer .drawer-toggle:focus {
+    border-left: none;
+    border-right: none;
+    box-shadow: none;
+}
+*/
+
+
+/*
+.specs .specs-drawer .drawer-toggle[aria-expanded=true],
+.specs .specs-drawer .drawer-toggle[aria-expanded=true] * {
+    height: 0;
+    min-height: 0;
+    padding: 0;
+    overflow: hidden;
+    opacity: 0;
+}
+*/
+
+.specs .specs-drawer .drawer-toggle::before {
+    display: none;
+}
+
+.specs .specs-drawer .drawer-toggle p {
+    position: relative;
+    padding-right: 32px;
+}
+
+.specs .specs-drawer .drawer-toggle p::before {
+    position: absolute;
+    right: 0;
+    display: block;
+    content: "";
+    top: 17%;
+    color: #107c10;
+    font-weight: 600;
+}
+
+/*
+.specs-drawer .drawer-toggle::before{
+    content:"";
+    content: "help";
+    position: absolute;
+    display:block;
+
+    color: #9bf00b;
+    font-size: 20px;
+    text-align: center;
+    line-height: 41px !important;
+    height: 41px !important;
+    width: 41px !important;
+    box-sizing: border-box;
+    border: 2px solid #ccc;
+    border-radius: 50%;
+    padding: 1px 0 0 1px;
+    margin-left: 0px !important;
+}*/
+
+.specs-drawer .drawer-toggle[aria-expanded="true"] {
+    position: sticky;
+    float: right;
+    top: 68px;
+    color: #737373;
+    margin: 20px 28px 0 0 !important;
+    border: 1px solid transparent;
+    outline: 1px solid transparent;
+    background-color: transparent !important;
+    z-index: 10;
+    padding: 0;
+}
+
+.specs-drawer .drawer-toggle[aria-expanded="true"] p {
+    display:inline-block;
+    font-size: 15px;
+    padding-right: 0px;
+    line-height: 15px;
+    font-weight: 900 !important;
+    padding-bottom: 14px;
+    vertical-align: middle;
+}
+
+
+.specs-drawer .drawer-toggle[aria-expanded="true"] p::before {
+    display:none;
+}
+
+.specs-drawer .drawer-toggle[aria-expanded="true"]::before {
+    display: inline-block;
+    content: "";
+    color: #9bf00b;
+    font-size: 20px;
+    text-align: center;
+    line-height: 41px !important;
+    height: 41px !important;
+    width: 41px !important;
+    box-sizing: border-box;
+    border: 2px solid #ccc;
+    border-radius: 50%;
+    padding: 1px 0 0 1px;
+    margin-left: 0px !important;
+    margin-right: 10px;
+}
+
+
+.specs .c-action-trigger.close::focus {
+    background-color: transparent !important;
+}
+
+.specs-drawer .drawer-toggle[aria-expanded="true"]::before {
+    color: #000;
+}
+
+.specs .drawer-toggle:focus {
+    outline: 2px dashed blue;
+    border: 2px dashed lightblue;
+}
+.specs-drawer-panel {
+    display: none;
+}
+.specs-drawer-panel.open {
+    display: block;
+}
+
+.specs .specs-drawer>div {
+    border: 1px solid #707070;
+    padding: 0;
+}
+
+.specs .m-content-placement {
+    float: none;
+    clear: both;
+    padding: calc(5.4% + 20px) 7.3% calc(5.4% + 96px) 7.3%;
+}
+
+.specs .row {
+    padding: calc(2.45% + 64px) 0;
+    max-width: 95%;
+    margin: 0 auto;
+    float: none;
+}
+
+.specs .row:first-of-type {
+    padding-top: 0;
+}
+
+.specs .row:last-of-type {
+    padding-bottom: 0;
+}
+
+.specs hr.c-divider {
+    clear: both;
+}
+
+.specs .m-content-placement-item {
+    /*background-color: #dddddd;*/
+    margin: 0;
+    padding: 0 35px !important;
+}
+
+.specs .m-content-placement-item img {
+    max-width: 100%;
+}
+
+.specs .m-content-placement-item span img {
+    vertical-align: baseline;
+    margin-bottom: -2px;
+    max-width: 40%;
+}
+
+.specs .m-content-placement-item>[data-grid=col-12] {
+    background-color: #666;
+    border: 1px solid #944;
+}
+
+.specs .m-content-placement-item [class^="c-heading"] {
+    margin: 0;
+    font-weight: 700 !important;
+    line-height: 1.2em;
+}
+
+@media screen and (min-width: 1084px) and (max-width: 1279px) {
+    .specs .row:not(:first-of-type) .m-content-placement-item [class^="c-heading"] {
+        font-size: 32px;
+    }
+}
+
+@media screen and (min-width: 1280px) and (max-width: 1480px) {
+    .specs .row:not(:first-of-type) .m-content-placement-item [class^="c-heading"] {
+        font-size: 40px;
+    }
+}
+
+.m-content-placement-item .c-heading,
+.m-content-placement-item .c-heading-1,
+.m-content-placement-item .c-heading-2,
+.m-content-placement-item .c-heading-3,
+.m-content-placement-item .c-heading-4 {
+    font-weight: 600 !important;
+}
+
+.specs .m-content-placement-item p {
+    padding-top: 32px;
+}
+
+@media screen and (min-width: 1084px) {
+    .specs .m-content-placement-item p:first-of-type {
+        padding-top: 0;
+    }
+}
+
+.c-glyph.glyph-cancel::before,
+.c-glyph.glyph-play::before,
+.c-glyph.glyph-pause::before {
+    color: #9bf00b;
+    font-size: 20px;
+    text-align: center;
+    line-height: 41px !important;
+    height: 41px !important;
+    width: 41px !important;
+    box-sizing: border-box;
+    border: 2px solid #ccc;
+    border-radius: 50%;
+    padding: 1px 0 0 1px;
+    margin-left: 0px !important;
+    top: 0;
+}
+
+
+.specs strong {
+    font-weight: 700;
+}
+
+@media screen and (max-width: 539px) {
+    .tech-banner .c-heading-1a {
+        font-size: 42px;
+        line-height: 1.2em;
+        ;
+    }
+}
+

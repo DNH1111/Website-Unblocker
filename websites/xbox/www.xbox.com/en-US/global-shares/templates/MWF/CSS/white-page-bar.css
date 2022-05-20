@@ -1,0 +1,40 @@
+.m-in-page-navigation {position: relative; z-index: 600;}
+nav.c-in-page-navigation.f-sticky {background: #fff; }
+nav.c-in-page-navigation {padding: 10px 8.1% 6px;}
+nav.c-in-page-navigation ul {width: auto !important;}
+nav.c-in-page-navigation p {float: left; padding-top: 9px; padding-right: 25px;}
+nav.c-in-page-navigation .CTAdiv {margin-left: auto;}
+/*
+nav.c-in-page-navigation .CTAdiv a.c-call-to-action, nav.c-in-page-navigation .CTAdiv a.c-call-to-action, nav.c-in-page-navigation .CTAdiv a:not(.x-hidden-focus).c-call-to-action:focus, nav.c-in-page-navigation .CTAdiv a.c-call-to-action:hover {
+    background: #107c10;
+    color: #000;
+}
+*/
+.m-in-page-navigation .CTAdiv a.c-call-to-action {
+   padding-left: 15px;
+   padding-right: 15px;
+} 
+
+@media screen and (max-width: 1400px) {
+nav.c-in-page-navigation {
+   padding: 10px 5.4% 6px;}
+}
+
+nav.c-in-page-navigation > ul li > a {padding-top: 9px;}
+@media screen and (max-width: 768px) {
+nav.c-in-page-navigation ul {display: none;}
+nav.c-in-page-navigation p {padding-bottom: 20px;}
+.m-in-page-navigation {padding-bottom: 24px;  z-index: 500;}
+} 
+
+   nav.c-in-page-navigation a.c-hyperlink {
+  text-decoration: none;
+   }
+
+.m-in-page-navigation a.c-hyperlink:hover, 
+.m-in-page-navigation a:not(.f-image):not(.x-hidden-focus).c-hyperlink:focus,
+.m-in-page-navigation a:not(.f-image).c-hyperlink:hover {
+  text-decoration: underline;
+  color: inherit;
+  font-weight: 600; 
+}

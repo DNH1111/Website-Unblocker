@@ -1,0 +1,13 @@
+.heroImage .c-image {
+   margin: auto !important;
+}
+
+.nextToAction {
+    margin-bottom: 1px !important;
+}
+#screen-time-limits:before{margin-left:-3px !important;}
+
+.m-content-placement-item .c-hyperlink {
+    padding: 0 !Important; 
+    margin-right: 0 !Important; 
+}

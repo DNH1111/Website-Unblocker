@@ -1,0 +1,223 @@
+@media screen and (min-width: 768px) and (max-width: 1083px) {
+.mobilePadTop{padding-top: 30vw !important;}
+.mobilePadTop.locPadding {padding-top: 28vw !important;;}
+.mobilePadTop.locPaddingT {padding-top: 30vw !important;}
+}
+
+@media screen and (min-width: 1084px) {
+.mobilePadTop{padding-top: 27vw;}
+.mobilePadTop.locPadding {padding-top: 33vw;}
+.mobilePadTop.locPaddingT {padding-top: 39vw !important;}
+}
+
+@media screen and (max-width: 413px) and (min-width: 375px){
+.mfpc-banner {padding-top:0 !Important;}
+}
+
+@media screen and (max-width:415px){
+.mobilePadTop{padding-top:370px !important;}
+.dayOnePad{padding-top:330px !important;}
+}
+
+
+@media only screen and (max-width: 767px){
+.c-hero > div, .m-hero-item > div {height:390px !important;}
+}
+
+@media screen and (max-width: 499px) and (min-width:414px){
+ .mfpc-banner{
+    padding-top: 0 !important;}
+}
+
+.join-now .c-paragraph.legalSub{
+    font-weight: 500;
+}
+
+.pd-one .c-pivot>header>[role="tab"], .c-pivot>header a, .c-pivot>div>[role="tab"], .c-pivot>div a, .c-pivot>[role="tablist"]>[role="tab"], .c-pivot>[role="tablist"] a {
+    font-weight: 500;
+}
+/*
+@media screen and (-ms-high-contrast: active){
+.xgp-sysreq .faq-mwf .c-drawer button:hover p, .xgp-sysreq .faq-mwf .c-drawer button:focus p{
+    color: HighlightText !important;
+}
+}
+*/
+/* XGPU */
+.heroLogoImage img{
+    height:55px !important;
+}
+.heroLogoImage{
+    padding-bottom: 20px;
+}
+@media screen and (max-width: 900px){
+.heroLogoImage img{
+    height:45px !important;
+}
+.heroLogoImage{
+    padding-bottom: 10px;
+}
+}
+@media screen and (min-width: 1084px) and (max-width: 1200px){
+.xgp-upgrade-hero .m-hero-item>div>div{
+    max-width: 400px;
+}
+.heroLogoImage img{
+    height:40px !important;
+}
+.heroLogoImage{
+    padding-bottom: 10px;
+}
+}
+@media screen and (min-width: 768px) and (max-width: 800px){
+.xgp-upgrade-hero .m-hero-item>div>div{
+    max-width: 325px;
+}
+}
+/* FAQ */
+@media screen and (max-width: 321px) {
+.xgp-faq .c-group a.c-call-to-action {
+   font-size: 13px;}
+}
+
+.pd-one .c-badge.f-small {
+    background-color: rgb(16, 124, 16) !Important;
+}
+
+/*
+.xgp-hero{margin-top:60px !Important;}
+*/
+.pcGamePassLogo {height:65px; width:450px;}
+.pcGamePassHeroLogo{width:264px !important; height:42px; }
+.eaPlayLogo {height:90px; width:404px; }
+
+@media only screen and (max-width: 767px) {
+.xgp-hero .m-hero-item>div picture, .c-hero>div picture {
+    display: block !important;
+ }
+}
+
+@media screen and (max-width:540px) {
+.pcGamePassLogo{width:250px; !important;}
+}
+
+@media only screen and (max-width: 767px) {
+ .xgp-hero [class*=f-x][class*=f-y].m-hero-item>div>div{
+    top: calc(60%);
+}
+}
+
+
+.gbXgpBillingImg { width:80% !important; margin-left:9% !important;}
+
+
+.high-contrast-mode.white-on-black .pcGamePassHeroLogo  {
+filter: grayscale(1) brightness(9);
+}
+
+
+.high-contrast-mode.white-on-black .xgp-faq button.c-glyph:focus {
+  filter: grayscale(1) brightness(9);
+  color:red !important;
+}
+
+.high-contrast-mode.black-on-white .xgp-faq button.c-glyph:focus {
+  filter: grayscale(1) brightness(0);
+  color:red !important;
+}
+
+.high-contrast-mode.white-on-black .xgp-faq button.c-glyph:hover{
+  filter: grayscale(1) brightness(9);
+  color:red !important;
+}
+
+
+.high-contrast-mode.black-on-white .xgp-faq button.c-glyph:hover{
+  filter: grayscale(1) brightness(1);
+  color:black !important;
+}
+
+.high-contrast-mode.white-on-black .xgp-faq button.c-glyph:not(:disabled){
+  filter: grayscale(1) brightness(9);
+  color:red !important;
+}
+
+
+.high-contrast-mode.black-on-white .xgp-faq button.c-glyph:not(:disabled){
+  filter: grayscale(1) brightness(1);
+  color:black !important;
+}
+
+
+
+.high-contrast-mode.white-on-black .xgp-sysreq .xgp-faq p
+ {
+  color:white !important;
+}
+
+
+.high-contrast-mode.white-on-black .xgp-sysreq .xgp-faq p
+ {
+    color:white !important;
+}
+
+
+@media screen and (max-width:415px) {
+.SB-hero-banner .dayOnePad.customPad h2 {padding-top:150px !Important;}
+}
+
+
+
+@media screen and (min-width: 767px) and (max-width: 768px) {
+.hqpc-Games .tall5up .m-content-placement div div div section.m-content-placement-item {
+    height: 67.5vw !important;
+ }
+}
+
+
+.mfpc-banner .m-banner.jumpgcontainer p {
+    margin-top: 0vw;
+}
+
+
+
+
+
+.sb-pivot.SB-hero-banner.head1a .banner-background div.m-banner {
+    margin-top:-2% !important;
+}
+
+@media screen and (min-width:0px) {
+.SB-hero-banner .m-banner {
+    margin-bottom: 32px;
+ }
+}
+@media screen and (min-width:1084px) {
+.SB-hero-banner .m-banner {
+    margin-bottom: 35px;
+ }
+}
+@media screen and (min-width:1400px) {
+.SB-hero-banner .m-banner {
+    margin-bottom: 55px;
+ }
+}
+
+
+.pd-one .m-multi-feature ul[role="tablist"] li {
+    font-weight: 600;
+}
+
+.c-pivot>[role="tablist"]>[role="tab"] {
+       color: rgba(0,0,0,.8) !important;
+}
+
+.join-now .banner-background .sku-chooser__panel {
+  margin-top: -40px !important;
+}
+
+@media screen and (min-width: 768px) and (max-width: 880px) {
+.join-now .banner-background section {
+    height: 90vw !important;
+}
+}

@@ -1,0 +1,465 @@
+@media screen and (min-width: 1921px) {
+    #BodyContent {
+        width: 1920px;
+        margin: 0 auto;
+    }
+  }
+  
+  .SB-hero-banner.apps-template .banner-background {
+    z-index: 0;
+  }
+  
+  
+  /* .apps-template store custom CTAs*/
+  
+  .SB-hero-banner .c-group .c-call-to-action,
+  .SB-hero-banner .c-group>a.c-call-to-action~a.c-call-to-action,
+  .apps-hero .c-group .c-call-to-action,
+  .apps-hero .c-group>a.c-call-to-action~a.c-call-to-action {
+    margin-right: 20px !important;
+    padding: 0;
+  }
+  
+  .SB-hero-banner .c-group,
+  .apps-hero .c-group {
+    margin-top: 48px
+  }
+  
+  
+  /* hero overrides */
+  
+  .apps-hero .m-hero-item.f-y-top>div>div {
+    top: 30px;
+  }
+  
+  @media screen and (min-width: 768px) and (max-width: 1600px) {
+    .apps-hero .m-hero-item.f-y-top>div>div {
+        width: 100%;
+        Max-width: 100%;
+    }
+  }
+  
+  @media screen and (max-width: 767px) {
+    .apps-hero .m-hero-item>div {
+        width: 100%;
+    }
+  }
+  
+  @media only screen and (max-width: 400px) {
+    .apps-hero .m-hero-item>div {
+        height: 500px;
+    }
+  }
+  
+  .SB-hero-banner.apps-template .m-banner .c-image,
+  .apps-hero .m-banner .c-image {
+    width: auto;
+    max-height: 120px;
+  }
+  
+  .SB-hero-banner.apps-template .banner-background {
+    padding-bottom: 0px;
+  }
+  
+  @media screen and (min-width: 0) {
+    .SB-hero-banner.apps-template .banner-background {
+        position: relative;
+        top: calc(-18px);
+        padding-top: 38px;
+        -ms-transform: translateY(-11px);
+        transform: translateY(-11px);
+        margin-bottom: -30px;
+    }
+  }
+  
+  @media screen and (min-width: 768px) {
+    .SB-hero-banner.apps-template .banner-background {
+        -ms-transform: translateY(-21px);
+        transform: translateY(-21px);
+        margin-bottom: -39px;
+    }
+  }
+  
+  
+  /*iframe */
+  
+  @media screen and (max-width:767px) {
+    .apps-template .oneFrame {
+        height: 45.5vw;
+    }
+  }
+
+  @media screen and (max-width:540px) {
+    .apps-template .oneFrame {
+        width:100%;
+        margin: 0 auto;
+        height:50.5vw;
+    }
+  }
+
+  
+  /* custom multi feature */
+  
+  .apps-template .m-multi-feature .c-pivot section:focus {
+    outline: 2px solid #000;
+  }
+  
+  .light-gray {
+    background-color: #e6e6e6;
+  }
+  
+  .apps-template .m-multi-feature img.tab-icon {
+    width: 18px;
+    height: 18px;
+    margin-right: 18px;
+  }
+  
+  .apps-template .m-multi-feature .c-pivot li {
+    font-size: 20px;
+    font-weight: 700;
+  }
+  
+  @media only screen and (min-width:768px) {
+    .apps-template .m-multi-feature .c-pivot .copy-container {
+        white-space: normal;
+        text-align: left;
+    }
+    .apps-template .m-multi-feature .c-pivot ul {
+        flex-direction: column;
+        text-align: left;
+    }
+    .apps-template .m-multi-feature .c-pivot ul li {
+        margin-left: 0px;
+    }
+    .apps-template .m-multi-feature .c-pivot section[aria-hidden='false'] {
+        display: block;
+        position: relative;
+        /*top: -360px;*/
+    }
+    .apps-template .c-pivot>[aria-hidden='false'].c-flipper {
+        display: none;
+    }
+    .apps-template.smaller .m-multi-feature .c-pivot {
+        width: 45%;
+    }
+    .apps-template.smaller .m-multi-feature .c-carousel {
+        width: 55% !important;
+    }
+    /* hide the standard text blocks above mobile */
+    .apps-template .m-multi-feature .c-pivot section[role="tabpanel"] {
+        display: none;
+    }
+  }
+  
+  @media screen and (max-width:767px) {
+    /* hide cloned content on mobile but keep it available to screen readers */
+    .apps-template .c-pivot li[role="tab"] p {
+        display: block;
+        height: 0 !important;
+        width: 0 !important;
+        overflow: hidden;
+        padding: 0 !important;
+        opacity: 0;
+    }
+  }
+  
+  @media only screen and (min-width:1084px) {
+    .apps-template.smaller .m-multi-feature .c-pivot {
+        width: 41%;
+    }
+  }
+  
+  @media only screen and (min-width:1600px) {
+    .apps-template.smaller .m-multi-feature .c-pivot {
+        width: 34%;
+    }
+  }
+  
+  @media only screen and (min-width:768px) {
+    .apps-template .m-multi-feature .copy-container h2 {
+        width: 320px;
+    }
+    .apps-template.smaller .m-multi-feature.f-align-right .c-pivot {
+        padding-left: 6.5%;
+        padding-right: 0px;
+    }
+    .m-multi-feature.f-align-right>section {
+        justify-content: flex-end;
+    }
+  }
+  
+  
+  @media screen and (max-width: 767px) {
+    .apps-template .m-multi-feature .c-pivot>.c-flipper {
+        top: 105px;
+    }
+    .apps-template .m-multi-feature .copy-container h2 {
+        width: 100%;
+        margin: 0 auto;
+    }
+    .apps-template .m-multi-feature .copy-container {
+        white-space: normal;
+    }
+    .apps-template .m-multi-feature .c-pivot ul {
+        max-width: calc(100% - 36px);
+        /* subtracting the width of the flippers */
+        margin-left: auto;
+        margin-right: auto;
+    }
+  
+    .apps-template .m-multi-feature .c-pivot>.c-flipper.f-previous {
+        left: 0;
+    }
+    .apps-template .m-multi-feature .c-pivot>.c-flipper.f-next {
+        right: 0;
+    }
+  
+  }
+  
+  .c-pivot:not(.f-disabled)>header>[role="tab"].f-active:after,
+  .c-pivot:not(.f-disabled)>header a.f-active:after,
+  .c-pivot:not(.f-disabled)>div>[role="tab"].f-active:after,
+  .c-pivot:not(.f-disabled)>div a.f-active:after,
+  .c-pivot:not(.f-disabled)>[role="tablist"]>[role="tab"].f-active:after,
+  .c-pivot:not(.f-disabled)>[role="tablist"] a.f-active:after {
+    border-bottom: none !important;
+  }
+  
+  .apps-template .m-multi-feature ul[role="tablist"] li {
+    border: 0px solid transparent;
+  }
+  
+  .apps-template .m-multi-feature ul[role="tablist"] li>span {
+    display: inline-block;
+    padding: 0 4px;
+  }
+  
+  .apps-template .m-multi-feature .c-pivot>[role="tablist"] [role="tab"]:focus {
+    border: 0;
+    outline: 0;
+    outline-offset: 0px;
+    background-color: transparent;
+  }
+  
+  .apps-template .m-multi-feature ul[role="tablist"] [role="tab"]:focus,
+  .apps-template .m-multi-feature ul[role="tablist"] [role="tab"]:active {
+    border: none;
+    outline: none;
+    background-color: transparent;
+  }
+  
+  .apps-template .m-multi-feature .c-pivot li.f-active span,
+  .apps-template .m-multi-feature .c-pivot li span {
+    position: relative;
+    font-size: 20px;
+    font-weight: 700;
+    background: transparent;
+    outline-color: transparent;
+    border: 2px solid transparent;
+    outline: none;
+  }
+  
+  .apps-template .m-multi-feature ul[role="tablist"] li>img {
+    display: none;
+  }
+  
+  .apps-template .m-multi-feature ul[role="tablist"] li:active>span,
+  .apps-template .m-multi-feature ul[role="tablist"] li:focus>span {
+    border: 2px solid #000;
+  }
+  
+  .apps-template .m-multi-feature .c-pivot li:hover span:after,
+  .apps-template .m-multi-feature .c-pivot li.f-active span:after {
+    position: absolute;
+    bottom: 2px;
+    left: 4px;
+    right: 4px;
+    content: '';
+    border-bottom: 2px solid #107c10;
+  }
+  
+  .high-contrast-mode .apps-template .m-multi-feature .c-pivot li,
+  .high-contrast-mode .apps-template .m-multi-feature .c-pivot li:active {
+    outline: none;
+  }
+  
+  .high-contrast-mode .apps-template .m-multi-feature .c-pivot li.f-active>span,
+  .high-contrast-mode .apps-template .m-multi-feature ul[role="tablist"] li:active>span,
+  .high-contrast-mode .apps-template .m-multi-feature ul[role="tablist"] li:focus>span {
+    border: 2px solid #000;
+  }
+  
+  .apps-template .m-multi-feature ul[role="tablist"] li>p {
+    font-weight: normal;
+    white-space: normal;
+    box-sizing: border-box;
+    overflow: hidden;
+    visibility: hidden;
+    transition: max-height 200ms ease-in-out, padding 200ms ease-in-out;
+    height: 0;
+    /* Not animatable but necessary. Snaps closed instantly to avoid 2 tall paragraphs stretching the container height and making the page jump around */
+    max-height: 0;
+    /* animatable */
+    padding: 0 0 0 5px;
+  }
+  
+  .apps-template .m-multi-feature ul[role="tablist"] li.f-active>p {
+    visibility: visible;
+    height: auto;
+    /* overcomes height: 0 default */
+    max-height: 500px;
+    /* animatable, not a critical figure */
+    padding: 12px 0 29px 5px;
+  }
+  
+  @media only screen and (min-width: 768px) and (max-width: 1399px) {
+    .apps-template .m-multi-feature>section,
+    .apps-template .m-multi-feature>section {
+        -ms-flex-align: flex-start;
+        align-items: flex-start;
+    }
+  }
+  
+  .apps-template .m-multi-feature .c-pivot ul {
+    padding-top: 24px;
+  }
+  
+  @media only screen and (min-width: 768px) {
+    .apps-template .m-multi-feature .c-pivot ul {
+        padding-top: 32px !important;
+    }
+    .apps-template .m-multi-feature .c-pivot [class^="c-heading"] {
+        padding-top: 0;
+    }
+  }
+  .apps-template .m-multi-feature .c-pivot {
+    margin-top: 0;
+  }
+  @media only screen and (max-width: 767px) {
+    .apps-template .m-multi-feature .c-pivot {
+        margin-top: 10px;
+    }
+  }
+  
+  .high-contrast-mode.black-on-white .apps-template .m-multi-feature li:hover,
+  .high-contrast-mode.black-on-white .apps-template .m-multi-feature li:focus,
+  .high-contrast-mode.black-on-white .apps-template .m-multi-feature li:active,
+  .high-contrast-mode.black-on-white .apps-template .m-multi-feature li.f-active.x-hidden-focus,
+  .high-contrast-mode.black-on-white .apps-template .m-multi-feature li.f-active,
+  .high-contrast-mode.black-on-white .apps-template .m-multi-feature li.f-active.x-hidden-focus:hover,
+  .high-contrast-mode.black-on-white .apps-template .m-multi-feature li.f-active:hover {
+    color: black !important;
+    background-color: white !important;
+  }
+  
+  .high-contrast-mode.black-on-white .apps-template .m-multi-feature li:hover span,
+  .high-contrast-mode.black-on-white .apps-template .m-multi-feature li:focus span,
+  .high-contrast-mode.black-on-white .apps-template .m-multi-feature li:active span,
+  .high-contrast-mode.black-on-white .apps-template .m-multi-feature li.f-active.x-hidden-focus span,
+  .high-contrast-mode.black-on-white .apps-template .m-multi-feature li.f-active span {
+    color: black !important;
+    border-color: black;
+    background-color: transparent !important;
+  }
+  
+  .high-contrast-mode.black-on-white .apps-template .m-multi-feature li:hover span:after,
+  .high-contrast-mode.black-on-white .apps-template .m-multi-feature li:focus span:after,
+  .high-contrast-mode.black-on-white .apps-template .m-multi-feature li:active span:after,
+  .high-contrast-mode.black-on-white .apps-template .m-multi-feature li.f-active.x-hidden-focus span:after,
+  .high-contrast-mode.black-on-white .apps-template .m-multi-feature li.f-active span:after {
+    border-color: black !important;
+  }
+  
+  .high-contrast-mode.white-on-black .apps-template .m-multi-feature li:hover,
+  .high-contrast-mode.white-on-black .apps-template .m-multi-feature li:focus,
+  .high-contrast-mode.white-on-black .apps-template .m-multi-feature li:active,
+  .high-contrast-mode.white-on-black .apps-template .m-multi-feature li.f-active.x-hidden-focus,
+  .high-contrast-mode.white-on-black .apps-template .m-multi-feature li.f-active,
+  .high-contrast-mode.white-on-black .apps-template .m-multi-feature li.f-active.x-hidden-focus:hover,
+  .high-contrast-mode.white-on-black .apps-template .m-multi-feature li.f-active:hover {
+    color: white !important;
+    background-color: black !important;
+  }
+  
+  .high-contrast-mode.white-on-black .apps-template .m-multi-feature li:hover span,
+  .high-contrast-mode.white-on-black .apps-template .m-multi-feature li:focus span,
+  .high-contrast-mode.white-on-black .apps-template .m-multi-feature li:active span,
+  .high-contrast-mode.white-on-black .apps-template .m-multi-feature li.f-active.x-hidden-focus span,
+  .high-contrast-mode.white-on-black .apps-template .m-multi-feature li.f-active span {
+    color: white !important;
+    border-color: white;
+    background-color: transparent !important;
+  }
+  
+  .high-contrast-mode.white-on-black .apps-template .m-multi-feature li:hover span:after,
+  .high-contrast-mode.white-on-black .apps-template .m-multi-feature li:focus span:after,
+  .high-contrast-mode.white-on-black .apps-template .m-multi-feature li:active span:after,
+  .high-contrast-mode.white-on-black .apps-template .m-multi-feature li.f-active.x-hidden-focus span:after,
+  .high-contrast-mode.white-on-black .apps-template .m-multi-feature li.f-active span:after {
+    border-color: white !important;
+  }
+  /* part of test for setting fixed height on text containers */
+  
+  .resize {
+    display: block !important;
+    position: absolute;
+    visibility: hidden;
+  }
+  @media screen and (min-width: 768px) {
+    .apps-template .m-multi-feature section {
+      align-items: flex-start !important;
+    }
+  }
+  @media screen and (min-width: 768px) {
+    .apps-template .m-multi-feature .c-pivot li p.hide {
+      display:none;
+    }
+  
+    .apps-template .m-multi-feature .c-pivot li p.resize {
+      height: auto;
+      max-height: none;
+      position: absolute;
+    }
+  }
+  
+  /* end custom multi feature */
+  
+  
+  /* begin get app section */
+  
+  .SB-hero-banner.get-app .banner-background {
+    z-index: 3;
+    background-color: #fff;
+  }
+  
+  .SB-hero-banner.get-app .m-banner {
+    z-index: 4;
+  }
+  
+  @media screen and (min-width: 0px) {
+    .SB-hero-banner.get-app .banner-background {
+        padding-top: 38px;
+        top: -28px;
+        margin-bottom: -28px;
+        padding-bottom: 0px;
+    }
+  }
+  
+  @media screen and (min-width: 768px) {
+    .SB-hero-banner.get-app .banner-background {
+        padding-top: 38px;
+        top: -38px;
+        margin-bottom: -38px;
+    }
+  }
+  
+  @media screen and (min-width: 1400px) {
+    .SB-hero-banner.get-app .banner-background {
+        padding-top: 38px;
+        top: -38px;
+        margin-bottom: -38px;
+    }
+  }
+  
+  
+  /* end get app section */

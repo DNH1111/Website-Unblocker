@@ -1,0 +1,1053 @@
+/****** HERO ********/
+
+@media only screen and (max-width: 319px) {
+    .xgp-cs .m-hero-item {
+        transform: translateY(294vw);
+    }
+    .xaa .m-image {
+        margin-top: 311vw;
+    }
+}
+
+@media only screen and (min-width: 320px) and (max-width: 374px) {
+    .xgp-cs .m-hero-item {
+        transform: translateY(270vw);
+    }
+    .xaa .m-image {
+        margin-top: 282vw;
+    }
+}
+
+@media only screen and (min-width: 375px) and (max-width: 413px) {
+    .xgp-cs .m-hero-item {
+        transform: translateY(216vw);
+    }
+    .xaa .m-image {
+        margin-top: 226vw;
+    }
+}
+
+@media only screen and (min-width: 414px) and (max-width: 420px) {
+    .xgp-cs .m-hero-item {
+        transform: translateY(157vw);
+    }
+    .xaa .m-image {
+        margin-top: 166vw;
+    }
+}
+
+@media only screen and (min-width: 421px) and (max-width: 439px) {
+    .xgp-cs .m-hero-item {
+        transform: translateY(151vw);
+    }
+    .xaa .m-image {
+        margin-top: 159vw;
+    }
+}
+
+@media only screen and (min-width: 440px) and (max-width: 459px) {
+    .xgp-cs .m-hero-item {
+        transform: translateY(122vw);
+    }
+    .xaa .m-image {
+        margin-top: 130vw;
+    }
+}
+
+@media only screen and (min-width: 460px) and (max-width: 479px) {
+    .xgp-cs .m-hero-item {
+        transform: translateY(99vw);
+    }
+    .xaa .m-image {
+        margin-top: 107vw;
+    }
+}
+
+@media only screen and (min-width: 480px) and (max-width: 499px) {
+    .xgp-cs .m-hero-item {
+        transform: translateY(77vw);
+    }
+    .xaa .m-image {
+        margin-top: 70vw;
+    }
+}
+
+@media only screen and (min-width: 500px) and (max-width: 519px) {
+    .xaa .m-image {
+        margin-top: 64vw;
+    }
+}
+
+@media only screen and (min-width: 520px) and (max-width: 539px) {
+    .xaa .m-image {
+        margin-top: 45vw;
+    }
+}
+
+@media only screen and (min-width: 540px) and (max-width: 767px) {
+    .xaa .m-image {
+        margin-top: 11vw;
+    }
+}
+
+@media only screen and (min-width: 1084px) and (max-width: 1399px) {
+    .xaa .m-image {
+        margin-top: -4vw;
+    }
+}
+
+.three-up-xaa picture {
+    padding-bottom: 0px !important;
+    height: 63px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.console-svg {
+    width: 56px;
+}
+
+.console-svg img {
+    width: 56px;
+}
+
+.boxes-svg {
+    width: 64px;
+}
+
+.boxes-svg img {
+    width: 64px;
+}
+
+.tag-svg {
+    width: 65px;
+}
+
+.tag-svg img {
+    width: 65px;
+}
+
+.customBanner .m-banner .c-call-to-action:focus:not(.x-hidden-focus) {
+    color: #FFF !important;
+}
+
+.customBanner [class^="m-"] {
+    padding-top: 0px !important;
+}
+
+.gamepassLogo {
+    width: 384px !important;
+    height: 187px !important;
+}
+
+.bannerBG {
+    background-color: #107c10;
+}
+
+.cust3Up .m-content-placement-item .c-heading {
+    margin-top: 5px !Important;
+}
+
+.cust2ColBlade .c-list {
+    margin-top: -10px;
+}
+
+.cust2ColBlade li p {
+    padding-left: 20px !Important;
+}
+
+.cust2ColBlade .m-multi-column>.c-list>li {
+    padding-bottom: 15px;
+}
+
+@media screen and (min-width: 1084px) {
+    .cust2ColBlade [data-grid~="container"] {
+        width: 78% !important;
+    }
+    .customBanner {
+        max-width: calc(1600px + 10%) !important;
+        margin: 0 auto !important;
+        padding-left: 5% !important;
+        padding-right: 5% !important;
+    }
+}
+
+@media screen and (max-width:1083px) {
+    .cust2ColBlade [data-grid~="container"] {
+        width: 95% !important;
+    }
+    .custHero {
+        margin-top: 60px;
+    }
+    .custHero .m-hero-item.f-y-center.f-transparent>div>div {
+        top: calc(50%);
+    }
+    .custHero .m-hero-item [class^="c-heading"] {
+        font-size: 50px;
+        line-height: 1.15em;
+    }
+    .custHero .m-hero-item [class^="c-subheading"] {
+        font-size: 24px;
+        line-height: 1.15em;
+    }
+}
+
+@media screen and (min-width: 768px) and (max-width:1083px) {
+    .custHero .m-hero-item [class^="c-heading"] {
+        font-size: 50px;
+        line-height: 1.15em;
+    }
+    .custHero .m-hero-item [class^="c-subheading"] {
+        font-size: 24px;
+        line-height: 1.15em;
+    }
+}
+
+@media screen and (min-width: 768px) {
+    .padLeft {
+        position: relative;
+        left: 60px !important;
+        margin-right: 20px !Important;
+    }
+}
+
+.cust2ColBlade li {
+    list-style-type: none;
+}
+
+.cust2ColBlade li::before {
+    content: "\E73E";
+    font-family: "MWF-MDL2";
+    font-size: 30px;
+    float: left;
+    margin: 10px 0px 0px -36px;
+    /* negative value of the li padding */
+    color: #107c10;
+    font-weight: 700;
+}
+
+
+/* ----------------------------- */
+
+
+/* overrides */
+
+
+/* ----------------------------- */
+
+div.m-in-page-navigation {
+    border-bottom: none !important;
+}
+
+div.m-in-page-navigation,
+nav.c-in-page-navigation.f-sticky {
+    background-color: rgba(255, 255, 255, 0.9);
+}
+
+.m-hero-item .lime-green-c {
+    color: #9bf00b !important;
+}
+
+.m-hero-item h2.c-heading,
+.m-banner h2.c-heading {
+    font-size: 28px;
+    line-height: normal;
+}
+
+@media only screen and (min-width: 768px) {
+    .m-hero-item h2.c-heading,
+    .m-banner h2.c-heading {
+        font-size: 36px;
+    }
+}
+
+@media only screen and (min-width: 1084px) {
+    .m-hero-item h2.c-heading,
+    .m-banner h2.c-heading {
+        font-size: 42px;
+    }
+}
+
+@media only screen and (min-width: 1400px) {
+    .m-hero-item h2.c-heading,
+    .m-banner h2.c-heading {
+        font-size: 46px;
+    }
+}
+
+@media only screen and (min-width: 1400px) {
+    .m-banner .c-subheading {
+        font-size: 24px;
+        line-height: 28px;
+    }
+}
+
+
+/* =================== */
+
+
+/* END FONT WRANGLING */
+
+
+/* =================== */
+
+
+/*
+       END Matching banner heading to hero headin .m-hero-item .c-heading, 
+       */
+
+@media only screen and (min-width: 1200px) {
+    .custom-hero .m-hero-item.f-y-top>div>div,
+    .custom-hero .m-hero-item.f-y-center>div>div,
+    .custom-hero .m-hero-item.f-y-bottom>div>div {
+        min-width: 1024px;
+    }
+}
+
+@media only screen and (min-width: 1084px) {
+    .custom-hero .m-hero-item.f-y-top>div>div,
+    .custom-hero .m-hero-item.f-y-center>div>div,
+    .custom-hero .m-hero-item.f-y-bottom>div>div {
+        min-width: 976px;
+    }
+}
+
+
+/* override to make hero flow at mobile and break at 1084*/
+
+@media only screen and (max-width: 1083px) {
+    /*.custom-hero {
+     padding-bottom: 48px;
+       }*/
+    .custom-hero .m-hero-item {
+        padding-left: 0;
+        padding-right: 0;
+    }
+    .custom-hero .m-hero-item:before {
+        /* This is what defines the aspect ratio of the hero */
+        display: none;
+    }
+    .custom-hero .m-hero-item>div,
+    .custom-hero .m-hero-item.f-y-top>div>div,
+    .custom-hero .m-hero-item.f-y-center>div>div,
+    .custom-hero .m-hero-item.f-y-bottom>div>div,
+    .custom-hero .m-hero-item>picture img,
+    .custom-hero .m-hero-item>img,
+    .custom-hero .m-hero-item>picture {
+        /* Some of these styles are redundant for some of these elements, but it doesn't hurt to pile them up in one place */
+        position: relative;
+        top: 0 !important;
+        left: 0 !important;
+        transform: none !important;
+        overflow: visible;
+        height: auto;
+    }
+    .custom-hero .m-hero-item.f-y-top>div>div,
+    .custom-hero .m-hero-item.f-y-center>div>div,
+    .custom-hero .m-hero-item.f-y-bottom>div>div {
+        max-width: 100%;
+        padding-bottom: 48px;
+    }
+    .custom-hero .m-hero-item>div picture {
+        display: none;
+    }
+}
+
+section.m-content-placement-item .c-hyperlink,
+section.c-content-placement .c-hyperlink {
+    padding: 0 0;
+    margin-right: 0;
+    display: inline;
+}
+
+
+/* line breaks at certain resolutions, not at others */
+
+.retailer .m-banner p span,
+.image-hero [class^=c-subheading] span {
+    display: inline;
+}
+
+@media only screen and (min-width: 1084px) {
+    .retailer .m-banner p span,
+    .image-hero [class^=c-subheading] span {
+        display: block;
+    }
+}
+
+
+/* line breaks at all resolutions that a screen reader won't choke on */
+
+span.linebreak {
+    display: block;
+}
+
+
+/* ----------------------------- */
+
+
+/* END overrides */
+
+
+/* ----------------------------- */
+
+
+/* Xbox Series Hero */
+
+.seriesXhero .m-hero-item.f-x-right>div>div {
+    right: 8.5vw !important;
+}
+
+.seriesXhero .m-hero-item.f-y-center.f-transparent>div>div {
+    transform: translateY(-65%);
+}
+
+@media screen and (max-width: 1084px) {
+    .seriesXhero .m-hero-item.f-x-right>div>div {
+        right: 5vw !important;
+    }
+    .seriesXhero .m-hero-item.f-y-center.f-transparent>div>div {
+        transform: translateY(-50%);
+    }
+}
+
+@media screen and (min-width: 1400px) {
+    .seriesXhero .spLogo {
+        width: 16vw;
+        margin: 0 auto;
+    }
+}
+
+@media screen and (min-width: 768px) and (max-width: 1400px) {
+    .seriesXhero .spLogo {
+        width: 14vw;
+        margin: 0 auto;
+    }
+}
+
+@media screen and (max-width: 768px) {
+    .seriesXhero .m-hero-item>div {
+        height: 200px !important;
+    }
+    .seriesXhero .m-hero-item.f-y-center.f-transparent>div>div {
+        transform: translateY(-30%);
+    }
+    .seriesXhero .m-hero-item>div picture {
+        display: block;
+    }
+    .seriesXhero .m-hero-item {
+        background-color: #201f24;
+    }
+    .seriesXhero .spLogo {
+        width: 14vw;
+        margin: 0 auto;
+    }
+    .seriesXhero .c-heading {
+        padding-top: 37px;
+    }
+}
+
+.seriesXhero .c-heading {
+    font-size: 20px !important;
+    line-height: 24px !important;
+    letter-spacing: 0.5em;
+    text-align: center;
+}
+
+.seriesXbanner {
+    background-color: #201f24;
+    color: #FFF;
+    padding-bottom: 96px;
+}
+
+
+/* Equation CSS */
+
+.hidden-aria {
+    position: absolute;
+    width: 0px;
+    height: 0px;
+    overflow: hidden;
+    text-indent: -9999px;
+}
+
+.image-hero .m-banner {
+    padding-top: 0;
+    transform: translateY(-8%);
+}
+
+@media only screen and (min-width: 640px) {
+    .image-hero .m-banner {
+        transform: translateY(-12%);
+    }
+}
+
+@media only screen and (min-width: 1084px) {
+    .image-hero .m-banner {
+        transform: translateY(-12%);
+    }
+}
+
+@media only screen and (min-width: 1400px) {
+    .image-hero .m-banner {
+        transform: translateY(-20%);
+    }
+}
+
+
+/*
+       @media only screen and (min-width: 1084px) {
+     .image-hero [class^=c-subheading],
+     .m-hero-item [class^=c-subheading] {
+      font-size: 34px;
+      line-height: 40px;
+     }
+       }
+       */
+
+.custom-hero.xbox-game-pass section {
+    background-color: #000;
+}
+
+.custom-hero.xbox-game-pass section div picture img {
+    max-width: 222px;
+    width: 16vw;
+}
+
+.image-hero,
+.console-section {
+    max-width: 1920px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.console-section__captions {
+    text-align: center;
+    float: none;
+}
+
+@media only screen and (max-width: 540px) {
+    .console-section__captions p {
+        font-size: 15px;
+        line-height: normal;
+    }
+}
+
+.console-section__captions.two-up {
+    width: 68%;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.console-section__captions p {
+    padding-top: 0;
+}
+
+@media only screen and (max-width: 1399px) {
+    .console-section__captions {
+        width: 96%;
+        margin-left: auto;
+        margin-right: auto;
+        float: none;
+    }
+}
+
+.join-steps {
+    padding-top: 64px;
+}
+
+.join-steps .m-content-placement-item {
+    text-align: center;
+    margin-top: 0;
+}
+
+@media only screen and (min-width: 768px) {
+    .join-steps .m-content-placement-item .c-paragraph {
+        max-width: 70%;
+        margin-left: auto;
+        margin-right: auto;
+    }
+}
+
+@media only screen and (max-width: 539px) {
+    .join-steps .m-content-placement-item .c-paragraph {
+        max-width: 70%;
+        margin-left: auto;
+        margin-right: auto;
+    }
+    .console-section__captions [data-grid*="col-"] {
+        float: left;
+        width: 33.33333%;
+    }
+    .console-section__captions.two-up [data-grid*="col-"] {
+        width: 50%;
+    }
+}
+
+.retailer {
+    background-color: #e1e1e1;
+    padding-bottom: 90px;
+    margin-top: 144px;
+}
+
+.retailer .m-content-placement {
+    text-align: center;
+}
+
+.retailer .m-content-placement p.c-call-to-action {
+    text-align: center !important;
+}
+
+
+/* ----------------------------- */
+
+
+/* LIMITED TIME OFFER */
+
+
+/* ----------------------------- */
+
+.limited-time-offer {
+    padding-top: 26px;
+}
+
+.limited-time-offer [class^=c-heading] {
+    text-align: center;
+    border: 2px solid #107c10;
+    padding: 48px 5%;
+    margin: 0 5%;
+}
+
+.limited-time-offer [class^=c-heading] strong {
+    font-weight: 700;
+}
+
+@media screen and (min-width: 1084px) {
+    .limited-time-offer [class^=c-heading] {
+        margin: 0 0 0 0;
+    }
+}
+
+
+/* ----------------------------- */
+
+
+/* END LIMITED TIME OFFER */
+
+
+/* ----------------------------- */
+
+
+/* ----------------------------- */
+
+
+/* SKU CHOOSER */
+
+
+/* ----------------------------- */
+
+.sku .c-paragraph {
+    line-height: 1.35;
+}
+
+.sku-chooser {
+    padding-top: 36px;
+}
+
+.sku-chooser sup {
+    font-weight: 700 !important;
+    font-size: 16px;
+}
+
+.sku-chooser .m-banner [class^="c-subheading"] {
+    font-weight: 400 !important;
+    /*max-width: 520px;*/
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.sku-chooser__grid {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    height: 100%;
+    position: relative;
+}
+
+.sku-chooser__panel {
+    width: 30%;
+    background-color: #eee;
+    box-sizing: border-box;
+    /*padding: 25px 1.875% 50px 1.875%;*/
+    padding: 45px 0 50px 0;
+    text-align: center;
+    position: relative;
+}
+
+@media screen and (max-width: 1083px) {
+ .sku-chooser__grid .sku-chooser__panel:not(:last-of-type) {
+  margin-bottom: 48px !important;
+ }
+}
+
+.sku-chooser__panel h3 {
+    min-height: 122px;
+    padding: 0 6.5%;
+}
+
+.sku-chooser__panel img {
+    max-width: 100%;
+}
+
+.sku-chooser__panel .price {
+    padding-top: 16px;
+    min-height: 108px;
+    font-size: 16px;
+    font-weight: 400;
+}
+
+.sku-chooser__panel .price strong {
+    font-size: 24px;
+    font-weight: 700;
+}
+
+.sku-chooser__panel .details ul {
+    width: 77.5%;
+    margin: 0 auto;
+    text-align: left;
+    padding-top: 20px;
+}
+
+.sku-chooser__panel .details li {
+    padding-left: 36px;
+    /* makes room for floated glyph bullet */
+    padding-bottom: 6px;
+    font-size: 18px;
+}
+
+.sku-chooser__panel .details li::before {
+    content: "\E73E";
+    font-family: "MWF-MDL2";
+    font-size: 19px;
+    float: left;
+    margin: 2px 0 0 -36px;
+    /* negative value of the li padding */
+    color: #107c10;
+    font-weight: 700;
+}
+
+.sku-chooser__panel .details li.no-bullet::before {
+    display: none;
+}
+
+.sku-chooser__panel .details li div {
+    display: inline;
+}
+
+.sku-chooser__panel .details a.f-lightweight {
+    margin-bottom: 5px;
+}
+
+.sku-chooser.two-up {
+    max-width: 960px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.sku-chooser.two-up .sku-chooser__panel {
+    width: 47.5%;
+}
+
+@media screen and (max-width: 1399px) {
+    .sku-chooser__panel {
+        width: 30.5%;
+    }
+}
+
+@media screen and (max-width: 1083px) {
+    .sku-chooser__grid {
+        padding-left: 5%;
+        padding-right: 5%;
+        display: block;
+    }
+    .sku-chooser.two-up .sku-chooser__panel,
+    .sku-chooser__panel {
+        width: 100%;
+        max-width: 540px;
+        margin-left: auto;
+        margin-right: auto;
+        padding-left: 4%;
+        padding-right: 4%;
+        margin-bottom: 64px;
+    }
+    .sku-chooser__panel .intro {
+        min-height: 1px;
+    }
+}
+
+@media screen and (max-width: 539px) {
+    .sku-chooser__panel .details ul {
+        width: 87%;
+    }
+    .sku-chooser.two-up .sku-chooser__panel,
+    .sku-chooser__panel {
+        padding-left: 0;
+        padding-right: 0;
+    }
+}
+
+.sku-chooser-uk-legal {
+    font-size: 30px;
+    text-align: center;
+}
+
+
+/* ----------------------------- */
+
+
+/* END SKU CHOOSER */
+
+
+/* ----------------------------- */
+
+
+/* ----------------------------- */
+
+
+/* MODULE SPACING */
+
+
+/* ----------------------------- */
+
+.console-section {
+    padding-top: 48px;
+    padding-bottom: 96px;
+}
+
+.sku {
+    padding-top: 32px;
+}
+
+.faq-mwf {
+    padding-top: 49px;
+}
+
+.legal {
+    margin-top: 96px;
+}
+
+@media screen and (max-width: 767px) {
+    .buybox-module {
+        padding-top: 48px;
+    }
+}
+
+
+/* ----------------------------- */
+
+
+/* END MODULE SPACING */
+
+
+/* ----------------------------- */
+
+.parGreenBrdr {
+    border: 2px solid #107c10;
+    padding-top: 8px;
+    padding-bottom: 8px;
+    margin-left: 5%;
+    margin-right: 5%;
+    padding-right: 5%;
+    padding-left: 5%;
+}
+
+.faq .c-drawer .c-list {
+    margin-left: 50px !important;
+    margin-top: -20px !important;
+}
+
+.customPanelHeight {
+    height: 85% !Important;
+}
+
+div.m-in-page-navigation,
+nav.c-in-page-navigation.f-sticky {
+    background-color: rgba(255, 255, 255, 0.9) !important;
+}
+
+.hiddenFaq {
+    display: none;
+}
+
+.customFontWeight {
+    font-weight: 700 !Important;
+}
+
+@media screen and (max-width:1010px) and (min-width:769px) {
+    .retailer .customWidth {
+        min-width: 200px !important;
+    }
+}
+
+@media screen and (max-width:768px) and (min-width:767px) {
+    .retailer .customWidth {
+        min-width: 150px !important;
+    }
+}
+
+@media screen and (min-width:1921px) {
+    #bodycolumn {
+        width: 1920px;
+        margin: 0 auto;
+    }
+}
+
+@media screen and (max-width:768px) {
+    .xgpCustomHeading {
+        color: black !Important;
+    }
+}
+
+.retailerPadTop {
+    padding-top: 10px !important;
+}
+
+.m-hero-item.f-x-center>div>div,
+.c-hero.f-x-center>div>div {
+    min-width: 100% !important;
+}
+
+@media screen and (min-width:1084px) {
+    nav.c-in-page-navigation>p {
+        display: inline !important;
+    }
+}
+
+@media screen and (min-width:1084px) {
+    .consoleHero .m-hero-item {
+        height: 70vw !important;
+    }
+}
+
+@media screen and (max-width:768px) {
+    .consoleHero .m-hero-item {
+        height: 90vw !important;
+    }
+}
+
+@media screen and (max-width:1083px) and (min-width:768px) {
+    .consoleHero .m-hero-item {
+        height: 82vw !important;
+    }
+}
+
+@media screen and (max-width:1083px) {
+    .nav.c-in-page-navigation>p {
+        display: none !important;
+    }
+}
+
+@media screen and (max-width:1400px) {
+    .customFontSize {
+        font-size: 26px !important;
+        line-height: 32px !important;
+    }
+}
+
+@media only screen and (max-width: 767px) {
+    .xgpBlade .m-hero-item>div {
+        height: 200px !important;
+    }
+    .consoleHero .m-hero-item>div {
+        height: 48px !important;
+    }
+}
+
+@media screen and (min-width:768px) {
+    .logopad {
+        padding-bottom: 24px !important;
+    }
+    .xgpCustomHeading {
+        color: white !Important;
+    }
+}
+
+@media screen and (max-width:1400px) and (min-width:1084px) {
+    .gamepassLogo {
+        max-height: 135px !important;
+    }
+}
+
+@media screen and (max-width:1083px) and (min-width:768px) {
+    .gamepassLogo {
+        max-height: 100px !important;
+    }
+}
+
+@media screen and (max-width:1000px) {
+    .xgpCustomHeading {
+        font-size: 52px !important;
+    }
+}
+
+@media screen and (max-width:768px) and (min-width:540px) {
+    .m-multi-column>div,
+    .m-multi-column>.c-list {
+        column-gap: 65px !Important;
+    }
+}
+
+@media screen and (max-width:850px) {
+    .xgpCustomHeading {
+        font-size: 42px !important;
+        line-height: 52px !important;
+    }
+}
+
+@media screen and (max-width:700px) {
+    .xgpCustomHeading {
+        font-size: 5vw !important;
+        line-height: 6vw !important;
+    }
+}
+
+
+/*
+@media screen and (max-width:650px) {
+ .xgpCustomHeading {font-size:38px !important; line-height:48px !important;}
+}*/
+
+@media screen and (max-width:375px) {
+    .mobilePadTop {
+        padding-top: 80px !important;
+    }
+    nav.c-in-page-navigation .c-navigation-menu button[class^="c-heading-"] {
+        padding: 0px 40px 0px 5px;
+    }
+}
+
+.textUnderline {
+    text-decoration: underline !important;
+}
+
+
+/* Two Pane Fix */
+
+@media screen and (min-width:1084px) {
+    .sku-chooser__panel.twoPane {
+        width: 47%;
+    }
+}
+
+
+/* hero image fade hack to pass contrast 
+
+@media screen and (min-width: 768px) and (max-width:859px) {
+    .custHero .m-hero-item>picture:after {
+        width: 57%;
+        height: 100%;
+        margin-left: auto;
+        background: linear-gradient(90deg, rgba(0, 0, 0, 0) 0%, rgba(0, 0, 0, .5) 10%, rgba(0, 0, 0, .5) 100%);
+    }
+}
+*/
