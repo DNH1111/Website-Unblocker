@@ -99,7 +99,7 @@ if(websites) {
         image: "https://blogger.googleusercontent.com/img/a/AVvXsEgtkB9wvTL06eYHiO3c2foidOlhGjC8GS7Znneb2BRkAHpq5fruEtYoohQCzXRi7JOe_RujyhXWWgpXOJvdE_t8Bb84_B__moECEujg6dz_yS8n0KCDM8fNzEGIZbbtzePjzHST5NxavlMlydtzLrKa-uc5ErI2egPPGhsU1VBzG0RVki4kP4ayWe01=s640",
         controllerOnly: true,
         touchOnly: true,
-        path: "xbox/www.xbox.com/en-US/play/manifest0cce.json"
+        path: "xbox/www.xbox.com/en-US/play.html"
     }];
 
     allWebsites.forEach(website => {
