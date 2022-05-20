@@ -9,6 +9,7 @@ const iconNone = document.querySelector('[iconNone]');
 const title = document.getElementsByTagName('title')[0];
 const docIcon = document.querySelector("link[rel~='icon']");
 const websites = document.getElementsByClassName('all-websites')[0];
+const search = document.getElementById('search');
 
 function confirm(text) {
     if(confirmEle.classList.contains('active')) return;
@@ -90,17 +91,61 @@ if(nameEle && icon) {
 
 if(websites) {
     const allWebsites = [{
-        name: 'Minecraft',
+        name: 'Minecraft Classic',
         image: 'https://www.commonsensemedia.org/sites/default/files/styles/ratio_16_9_large/public/blog/parentsultimateguide-minecraft-blog.jpeg',
-        path: "minecraft/index.html"
+        path: "https://classic.minecraft.net"
     },
     {
-        name: 'Fortnite',
-        image: "https://blogger.googleusercontent.com/img/a/AVvXsEgtkB9wvTL06eYHiO3c2foidOlhGjC8GS7Znneb2BRkAHpq5fruEtYoohQCzXRi7JOe_RujyhXWWgpXOJvdE_t8Bb84_B__moECEujg6dz_yS8n0KCDM8fNzEGIZbbtzePjzHST5NxavlMlydtzLrKa-uc5ErI2egPPGhsU1VBzG0RVki4kP4ayWe01=s640",
-        controllerOnly: true,
-        touchOnly: true,
-        path: "xbox/www.xbox.com/en-US/play.html"
+        name: 'Powerline.io',
+        image: 'https://games66.imgix.net/thumb/2018/01/powerline-io.png?auto=format,compress&lossless=1&ch=DPR&q=90&cs=strip&w=280',
+        path: "https://powerline.io",
+    },
+    {
+        name: 'Wordle',
+        image: 'https://static0.gamerantimages.com/wordpress/wp-content/uploads/2022/02/wordle-logo.jpg?q=50&fit=contain&w=960&h=500&dpr=1.5',
+        path: "./websites/wordle/index.html",
+    },
+    {
+        name: 'Wordle Unlimited',
+        image: 'https://cdn.nerdschalk.com/wp-content/uploads/2022/01/wordle-logo-pics-18-759x427.png?width=600',
+        path: "https://wordleunlimited.org"
+    },
+    {
+        name: '2048',
+        image: 'https://logodix.com/logo/1649425.png',
+        path: "https://play2048.co"
+    },
+    {
+        name: 'Paper.io',
+        image: 'https://paper-io.com/images/paper-new.png',
+        path: 'https://paper-io.com'
+    },
+    {
+        name: 'Hole.io',
+        image: 'https://cdn.discordapp.com/attachments/923042414271287317/977344953002893362/unknown.png',
+        path: 'https://hole-io.com'
+    },
+    {
+        name: 'Wings.io',
+        image: 'https://iogames.onl/upload/imgs/wingio.gif',
+        path: 'https://wings.io'
+    },
+    {
+        name: 'Moto X3M',
+        image: 'https://cdn.discordapp.com/attachments/923042414271287317/977345256376901642/unknown.png',
+        path: 'https://motox3m.co'
+    },
+    {
+        name: 'Run 3',
+        image: 'https://digistatement.com/wp-content/uploads/2021/03/run-3.jpg',
+        path: "./websites/run-3/index.html"
     }];
+
+    allWebsites.sort((a, b) => {
+        if(a.name.toLowerCase() < b.name.toLowerCase()) return -1;
+        if(a.name.toLowerCase() > b.name.toLowerCase()) return 1;
+        return 0;
+    });
 
     allWebsites.forEach(website => {
         let element = document.createElement('div');
@@ -134,12 +179,28 @@ if(websites) {
             const websitesMain = document.getElementsByClassName('websites-main')[0];
             websitesMain.style.display = 'none';
 
-            const embed = document.createElement('embed');
-            embed.src = `./websites/${website.path}`;
-            embed.dataset.embed = true;
+            const iframe = document.createElement('iframe');
+            iframe.src = website.path;
+            iframe.dataset.embed = true;
+            iframe.name = 'innerFrame';
+            iframe.sandbox = 'allow-scripts allow-popups allow-forms allow-same-origin allow-popups-to-escape-sandbox allow-downloads';
+            iframe.frameborder = '0';
+            iframe.allowFullscreen = "";
 
-            document.getElementsByClassName('embed')[0].appendChild(embed);
+            document.getElementsByClassName('embed')[0].appendChild(iframe);
             document.getElementsByTagName('nav')[0].style.display = 'none';
         })
+    });
+
+    search.addEventListener('input', e => {
+        const searchTerm = search.value;
+        console.log(searchTerm);
+
+        let websites = [];
+
+        document.querySelectorAll('[data-website]').forEach(website => websites.push(website));
+        
+        websites.filter(website => !website.dataset.name.toLowerCase().includes(searchTerm.toLowerCase())).forEach(website => website.style.display = 'none');
+        websites.filter(website => website.dataset.name.toLowerCase().includes(searchTerm.toLowerCase())).forEach(website => website.style.display = 'block');
     })
 }

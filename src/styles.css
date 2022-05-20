@@ -9,6 +9,7 @@
 }
 
 body {
+    padding-bottom: 10vh;
     background-color: #000120;
 }
 
@@ -265,6 +266,9 @@ iframe {
 
 [data-website] img {
     max-width: 15vw;
+    min-width: 15vw;
+    max-height: 17vh;
+    min-height: 17vh;
 }
 
 .all-websites {
@@ -286,4 +290,14 @@ iframe {
     min-width: 90vw;
     margin-left: 5vw;
     margin-top: 4.8vh;
+    color: white;
+}
+
+#search {
+    color: black;
+    border-radius: 5px;
+    margin-left: .5vw;
+    padding: .25vw;
+    background-color: rgb(65, 65, 65);
+    border: none;
 }
