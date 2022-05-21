@@ -1,7 +1,0 @@
-# HTTrack Website Copier Cookie File
-# This file format is compatible with Netscape cookies
-.nytimes.com	TRUE	/	FALSE	1999999999	nyt-a	ISHCXr9GmZU57MaV6NHOzH
-.nytimes.com	TRUE	/	FALSE	1999999999	nyt-purr	cfhhcfhhhckf
-www.nytimes.com	TRUE	/	FALSE	1999999999	SameSite	Lax
-.nytimes.com	TRUE	/	FALSE	1999999999	nyt-gdpr	0
-
